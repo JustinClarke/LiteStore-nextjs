@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Header from './layout/Header'
 import Footer from './layout/Footer'
 
-function TermsofUse() {
+export default function termsofuse() {
     return (
         <div>
             <Head>
@@ -68,7 +68,7 @@ function TermsofUse() {
                 </p>
                 <p className="pb-5">
                     Grievance Officer: <span className="text-purple font-semibold">Punnet Dinesh</span>
-                    <br/>
+                    <br />
                     Email: <a href="mailto: support@litestore.in" className="text-purple font-semibold">puneet@litestore.in</a>
                 </p>
             </div>
@@ -76,5 +76,3 @@ function TermsofUse() {
         </div>
     )
 }
-
-export default TermsofUse

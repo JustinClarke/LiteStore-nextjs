@@ -8,7 +8,7 @@ import garuda from '../public/images/spaces/garuda/garuda.webp'
 import Header from './layout/Header'
 import Footer from './layout/Footer'
 
-export default function Spaces() {
+export default function spaces() {
     return (
         <div>
             <Head>
@@ -25,7 +25,7 @@ export default function Spaces() {
                 <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-6">
                     <div className="flex justify-left">
                         <div className="rounded-lg shadow-lg bg-white max-w-sm">
-                            <Link href="/spaces/OrionMall">
+                            <Link href="/spaces/orion">
                                 <a>
                                     <Image 
                                         src={orion}
@@ -34,7 +34,7 @@ export default function Spaces() {
                                 </a>
                             </Link>
                             <div className="p-6">
-                                <Link href="/spaces/OrionMall">
+                                <Link href="/spaces/orion">
                                     <a className="text-purple text-3xl text-left font-semibold mb-2 hover:underline">
                                         Orion Mall,
                                         <br />
@@ -46,7 +46,7 @@ export default function Spaces() {
                     </div>
                     <div className="flex justify-left">
                         <div className="rounded-lg shadow-lg bg-white max-w-sm">
-                            <Link href="/spaces/GarudaMall">
+                            <Link href="/spaces/garuda">
                                 <a href="#!">
                                     <Image 
                                         src={garuda}
@@ -55,7 +55,7 @@ export default function Spaces() {
                                 </a>
                             </Link>
                             <div className="p-6">
-                                <Link href="/spaces/GarudaMall">
+                                <Link href="/spaces/garuda">
                                     <a className="text-purple text-3xl text-left font-semibold mb-2 hover:underline">
                                         Garuda Mall,
                                         <br />

@@ -8,7 +8,7 @@ import pranav from '../public/images/team/pranav.webp'
 import Header from './layout/Header'
 import Footer from './layout/Footer'
 
-function Company() {
+export default function company() {
     return (
         <div>
             <Head>
@@ -69,4 +69,3 @@ function Company() {
     )
 }
 
-export default Company

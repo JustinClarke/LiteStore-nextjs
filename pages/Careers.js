@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Header from './layout/Header'
 import Footer from './layout/Footer'
 
-function Careers() {
+export default function careers() {
     return (
         <div>
             <Head>
@@ -58,5 +58,3 @@ function Careers() {
         </div>
     )
 }
-
-export default Careers

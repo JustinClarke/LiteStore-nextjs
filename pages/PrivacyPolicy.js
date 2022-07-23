@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Header from './layout/Header'
 import Footer from './layout/Footer'
 
-function PrivacyPolicy() {
+export default function privacypolicy() {
     return (
         <div>
             <Head>
@@ -29,11 +29,11 @@ function PrivacyPolicy() {
                 </p>
                 <p className="pb-5">
                     The Privacy Policy will inform you about:
-                    <br/>
+                    <br />
                     • What personal information we collect and why we collect it
-                    <br/>
+                    <br />
                     • How we use that personal information including how we share the personal information with third parties
-                    <br/>
+                    <br />
                     • Your rights and options
                 </p>
                 <p className="pt-5 font-semibold">
@@ -65,11 +65,11 @@ function PrivacyPolicy() {
                 </p>
                 <p className="pb-5">
                     The personal information that we collect from you may be used for the following purposes:
-                    <br/>
+                    <br />
                     1. To inform you of any new offerings or upcoming launches.
-                    <br/>
+                    <br />
                     2. To administer accounts and keep track of billing and payments.
-                    <br/>
+                    <br />
                     We may use your account related data and other data available to us to process payments, bookings, cancellations and other transactions made on the Site.
                 </p>
                 <p className="pt-5 font-semibold">
@@ -110,7 +110,7 @@ function PrivacyPolicy() {
                 </p>
                 <p className="pb-5">
                     Grievance Officer: <span className="text-purple font-semibold">Punnet Dinesh</span>
-                    <br/>
+                    <br />
                     Email: <a href="mailto: support@litestore.in" className="text-purple font-semibold">puneet@litestore.in</a>
                 </p>
             </div>
@@ -118,5 +118,3 @@ function PrivacyPolicy() {
         </div>
     )
 }
-
-export default PrivacyPolicy

@@ -1,46 +1,7 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
-
-import Header from './layout/Header'
-import Footer from './layout/Footer'
-
-import wow from '../public/images/spaces/orion/stores/wow/wow1.webp'
-import tpp from '../public/images/spaces/orion/stores/tpp/tpp.webp'
-import sleepycat from '../public/images/spaces/orion/stores/sleepycat/sleepycat.webp'
-
-import mensxp from '../public/images/spaces/garuda/stores/mensxp/mensxp.webp'
-import vitro from '../public/images/spaces/garuda/stores/vitro/vitro.webp'
-
-export default function home() {
-	return (
-		<div>
-			<Head>
-				<title>Home | LiteStore</title>
-				<meta name="description" content="LiteStore" />
-			</Head>
-			<Header />
-
-			{/* <div>
-				<video
-					autoplay="true"
-					loop="true"
-					muted="true"
-					playsinline="true"
-					className="w-full min-w-full h-[86.75vh] md:h-[93vh] top-0 left-0 right-0 bottom-0 z-0 bg-cover"
-					>
-						<source
-						src="https://litestore.in/assets/img/video/litestore.mp4"
-						type="video/mp4"
-						/>
-					Your browser does not support the video tag.
-				</video>
-			</div> */}
-
 
 			<section id="about">
 				<div className="px-5 md:px-40 pt-5 pb-5 text-center font-light">
-					<h1 className="text-3xl md:text-4xl font-medium">Going offline <span className="invisible md:hidden" ><br /></span> can't get any easier</h1>
+					<h1 className="text-3xl md:text-4xl font-medium">Going offline <br className="invisible md:hidden" /> can't get any easier</h1>
 					<h2 className="pt-2 text-sm md:text-xl font-light">LiteStore<sup>®</sup> is an online platform to find, book & set-up retail experience centres on a short term basis.</h2>
 				</div>
 
@@ -117,71 +78,3 @@ export default function home() {
 					</div>
 				</div>
 			</section>
-
-			<section id="brands" className="py-10 px-10 md:px-40 bg-black justify-center">
-				<div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-					<div className="grid grid-cols-2 gap-4">
-						<h1 className="pb-2 col-span-2 text-2xl md:text-4xl font-light text-center text-light-white">LiteStore<sup>®</sup>, Orion Mall</h1>
-						<Link href="/spaces/orion/wow">
-							<a>
-								<Image
-									className="rounded-lg "
-									src={wow}
-									alt="Wow" />
-							</a>
-						</Link>
-						<Link href="/spaces/orion/sleepycat">
-							<a>
-								<Image
-									className="rounded-lg"
-									src={sleepycat}
-									alt="SleepyCat" />
-							</a>
-						</Link>
-						<div className="px-[25%] col-span-2">
-							<Link href="/spaces/orion/thepantproject">
-								<a>
-									<Image
-										className="rounded-lg"
-										src={tpp}
-										alt="The Pant Project" />
-								</a>
-							</Link>
-						</div>
-					</div>
-					<div className="grid grid-cols-2 gap-4">
-						<h1 className="pb-2 col-span-2 text-2xl md:text-4xl font-light text-center text-light-white">LiteStore<sup>®</sup>, Garuda Mall</h1>
-							<Link href="/spaces/garuda/mensxp">
-								<a>
-									<Image
-										className="rounded-lg"
-										src={mensxp}
-										alt="MensXp" />
-								</a>
-							</Link>
-							<Link href="/spaces/garuda/vitro">
-								<a>
-									<Image
-										className="rounded-lg"
-										src={vitro}
-										alt="Vito Naturals" />
-								</a>
-							</Link>
-						
-						<div>
-							<Image
-								className="rounded-lg invisible"
-								src={vitro}
-								alt="Vito Naturals" />
-						</div>
-					</div>
-				</div>
-			</section>
-
-			
-
-
-			<Footer />
-		</div>
-	)
-}

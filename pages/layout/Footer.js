@@ -8,7 +8,7 @@ function Footer() {
         <footer className="text-center lg:text-left text-sm">
             <div className="py-10 text-center md:text-left bg-black text-gray-300">
                 <div className="px-10 md:px-40 grid grid-1 md:grid-cols-2 lg:grid-cols-5 gap-1">
-                    <div className>
+                    <div>
                         <h6 className="text-4xl font-extralight mb-4 flex justify-center md:justify-start">
                             LiteStore<sup className="text-xl">®</sup>
                         </h6>
@@ -28,19 +28,19 @@ function Footer() {
                                 </svg>
                                 <a href="mailto:support@litestore.in">support@litestore.in</a>
                             </p>
-                            <p className="flex items-center justify-center md:justify-start mb-4">
+                            <p className="flex items-center justify-center md:justify-start font-mono font-light mb-4">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone" className="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                     <path fill="#7e7ca6" d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
                                     </path>
                                 </svg>
-                                <a href="tel:+91 9483465923">+91 948 346 5923</a>
+                                <a href="tel:+91 9483465923">+91 9483465923</a>
                             </p>
-                            <p className="flex items-center justify-center md:justify-start">
+                            <p className="flex items-center justify-center md:justify-start font-mono font-light">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone" className="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                     <path fill="#7e7ca6" d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
                                     </path>
                                 </svg>
-                                <a href="tel:+91 6363294498">+91 636 329 4498</a>
+                                <a href="tel:+91 6363294498">+91 6363294498</a>
                             </p>
                         </div>
                     </div>
@@ -52,7 +52,7 @@ function Footer() {
                             How it works
                         </h6>
                         <p className="mb-4">
-                            <Link href="/Spaces">
+                            <Link href="/spaces">
                                 <a className="hover:text-light-white transition ease-in-out delay-150 duration-200">Find a Space</a>
                             </Link>
                         </p>
@@ -63,17 +63,17 @@ function Footer() {
                             About
                         </h6>
                         <p className="mb-4">
-                            <Link href="/Careers">
+                            <Link href="/careers">
                                 <a className="hover:text-light-white transition ease-in-out delay-150 duration-200">Careers</a>
                             </Link>
                         </p>
                         <p className="mb-4">
-                            <Link href="/Company">
+                            <Link href="/company">
                                 <a className="hover:text-light-white transition ease-in-out delay-150 duration-200">Company</a>
                             </Link>
                         </p>
                         <p className="mb-4">
-                            <Link href="/FAQs">
+                            <Link href="/faqs">
                                 <a className="hover:text-light-white transition ease-in-out delay-150 duration-200">FAQs</a>
                             </Link>
                         </p>
@@ -84,7 +84,7 @@ function Footer() {
                             Discover
                         </h6>
                         <p className="mb-4">
-                            <Link href="/Blog">
+                            <Link href="/blog">
                                 <a className="hover:text-light-white transition ease-in-out delay-150 duration-200">Blog</a>
                             </Link>
                         </p>
@@ -96,12 +96,12 @@ function Footer() {
                         </h6>
 
                         <p className="mb-4">
-                            <Link href="/PrivacyPolicy">
+                            <Link href="/privacypolicy">
                                 <a className="hover:text-light-white transition ease-in-out delay-150 duration-200">Privacy Policy</a>
                             </Link>
                         </p>
                         <p className="mb-4">
-                            <Link href="/TermsofUse">
+                            <Link href="/termsofuse">
                                 <a className="hover:text-light-white transition ease-in-out delay-150 duration-200">Terms of use</a>
                             </Link>
                         </p>

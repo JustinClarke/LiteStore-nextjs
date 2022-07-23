@@ -1,4 +1,4 @@
-import HomePage from './Home'
+import HomePage from './home'
 
 export default function index() {
   return (

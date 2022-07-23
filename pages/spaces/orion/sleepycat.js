@@ -70,7 +70,7 @@ export default function Sleepycat() {
                     </div>
                     <div className="flex col-span-1 justify-left">
                         <div className="grid grid-cols-1 gap-6">
-                            <div className="">
+                            <div>
                                 <h1 className="text-4xl font-semibold pb-1">About</h1>
                                 <p className="font-light">SleepyCat marked their first ever foray into an offline store with LiteStore this December in Bangalore!</p>
                                 <p className="font-light pt-2">With a chic, sleep themed experience centre, SleepyCat has brought the perfect sleep education to the hundreds of customers walking through their doors.</p>
