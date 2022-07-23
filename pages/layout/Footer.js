@@ -52,7 +52,7 @@ function Footer() {
                             How it works
                         </h6>
                         <p className="mb-4">
-                            <Link href="/FindASpace">
+                            <Link href="/Spaces">
                                 <a className="hover:text-light-white transition ease-in-out delay-150 duration-200">Find a Space</a>
                             </Link>
                         </p>
@@ -94,14 +94,14 @@ function Footer() {
                         <h6 className="text-light-white font-semibold text-xl mb-4 flex justify-center md:justify-start">
                             Legal
                         </h6>
-                        
+
                         <p className="mb-4">
                             <Link href="/PrivacyPolicy">
                                 <a className="hover:text-light-white transition ease-in-out delay-150 duration-200">Privacy Policy</a>
                             </Link>
                         </p>
                         <p className="mb-4">
-                            <Link href="/TermsOfUse">
+                            <Link href="/TermsofUse">
                                 <a className="hover:text-light-white transition ease-in-out delay-150 duration-200">Terms of use</a>
                             </Link>
                         </p>
