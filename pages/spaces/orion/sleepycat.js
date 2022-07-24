@@ -15,10 +15,10 @@ import Image from 'next/image'
 import Header from '../../layout/Header'
 import Footer from '../../layout/Footer'
 
-import sleepycat from '../../../public/images/spaces/orion/stores/sleepycat/sleepycat.webp'
-import sleepycat1 from '../../../public/images/spaces/orion/stores/sleepycat/sleepycat.webp'
-import sleepycatInterior from '../../../public/images/spaces/orion/stores/sleepycat/sleepycat3.webp'
-import sleepycatInterior1 from '../../../public/images/spaces/orion/stores/sleepycat/sleepycat3.webp'
+import sleepycat from '../../../public/images/stores/orion/sleepycat/sleepycat.webp'
+import sleepycat1 from '../../../public/images/stores/orion/sleepycat/sleepycat.webp'
+import sleepycatInterior from '../../../public/images/stores/orion/sleepycat/sleepycat3.webp'
+import sleepycatInterior1 from '../../../public/images/stores/orion/sleepycat/sleepycat3.webp'
 
 export default function Sleepycat() {
     return (
@@ -51,7 +51,7 @@ export default function Sleepycat() {
                             <SwiperSlide>
                                 <Image
                                     className="rounded-lg"
-                                    src={sleepycat}
+                                    src={sleepycat1}
                                     alt="Wow" />
                             </SwiperSlide>
                             <SwiperSlide>
@@ -63,7 +63,7 @@ export default function Sleepycat() {
                             <SwiperSlide>
                                 <Image
                                     className="rounded-lg"
-                                    src={sleepycatInterior}
+                                    src={sleepycatInterior1}
                                     alt="Wow" />
                             </SwiperSlide>
                         </Swiper>

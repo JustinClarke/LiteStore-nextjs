@@ -15,15 +15,15 @@ import Image from 'next/image'
 import Header from '../../layout/Header'
 import Footer from '../../layout/Footer'
 
-import wow from '../../../public/images/spaces/orion/stores/wow/wow1.webp'
-import wowInterior from '../../../public/images/spaces/orion/stores/wow/wow2.webp'
-import tpp from '../../../public/images/spaces/orion/stores/tpp/tpp.webp'
-import tppInterior from '../../../public/images/spaces/orion/stores/tpp/tpp2.webp'
-import sleepycat from '../../../public/images/spaces/orion/stores/sleepycat/sleepycat.webp'
-import sleepycatInterior from '../../../public/images/spaces/orion/stores/sleepycat/sleepycat3.webp'
+import wow from '../../../public/images/stores/orion/wow/wow1.webp'
+import wowInterior from '../../../public/images/stores/orion/wow/wow2.webp'
+import tpp from '../../../public/images/stores/orion/tpp/tpp.webp'
+import tppInterior from '../../../public/images/stores/orion/tpp/tpp2.webp'
+import sleepycat from '../../../public/images/stores/orion/sleepycat/sleepycat.webp'
+import sleepycatInterior from '../../../public/images/stores/orion/sleepycat/sleepycat3.webp'
 
-import orionRender1 from '../../../public/images/spaces/orion/renders/1.webp'
-import orionRender2 from '../../../public/images/spaces/orion/renders/2.webp'
+import orionRender1 from '../../../public/images/stores/orion/renders1.webp'
+import orionRender2 from '../../../public/images/stores/orion/renders2.webp'
 
 export default function index() {
     return (

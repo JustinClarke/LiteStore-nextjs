@@ -15,8 +15,8 @@ import Image from 'next/image'
 import Header from '../../layout/Header'
 import Footer from '../../layout/Footer'
 
-import mensxp from '../../../public/images/spaces/garuda/stores/mensxp/mensxp.webp'
-import mensxpInterior from '../../../public/images/spaces/garuda/stores/mensxp/mensxp1.webp'
+import mensxp from '../../../public/images/stores/garuda/mensxp/mensxp.webp'
+import mensxpInterior from '../../../public/images/stores/garuda/mensxp/mensxp1.webp'
 
 export default function MensXP() {
     return (

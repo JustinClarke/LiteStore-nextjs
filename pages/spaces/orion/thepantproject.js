@@ -15,8 +15,8 @@ import Image from 'next/image'
 import Header from '../../layout/Header'
 import Footer from '../../layout/Footer'
 
-import tpp from '../../../public/images/spaces/orion/stores/tpp/tpp.webp'
-import tppInterior from '../../../public/images/spaces/orion/stores/tpp/tpp2.webp'
+import tpp from '../../../public/images/stores/orion/tpp/tpp.webp'
+import tppInterior from '../../../public/images/stores/orion/tpp/tpp2.webp'
 
 export default function ThePantProject() {
     return (

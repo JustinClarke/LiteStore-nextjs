@@ -15,13 +15,13 @@ import Image from 'next/image'
 import Header from '../../layout/Header'
 import Footer from '../../layout/Footer'
 
-import mensxp from '../../../public/images/spaces/garuda/stores/mensxp/mensxp.webp'
-import mensxpInterior from '../../../public/images/spaces/garuda/stores/mensxp/mensxp1.webp'
-import vitro from '../../../public/images/spaces/garuda/stores/vitro/vitro.webp'
-import vitroInterior from '../../../public/images/spaces/garuda/stores/vitro/vitro1.webp'
+import mensxp from '../../../public/images/stores/garuda/mensxp/mensxp.webp'
+import mensxpInterior from '../../../public/images/stores/garuda/mensxp/mensxp1.webp'
+import vitro from '../../../public/images/stores/garuda/vitro/vitro.webp'
+import vitroInterior from '../../../public/images/stores/garuda/vitro/vitro1.webp'
 
-import garudaRender1 from '../../../public/images/spaces/garuda/renders/1.webp'
-import garudaRender2 from '../../../public/images/spaces/garuda/renders/2.webp'
+import garudaRender1 from '../../../public/images/stores/garuda/render1.webp'
+import garudaRender2 from '../../../public/images/stores/garuda/render2.webp'
 
 export default function index() {
     return (

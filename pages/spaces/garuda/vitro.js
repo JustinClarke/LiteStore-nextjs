@@ -15,9 +15,9 @@ import Image from 'next/image'
 import Header from '../../layout/Header'
 import Footer from '../../layout/Footer'
 
-import vitro from '../../../public/images/spaces/garuda/stores/vitro/vitro.webp'
-import vitroInterior from '../../../public/images/spaces/garuda/stores/vitro/vitro2.webp'
-import vitroInterior1 from '../../../public/images/spaces/garuda/stores/vitro/vitro1.webp'
+import vitro from '../../../public/images/stores/garuda/vitro/vitro.webp'
+import vitroInterior from '../../../public/images/stores/garuda/vitro/vitro2.webp'
+import vitroInterior1 from '../../../public/images/stores/garuda/vitro/vitro1.webp'
 
 
 export default function Vitro() {
@@ -31,7 +31,7 @@ export default function Vitro() {
             <Header />
 
             <div className="px-5 md:px-40 py-10 bg-light-white">
-                <h1 className="text-6xl text-vitro-green font-bold pb-2">Vitro <span className="text-black font-light"> Flexi-Store,</span><span className="text-black font-semibold"> Garuda Mall</span> </h1>
+                <h1 className="text-6xl text-vitro-green font-bold pb-2">Vitro  <br className="invisible md:hidden" /><span className="text-black font-light"> Flexi-Store,</span><span className="text-black font-semibold"> Garuda Mall</span> </h1>
                 <h1 className="text-2xl font-light pb-5">February '22</h1>
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
                     <div className="flex col-span-2">

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-function header() {
+export default function header() {
 	return (
 		<header className="sticky top-0 z-50 flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white text-sm py-4">
 			<nav className="px-10 md:px-40 mx-auto w-full sm:flex sm:items-center sm:justify-between" aria-label="Global">
@@ -23,4 +23,3 @@ function header() {
 	)
 }
 
-export default header

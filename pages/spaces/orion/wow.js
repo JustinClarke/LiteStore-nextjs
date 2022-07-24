@@ -15,24 +15,24 @@ import Image from 'next/image'
 import Header from '../../layout/Header'
 import Footer from '../../layout/Footer'
 
-import wow from '../../../public/images/spaces/orion/stores/wow/wow1.webp'
-import wow1 from '../../../public/images/spaces/orion/stores/wow/wow.webp'
-import wowInterior from '../../../public/images/spaces/orion/stores/wow/wow2.webp'
+import wow from '../../../public/images/stores/orion/wow/wow1.webp'
+import wow1 from '../../../public/images/stores/orion/wow/wow.webp'
+import wowInterior from '../../../public/images/stores/orion/wow/wow2.webp'
 
 export default function mensxp() {
-	return (
-		<div>
-			<Head>
-				<title>Wow | LiteStore</title>
-				<meta name="description" content="LiteStore" />
-			</Head>
+    return (
+        <div>
+            <Head>
+                <title>Wow | LiteStore</title>
+                <meta name="description" content="LiteStore" />
+            </Head>
 
-			<Header />
-            
+            <Header />
+
             <div className="px-5 md:px-40 py-10 bg-light-white">
-                <h1 className="text-6xl text-wow-gold font-bold pb-2">Wow <br className="invisible md:hidden"/> <span className="text-black font-light"> Flexi-Store,</span><span className="text-black font-semibold"> Orion Mall</span> </h1>
+                <h1 className="text-6xl text-wow-gold font-bold pb-2">Wow <br className="invisible md:hidden" /><span className="text-black font-light"> Flexi-Store,</span><span className="text-black font-semibold"> Orion Mall</span> </h1>
                 <h1 className="text-2xl font-light pb-5">November '21</h1>
-                
+
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
                     <div className="flex col-span-2">
                         <Swiper
@@ -41,21 +41,21 @@ export default function mensxp() {
                             slidesPerView={1}
                             autoplay={true}
                             pagination={{ clickable: true }}
-                            >
+                        >
                             <SwiperSlide>
-                                <Image 
+                                <Image
                                     className="rounded-lg"
                                     src={wow}
                                     alt="Wow" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image 
+                                <Image
                                     className="rounded-lg"
                                     src={wow1}
                                     alt="Wow" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image 
+                                <Image
                                     className="rounded-lg"
                                     src={wowInterior}
                                     alt="Wow" />
@@ -88,7 +88,7 @@ export default function mensxp() {
                 </div>
             </div>
 
-			<Footer />
-		</div>
-	)
+            <Footer />
+        </div>
+    )
 }

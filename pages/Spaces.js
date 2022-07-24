@@ -2,8 +2,8 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 
-import orion from '../public/images/spaces/orion/orion.jpg'
-import garuda from '../public/images/spaces/garuda/garuda.webp'
+import orion from '../public/images/stores/orion/orion.jpg'
+import garuda from '../public/images/stores/garuda/garuda.webp'
 
 import Header from './layout/Header'
 import Footer from './layout/Footer'

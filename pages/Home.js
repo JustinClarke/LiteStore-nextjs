@@ -5,12 +5,12 @@ import Link from 'next/link'
 import Header from './layout/Header'
 import Footer from './layout/Footer'
 
-import wow from '../public/images/spaces/orion/stores/wow/wow1.webp'
-import tpp from '../public/images/spaces/orion/stores/tpp/tpp.webp'
-import sleepycat from '../public/images/spaces/orion/stores/sleepycat/sleepycat.webp'
+import wow from '../public/images/stores/orion/wow/wow1.webp'
+import tpp from '../public/images/stores/orion/tpp/tpp.webp'
+import sleepycat from '../public/images/stores/orion/sleepycat/sleepycat.webp'
 
-import mensxp from '../public/images/spaces/garuda/stores/mensxp/mensxp.webp'
-import vitro from '../public/images/spaces/garuda/stores/vitro/vitro.webp'
+import mensxp from '../public/images/stores/garuda/mensxp/mensxp.webp'
+import vitro from '../public/images/stores/garuda/vitro/vitro.webp'
 
 export default function home() {
 	return (
@@ -151,23 +151,23 @@ export default function home() {
 					</div>
 					<div className="grid grid-cols-2 gap-4">
 						<h1 className="pb-2 col-span-2 text-2xl md:text-4xl font-light text-center text-light-white">LiteStore<sup>®</sup>, Garuda Mall</h1>
-							<Link href="/spaces/garuda/mensxp">
-								<a>
-									<Image
-										className="rounded-lg"
-										src={mensxp}
-										alt="MensXp" />
-								</a>
-							</Link>
-							<Link href="/spaces/garuda/vitro">
-								<a>
-									<Image
-										className="rounded-lg"
-										src={vitro}
-										alt="Vito Naturals" />
-								</a>
-							</Link>
-						
+						<Link href="/spaces/garuda/mensxp">
+							<a>
+								<Image
+									className="rounded-lg"
+									src={mensxp}
+									alt="MensXp" />
+							</a>
+						</Link>
+						<Link href="/spaces/garuda/vitro">
+							<a>
+								<Image
+									className="rounded-lg"
+									src={vitro}
+									alt="Vito Naturals" />
+							</a>
+						</Link>
+
 						<div>
 							<Image
 								className="rounded-lg invisible"
@@ -178,7 +178,7 @@ export default function home() {
 				</div>
 			</section>
 
-			
+
 
 
 			<Footer />
