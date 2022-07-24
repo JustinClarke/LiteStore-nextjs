@@ -148,7 +148,6 @@ export default function index() {
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0248354163205!2d77.60777421482199!3d12.970262590856787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1681ad793b83%3A0x71c21b8f646dac81!2sGaruda%20Mall!5e0!3m2!1sen!2sin!4v1652949696538!5m2!1sen!2sin"
                             className="w-full h-[300px] rounded-lg drop-shadow-xl"
-                            allowfullscreen="rounded-lg"
                             loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"
                         >

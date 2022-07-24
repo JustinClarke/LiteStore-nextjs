@@ -34,7 +34,7 @@ export default function company() {
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
                     <div className="flex justify-center">
                         <div className="rounded-lg shadow-lg bg-white max-w-sm">
-                            <a href="#!">
+                            <a href="#">
                                 <Image src={puneet} className="rounded-t-lg" alt="Puneet Dinesh" />
                             </a>
                             <div className="p-6">
@@ -44,7 +44,7 @@ export default function company() {
                     </div>
                     <div className="flex justify-center">
                         <div className="rounded-lg shadow-lg bg-white max-w-sm">
-                            <a href="#!">
+                            <a href="#">
                                 <Image src={pranav} className="rounded-t-lg" alt="Pranav Agarwal" />
                             </a>
                             <div className="p-6">
@@ -54,7 +54,7 @@ export default function company() {
                     </div>
                     <div className="flex justify-center">
                         <div className="rounded-lg shadow-lg bg-white max-w-sm">
-                            <a href="#!">
+                            <a href="#">
                                 <Image src={tarun} className="rounded-t-lg" alt="Tarun Sundaram" />
                             </a>
                             <div className="p-6">

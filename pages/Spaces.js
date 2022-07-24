@@ -27,7 +27,7 @@ export default function spaces() {
                         <div className="rounded-lg shadow-lg bg-white max-w-sm">
                             <Link href="/spaces/orion">
                                 <a>
-                                    <Image 
+                                    <Image
                                         src={orion}
                                         className="rounded-t-lg hover:scale-125 transition ease-in-out duration-1000"
                                         alt="Orion Mall" />
@@ -47,8 +47,8 @@ export default function spaces() {
                     <div className="flex justify-left">
                         <div className="rounded-lg shadow-lg bg-white max-w-sm">
                             <Link href="/spaces/garuda">
-                                <a href="#!">
-                                    <Image 
+                                <a href="#">
+                                    <Image
                                         src={garuda}
                                         className="rounded-t-lg hover:scale-125 transition ease-in-out duration-1000"
                                         alt="Garuda Mall" />
