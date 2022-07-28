@@ -1,3 +1,10 @@
+import Head from 'next/head'
+import Link from 'next/link'
+import Image from 'next/image'
+
+import Header from '../../layout/Header'
+import Footer from '../../layout/Footer'
+
 import React from 'react';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -8,13 +15,6 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
-import Head from 'next/head'
-import Link from 'next/link'
-import Image from 'next/image'
-
-import Header from '../../layout/Header'
-import Footer from '../../layout/Footer'
-
 import wow from '../../../public/images/stores/orion/wow/wow1.webp'
 import wowInterior from '../../../public/images/stores/orion/wow/wow2.webp'
 import tpp from '../../../public/images/stores/orion/tpp/tpp.webp'
@@ -22,8 +22,8 @@ import tppInterior from '../../../public/images/stores/orion/tpp/tpp2.webp'
 import sleepycat from '../../../public/images/stores/orion/sleepycat/sleepycat.webp'
 import sleepycatInterior from '../../../public/images/stores/orion/sleepycat/sleepycat3.webp'
 
-import orionRender1 from '../../../public/images/stores/orion/renders1.webp'
-import orionRender2 from '../../../public/images/stores/orion/renders2.webp'
+import orionRender1 from '../../../public/images/stores/orion/render1.webp'
+import orionRender2 from '../../../public/images/stores/orion/render2.webp'
 
 export default function index() {
     return (
@@ -32,9 +32,7 @@ export default function index() {
                 <title>Orion Mall | LiteStore</title>
                 <meta name="description" content="LiteStore" />
             </Head>
-
             <Header />
-
             <div className="w-full h-[86.75vh] md:h-[93vh] bg-cover bg-center" style={{ backgroundImage: 'url(https://litestore.in/assets/img/places/orion/orion.jpg)' }}>
                 <div className="flex items-center justify-center h-full w-full ">
                     <div className="text-center w-full bg-gray-900 bg-opacity-40">
@@ -44,8 +42,7 @@ export default function index() {
                 </div>
             </div>
 
-
-            <div className="px-5 md:px-40 py-10 bg-light-white">
+            <div className="px-5 md:px-40 pt-5 md:pt-10 pb-10 bg-light-white">
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
                     <div className="flex">
                         <Swiper
@@ -75,7 +72,7 @@ export default function index() {
                             </SwiperSlide>
                         </Swiper>
                     </div>
-                    <div className="flex col-span-2 justify-left">
+                    <div className="flex col-span-2 justify-left text-justify">
                         <div className="grid grid-cols-1 gap-6">
                             <div>
                                 <h1 className="text-4xl font-semibold pb-1">About</h1>
@@ -93,7 +90,6 @@ export default function index() {
                     </div>
                 </div>
             </div>
-
 
             <div className="px-5 md:px-40 py-10 text-light-white bg-black">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
@@ -169,8 +165,6 @@ export default function index() {
                     </div>
                 </div>
             </div>
-
-
             <Footer />
         </div>
     )

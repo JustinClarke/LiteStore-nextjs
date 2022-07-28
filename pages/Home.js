@@ -5,6 +5,20 @@ import Link from 'next/link'
 import Header from './layout/Header'
 import Footer from './layout/Footer'
 
+import React from 'react';
+
+import CountUp from 'react-countup'
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, EffectFade, A11y, Autoplay, Virtual } from 'swiper';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/effect-fade';
+import 'swiper/css/virtual';
+
+// store images
 import wow from '../public/images/stores/orion/wow/wow1.webp'
 import tpp from '../public/images/stores/orion/tpp/tpp.webp'
 import sleepycat from '../public/images/stores/orion/sleepycat/sleepycat.webp'
@@ -12,7 +26,36 @@ import sleepycat from '../public/images/stores/orion/sleepycat/sleepycat.webp'
 import mensxp from '../public/images/stores/garuda/mensxp/mensxp.webp'
 import vitro from '../public/images/stores/garuda/vitro/vitro.webp'
 
+// store logos
+import wowLogo from '../public/logos/trusted/wow.webp'
+import tppLogo from '../public/logos/trusted/tpp.webp'
+import sleepycatLogo from '../public/logos/trusted/sleepycat.webp'
+import mensxpLogo from '../public/logos/trusted/mensxp.webp'
+import vitroLogo from '../public/logos/trusted/vitro.webp'
+import jblLogo from '../public/logos/trusted/jbl.webp'
+import zymratLogo from '../public/logos/trusted/zymrat.webp'
+
+// real estate partner logos
+import brigadeReap from '../public/logos/real-estate-partners/brigade-reap.webp'
+import brigade from '../public/logos/real-estate-partners/brigade.webp'
+import brookfield from '../public/logos/real-estate-partners/brookfield.webp'
+import garuda from '../public/logos/real-estate-partners/garuda.webp'
+import lulu from '../public/logos/real-estate-partners/lulu.webp'
+
+// media logos
+import apn from '../public/logos/articles/apn.webp'
+import fml from '../public/logos/articles/fml.webp'
+import ir from '../public/logos/articles/ir.webp'
+import mb from '../public/logos/articles/mb.webp'
+import pl from '../public/logos/articles/pl.webp'
+import twi from '../public/logos/articles/twi.webp'
+
+
 export default function home() {
+
+	const counterDurarion = 7;
+
+	var slidesPerView = 7;
 	return (
 		<div>
 			<Head>
@@ -20,7 +63,6 @@ export default function home() {
 				<meta name="description" content="LiteStore" />
 			</Head>
 			<Header />
-
 			{/* <div>
 				<video
 					autoplay="true"
@@ -37,15 +79,14 @@ export default function home() {
 				</video>
 			</div> */}
 
-
 			<section id="about">
 				<div className="px-5 md:px-40 pt-5 pb-5 text-center font-light">
-					<h1 className="text-3xl md:text-4xl font-medium">Going offline <span className="invisible md:hidden" ><br /></span> can't get any easier</h1>
+					<h1 className="text-3xl md:text-4xl font-medium text-gray-600">Going offline <span className="invisible md:hidden" ><br /></span> can't get any easier</h1>
 					<h2 className="pt-2 text-sm md:text-xl font-light">LiteStore<sup>®</sup> is an online platform to find, book & set-up retail experience centres on a short term basis.</h2>
 				</div>
 
 				<div className="text-gray-600 body-font">
-					<div className="container px-5 py-10 mx-auto flex flex-wrap">
+					<div className="container px-5 pt-0 pb-5 md:pb-10 mx-auto flex flex-wrap">
 						<div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
 							<div className="h-full w-6 absolute inset-0 flex items-center justify-center">
 								<div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
@@ -54,11 +95,11 @@ export default function home() {
 							<div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
 								<div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-purple rounded-full inline-flex items-center justify-center">
 									<svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-										<path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+										<path strokeLinecap="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
 									</svg>
 								</div>
 								<div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-									<h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Find a Space</h2>
+									<h2 className="font-medium title-font mb-1 text-xl">Find a Space</h2>
 									<p className="leading-relaxed">Select a location from our curated list of venues</p>
 								</div>
 							</div>
@@ -71,11 +112,11 @@ export default function home() {
 							<div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
 								<div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-purple rounded-full inline-flex items-center justify-center">
 									<svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-										<path strokeLinecap="round" strokeLinejoin="round" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
+										<path strokeLinecap="round" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
 									</svg>
 								</div>
 								<div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-									<h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Book & Pay</h2>
+									<h2 className="font-medium title-font mb-1 text-xl">Book & Pay</h2>
 									<p className="leading-relaxed">Simple agreement, signed digitally & transparent pricing</p>
 								</div>
 							</div>
@@ -88,11 +129,11 @@ export default function home() {
 							<div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
 								<div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-purple rounded-full inline-flex items-center justify-center">
 									<svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-										<path strokeLinecap="round" strokeLinejoin="round" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
+										<path strokeLinecap="round" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
 									</svg>
 								</div>
 								<div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-									<h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Customize Your Store</h2>
+									<h2 className="font-medium title-font mb-1 text-xl">Customize Your Store</h2>
 									<p className="leading-relaxed">Choose your store layout and select from our list of add-on services</p>
 								</div>
 							</div>
@@ -105,11 +146,11 @@ export default function home() {
 							<div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
 								<div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-purple rounded-full inline-flex items-center justify-center">
 									<svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-										<path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+										<path strokeLinecap="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
 									</svg>
 								</div>
 								<div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-									<h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Launch Your Store</h2>
+									<h2 className="font-medium title-font mb-1 text-xl">Launch Your Store</h2>
 									<p className="leading-relaxed">Bring your product, team, ideas and head over to your store</p>
 								</div>
 							</div>
@@ -118,14 +159,92 @@ export default function home() {
 				</div>
 			</section>
 
-			<section id="brands" className="py-10 px-10 md:px-40 bg-black justify-center">
+			<section id="amenities" className="text-gray-600 body-font">
+				<div className="pt-10 pb-20 px-5 md:px-60">
+					<h1 className="pb-10 col-span-2 text-3xl md:text-4xl text-left md:text-center font-medium">Your Flexi-Store comes ready with</h1>
+					<div className="grid grid-cols-2 gap-4 md:gap-12 auto-cols-[500px]">
+						<div className="col-span-1">
+							<div className="pt-40 md:pt-0 flex items-center border-b pb-10 border-gray-200 sm:flex-row flex-col">
+								<div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-purple flex-shrink-0">
+									<svg xmlns="http://www.w3.org/2000/svg" className="h-14 w-14" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+										<path strokeLinecap="round" strokeLinejoin="round" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+									</svg>
+								</div>
+								<div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+									<h2 className="text-gray-900 text-xl title-font font-medium mb-2">Minimalist Layout</h2>
+									<p className="leading-relaxed text-base">The interiors, lighting & fitout are already complete so you can leave your toolbox at home</p>
+								</div>
+							</div>
+							<div className="flex items-center border-b pb-10 pt-10 border-gray-200 sm:flex-row flex-col">
+								<div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+									<h2 className="text-gray-900 text-xl title-font font-medium mb-2">Modular Fixtures</h2>
+									<p className="leading-relaxed text-base">Chic and easy to assemble fixtures for a wide range of product categories</p>
+								</div>
+								<div className="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-purple flex-shrink-0">
+									<svg xmlns="http://www.w3.org/2000/svg" className="h-14 w-14" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+										<path strokeLinecap="round" strokeLinejoin="round" d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5" />
+									</svg>
+								</div>
+							</div>
+							<div className="flex items-center sm:flex-row pt-10 flex-col">
+								<div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-purple flex-shrink-0">
+									<svg xmlns="http://www.w3.org/2000/svg" className="h-14 w-14" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+										<path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+									</svg>
+								</div>
+								<div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+									<h2 className="text-gray-900 text-xl title-font font-medium mb-2">Store Amenities</h2>
+									<p className="leading-relaxed text-base">From security cameras, WiFi to maintenance and cleaning, we take care of it all</p>
+								</div>
+							</div>
+						</div>
+						<div className="col-span-1">
+							<div className="flex items-center border-b pb-10 border-gray-200 sm:flex-row flex-col">
+								<div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-purple flex-shrink-0">
+									<svg xmlns="http://www.w3.org/2000/svg" className="h-14 w-14" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+										<path strokeLinecap="round" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+									</svg>
+								</div>
+								<div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+									<h2 className="text-gray-900 text-xl title-font font-medium mb-2">Regulatory Compliance</h2>
+									<p className="leading-relaxed text-base">We've asked everybody for permission, so you don't have to!</p>
+								</div>
+							</div>
+							<div className="flex items-center border-b pb-10 pt-10 border-gray-200 sm:flex-row flex-col">
+								<div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+									<h2 className="text-gray-900 text-xl title-font font-medium mb-2">Branding</h2>
+									<p className="leading-relaxed text-base">Digital Screens and dedicated surfaces will bring your brand to life in the store</p>
+								</div>
+								<div className="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-purple flex-shrink-0">
+									<svg xmlns="http://www.w3.org/2000/svg" className="h-14 w-14" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+										<path strokeLinecap="round" strokeLinejoin="round" d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14" />
+									</svg>
+								</div>
+							</div>
+							<div className="flex items-center sm:flex-row pt-10 flex-col">
+								<div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-purple flex-shrink-0">
+									<svg xmlns="http://www.w3.org/2000/svg" className="h-14 w-14" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+										<path strokeLinecap="round" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
+									</svg>
+								</div>
+								<div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+									<h2 className="text-gray-900 text-xl title-font font-medium mb-2">PoS and Billing System</h2>
+									<p className="leading-relaxed text-base">We make sure that customers can actually buy your products!</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="brands" className="px-5 md:px-40 py-10 bg-black justify-center">
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-4">
 					<div className="grid grid-cols-2 gap-4">
 						<h1 className="pb-2 col-span-2 text-2xl md:text-4xl font-light text-center text-light-white">LiteStore<sup>®</sup>, Orion Mall</h1>
 						<Link href="/spaces/orion/wow">
 							<a>
 								<Image
-									className="rounded-lg "
+									className="rounded-lg hover:scale-125 transition ease-in-out duration-500"
 									src={wow}
 									alt="Wow" />
 							</a>
@@ -133,7 +252,7 @@ export default function home() {
 						<Link href="/spaces/orion/sleepycat">
 							<a>
 								<Image
-									className="rounded-lg"
+									className="rounded-lg hover:scale-125 transition ease-in-out duration-500"
 									src={sleepycat}
 									alt="SleepyCat" />
 							</a>
@@ -142,7 +261,7 @@ export default function home() {
 							<Link href="/spaces/orion/thepantproject">
 								<a>
 									<Image
-										className="rounded-lg"
+										className="rounded-lg hover:scale-125 transition ease-in-out duration-500"
 										src={tpp}
 										alt="The Pant Project" />
 								</a>
@@ -154,7 +273,7 @@ export default function home() {
 						<Link href="/spaces/garuda/mensxp">
 							<a>
 								<Image
-									className="rounded-lg"
+									className="rounded-lg hover:scale-125 transition ease-in-out duration-500"
 									src={mensxp}
 									alt="MensXp" />
 							</a>
@@ -162,7 +281,7 @@ export default function home() {
 						<Link href="/spaces/garuda/vitro">
 							<a>
 								<Image
-									className="rounded-lg"
+									className="rounded-lg hover:scale-125 transition ease-in-out duration-500"
 									src={vitro}
 									alt="Vito Naturals" />
 							</a>
@@ -178,8 +297,198 @@ export default function home() {
 				</div>
 			</section>
 
+			<section id="counter" className="px-5 md:px-80 py-10 md:py-10 text-center">
+				<div className="grid grid-cols-3 gap-12 justify-items-center text-purple">
+					<h1 className="col-span-3 font-bold text-xl md:text-3xl text-black">INDIA'S FIRST ONLINE PLATFORM FOR SHORT-TERM RETAIL SPACES.</h1>
+					<div className="grid grid-cols-1 justify-items-center">
+						<div className="flex col-span-1">
+							<p className="pt-3 md:pt-5 text-xl md:text-6xl font-semibold">₹</p>
+							<p className="text-5xl md:text-8xl font-black font-sans">
+								<CountUp
+									start={100}
+									end={0}
+									duration={counterDurarion}
+								/>
+							</p>
+						</div>
+						<p className="pt-8 leading-4 text-sm md:text-2xl text-black font-semibold">Security Deposit</p>
+					</div>
+					<div className="grid grid-cols-1 justify-items-center">
+						<div className="flex col-span-1">
+							<p className="text-5xl md:text-8xl font-black font-sans">
+								<CountUp
+									start={100}
+									end={0}
+									duration={counterDurarion}
+								/>
+							</p>
+						</div>
+						<p className="pt-8 leading-4 text-sm md:text-2xl text-black font-semibold">Lock In</p>
+					</div>
+					<div className="grid grid-cols-1 justify-items-center">
+						<div className="flex col-span-1">
+							<p className="pt-3 md:pt-5 text-xl md:text-6xl font-semibold">₹</p>
+							<p className="text-5xl md:text-8xl font-black font-sans">
+								<CountUp
+									start={100}
+									end={0}
+									duration={counterDurarion}
+								/>
+							</p>
+						</div>
+						<p className="pt-8 leading-4 text-sm md:text-2xl text-black font-semibold">Sunk Cost</p>
+					</div>
+					<div className="grid grid-cols-1 justify-items-center">
+						<div className="flex col-span-1">
+							<p className="text-5xl md:text-8xl font-black font-sans">
+								<CountUp
+									start={0}
+									end={48}
+									duration={counterDurarion}
+								/>
+							</p>
+							<p className="pt-8 md:pt-16 text-[10px] md:text-lg leading-none md:leading-none">Hours</p>
+						</div>
+						<p className="pt-2 leading-4 text-sm md:text-xl text-black font-semibold">Transition time between Brands</p>
+					</div>
+					<div className="grid grid-cols-1 justify-items-center">
+						<div className="flex col-span-1">
+							<p className="text-5xl md:text-8xl font-black font-sans">
+								<CountUp
+									start={0}
+									end={78}
+									duration={counterDurarion}
+								/>%
+							</p>
+							<p className="pt-6 md:pt-12 text-[10px] md:text-lg leading-none md:leading-none">per<br />month</p>
+						</div>
+						<p className="pt-9 leading-4 text-sm md:text-xl text-black font-semibold">Cheaper than Conventional Retail Models</p>
+					</div>
+					<div className="grid grid-cols-1 justify-items-center">
+						<div className="flex col-span-1">
+							<p className="pt-3 md:pt-5 text-xl md:text-6xl font-semibold">₹</p>
+							<p className="text-5xl md:text-8xl font-black font-sans">
+								<CountUp
+									start={0}
+									end={100}
+									duration={counterDurarion}
+								/>
+							</p>
+							<p className="pt-6 md:pt-16 pr-2 md:pr-0 text-[10px] md:text-lg leading-none md:leading-none text-left">Lakh+ GMV</p>
+						</div>
+						<p className="pt-2 leading-4 text-sm md:text-xl text-black font-semibold">Sold in Flexi-Stores</p>
+					</div>
+				</div>
+			</section>
 
-
+			<section id="logos" className="py-10">
+				<h1 className="pb-5 text-center text-medium text-xl md:text-3xl uppercase">Trusted By</h1>
+				<div className="flex">
+					<Swiper
+						modules={[Navigation, Pagination, A11y, EffectFade, Autoplay]}
+						spaceBetween={50}
+						slidesPerView={slidesPerView}
+						autoplay={true}
+						loop={true}
+						centeredSlides={true}
+						grabCursor={true}
+					// pagination={{ clickable: true }}
+					>
+						<SwiperSlide>
+							<Image
+								className="rounded-lg"
+								src={wowLogo}
+								alt="Wow" />
+						</SwiperSlide>
+						<SwiperSlide>
+							<Image
+								className="rounded-lg"
+								src={tppLogo}
+								alt="Wow" />
+						</SwiperSlide>
+						<SwiperSlide>
+							<Image
+								className="rounded-lg"
+								src={sleepycatLogo}
+								alt="Wow" />
+						</SwiperSlide>
+						<SwiperSlide>
+							<Image
+								className="rounded-lg"
+								src={mensxpLogo}
+								alt="Wow" />
+						</SwiperSlide>
+						<SwiperSlide>
+							<Image
+								className="rounded-lg"
+								src={vitroLogo}
+								alt="Wow" />
+						</SwiperSlide>
+						<SwiperSlide>
+							<Image
+								className="rounded-lg"
+								src={jblLogo}
+								alt="Wow" />
+						</SwiperSlide>
+						<SwiperSlide>
+							<Image
+								className="rounded-lg"
+								src={zymratLogo}
+								alt="Wow" />
+						</SwiperSlide>
+					</Swiper>
+				</div>
+				<div className="px-10 md:px-[30%] grid grid-cols-5 gap-6">
+					<h1 className="pb-5 md:pb-5 col-span-5 text-center text-medium text-xl md:text-3xl uppercase">Real Estate Partners</h1>
+					<Image
+						className="rounded-lg"
+						src={brigade}
+						alt="Wow" />
+					<Image
+						className="rounded-lg"
+						src={brookfield}
+						alt="Wow" />
+					<Image
+						className="rounded-lg"
+						src={brigadeReap}
+						alt="Wow" />
+					<Image
+						className="rounded-lg"
+						src={garuda}
+						alt="Wow" />
+					<Image
+						className="rounded-lg"
+						src={lulu}
+						alt="Wow" />
+				</div>
+				<div className="px-10 md:px-60 grid grid-cols-6 gap-10">
+					<h1 className="py-5 md:pt-10 pb-0 col-span-6 text-center text-medium text-xl md:text-3xl uppercase">Media</h1>
+					<Image
+						className="rounded-lg"
+						src={apn}
+						alt="Wow" />
+					<Image
+						className="rounded-lg"
+						src={fml}
+						alt="Wow" />
+					<Image
+						className="rounded-lg"
+						src={mb}
+						alt="Wow" />
+					<Image
+						className="rounded-lg"
+						src={pl}
+						alt="Wow" />
+					<Image
+						className="rounded-lg"
+						src={twi}
+						alt="Wow" />
+					<Image
+						className="rounded-lg"
+						src={ir}
+						alt="Wow" />
+				</div>
+			</section>
 
 			<Footer />
 		</div>

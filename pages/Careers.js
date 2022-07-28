@@ -54,6 +54,7 @@ export default function careers() {
                     </table>
                 </div>
             </div>
+
             <Footer />
         </div>
     )

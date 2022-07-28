@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function header() {
 	return (
 		<header className="sticky top-0 z-50 flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white text-sm py-4">
-			<nav className="px-10 md:px-40 mx-auto w-full sm:flex sm:items-center sm:justify-between" aria-label="Global">
+			<nav className="px-5 md:px-40 mx-auto w-full sm:flex sm:items-center sm:justify-between" aria-label="Global">
 				<Link href="/">
 					<a className="flex-none text-4xl text-purple">LiteStore</a>
 				</Link>
@@ -14,7 +14,7 @@ export default function header() {
 					<Link href="/company">
 						<a className="font-light hover:font-medium">Company</a>
 					</Link>
-					<Link href="/contactus">
+					<Link href="/contact">
 						<a className="font-light hover:font-medium">Contact Us</a>
 					</Link>
 				</div>

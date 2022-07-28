@@ -1,12 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
 
+import Header from './layout/Header'
+import Footer from './layout/Footer'
+
 import puneet from '../public/images/team/puneet.webp'
 import tarun from '../public/images/team/tarun.jpg'
 import pranav from '../public/images/team/pranav.webp'
-
-import Header from './layout/Header'
-import Footer from './layout/Footer'
 
 export default function company() {
     return (
@@ -64,6 +64,7 @@ export default function company() {
                     </div>
                 </div>
             </div>
+
             <Footer />
         </div>
     )

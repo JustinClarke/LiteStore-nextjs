@@ -6,8 +6,8 @@ function Footer() {
 
     return (
         <footer className="text-center lg:text-left text-sm">
-            <div className="py-10 text-center md:text-left bg-black text-gray-300">
-                <div className="px-10 md:px-40 grid grid-1 md:grid-cols-2 lg:grid-cols-5 gap-1">
+            <div className="px-5 md:px-40 py-10 text-center md:text-left bg-black text-gray-300">
+                <div className="grid grid-1 md:grid-cols-2 lg:grid-cols-5 gap-1">
                     <div>
                         <h6 className="text-4xl font-extralight mb-4 flex justify-center md:justify-start">
                             LiteStore<sup className="text-xl">®</sup>
@@ -53,7 +53,7 @@ function Footer() {
                         </h6>
                         <p className="mb-4">
                             <Link href="/spaces">
-                                <a className="hover:text-light-white transition ease-in-out delay-150 duration-200">Find a Space</a>
+                                <a className="hover:text-light-white transition ease-in-out delay-10 duration-200">Find a Space</a>
                             </Link>
                         </p>
                     </div>
@@ -64,17 +64,17 @@ function Footer() {
                         </h6>
                         <p className="mb-4">
                             <Link href="/careers">
-                                <a className="hover:text-light-white transition ease-in-out delay-150 duration-200">Careers</a>
+                                <a className="hover:text-light-white transition ease-in-out delay-10 duration-200">Careers</a>
                             </Link>
                         </p>
                         <p className="mb-4">
                             <Link href="/company">
-                                <a className="hover:text-light-white transition ease-in-out delay-150 duration-200">Company</a>
+                                <a className="hover:text-light-white transition ease-in-out delay-10 duration-200">Company</a>
                             </Link>
                         </p>
                         <p className="mb-4">
                             <Link href="/faqs">
-                                <a className="hover:text-light-white transition ease-in-out delay-150 duration-200">FAQs</a>
+                                <a className="hover:text-light-white transition ease-in-out delay-10 duration-200">FAQs</a>
                             </Link>
                         </p>
                     </div>
@@ -85,7 +85,7 @@ function Footer() {
                         </h6>
                         <p className="mb-4">
                             <Link href="/blog">
-                                <a className="hover:text-light-white transition ease-in-out delay-150 duration-200">Blog</a>
+                                <a className="hover:text-light-white transition ease-in-out delay-10 duration-200">Blog</a>
                             </Link>
                         </p>
                     </div>
@@ -97,26 +97,26 @@ function Footer() {
 
                         <p className="mb-4">
                             <Link href="/privacypolicy">
-                                <a className="hover:text-light-white transition ease-in-out delay-150 duration-200">Privacy Policy</a>
+                                <a className="hover:text-light-white transition ease-in-out delay-10 duration-200">Privacy Policy</a>
                             </Link>
                         </p>
                         <p className="mb-4">
                             <Link href="/termsofuse">
-                                <a className="hover:text-light-white transition ease-in-out delay-150 duration-200">Terms of use</a>
+                                <a className="hover:text-light-white transition ease-in-out delay-10 duration-200">Terms of use</a>
                             </Link>
                         </p>
                     </div>
                 </div>
             </div>
 
-            <div className="md:hidden pt-4">
+            <div className="md:hidden pt-4 bg-light-white">
                 <p>
                     &copy; Copyright {year} <strong>Popspace Technologies Pvt. Ltd. </strong>
                     <br /> All Rights Reserved
                 </p>
             </div>
 
-            <div className="px-10 md:px-40 flex justify-center items-center lg:justify-between py-6 bg-light-white">
+            <div className="px-5 md:px-40 flex justify-center items-center lg:justify-between py-6 bg-light-white">
                 <div className="hidden lg:block">
                     <p>
                         &copy; Copyright {year} <strong>Popspace Technologies Pvt. Ltd. </strong>

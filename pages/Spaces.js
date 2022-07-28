@@ -2,11 +2,11 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 
-import orion from '../public/images/stores/orion/orion.jpg'
-import garuda from '../public/images/stores/garuda/garuda.webp'
-
 import Header from './layout/Header'
 import Footer from './layout/Footer'
+
+import orion from '../public/images/stores/orion/orion.jpg'
+import garuda from '../public/images/stores/garuda/garuda.webp'
 
 export default function spaces() {
     return (
@@ -29,7 +29,7 @@ export default function spaces() {
                                 <a>
                                     <Image
                                         src={orion}
-                                        className="rounded-t-lg hover:scale-125 transition ease-in-out duration-1000"
+                                        className="rounded-t-lg hover:scale-125 transition ease-in-out duration-500"
                                         alt="Orion Mall" />
                                 </a>
                             </Link>
@@ -50,7 +50,7 @@ export default function spaces() {
                                 <a href="#">
                                     <Image
                                         src={garuda}
-                                        className="rounded-t-lg hover:scale-125 transition ease-in-out duration-1000"
+                                        className="rounded-t-lg hover:scale-125 transition ease-in-out duration-500"
                                         alt="Garuda Mall" />
                                 </a>
                             </Link>

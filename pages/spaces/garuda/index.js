@@ -1,3 +1,10 @@
+import Head from 'next/head'
+import Link from 'next/link'
+import Image from 'next/image'
+
+import Header from '../../layout/Header'
+import Footer from '../../layout/Footer'
+
 import React from 'react';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -7,13 +14,6 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
-
-import Head from 'next/head'
-import Link from 'next/link'
-import Image from 'next/image'
-
-import Header from '../../layout/Header'
-import Footer from '../../layout/Footer'
 
 import mensxp from '../../../public/images/stores/garuda/mensxp/mensxp.webp'
 import mensxpInterior from '../../../public/images/stores/garuda/mensxp/mensxp1.webp'
@@ -30,10 +30,8 @@ export default function index() {
                 <title>Garuda Mall | LiteStore</title>
                 <meta name="description" content="LiteStore" />
             </Head>
-
             <Header />
-
-            <div className="w-full h-[86.75vh] md:h-[93vh] bg-cover bg-center orion" style={{ backgroundImage: 'url(https://garudamall.in/wp-content/uploads/2019/11/mall2.jpg)' }}>
+            <div className="w-full h-[86.75vh] md:h-[93vh] bg-cover bg-center" style={{ backgroundImage: 'url(https://garudamall.in/wp-content/uploads/2019/11/mall2.jpg)' }}>
                 <div className="flex items-center justify-center h-full w-full ">
                     <div className="text-center w-full bg-gray-900 bg-opacity-40">
                         <h1 className="text-5xl md:text-6xl pt-3 text-white font-bold uppercase">Garuda Mall</h1>
@@ -41,7 +39,6 @@ export default function index() {
                     </div>
                 </div>
             </div>
-
 
             <div className="px-5 md:px-40 py-10 bg-light-white">
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
@@ -155,8 +152,6 @@ export default function index() {
                     </div>
                 </div>
             </div>
-
-
             <Footer />
         </div>
     )
