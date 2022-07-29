@@ -43,7 +43,7 @@ export default function spaces() {
                         </Link>
                     </div>
                     <div className="flex justify-left">
-                        <Link href="/spaces/orion">
+                        <Link href="/spaces/garuda">
                             <a>
                                 <div className="rounded-lg shadow-lg bg-white max-w-sm hover:scale-105 transition ease-in-out duration-500">
                                     <img

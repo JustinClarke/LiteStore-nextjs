@@ -39,13 +39,13 @@ export default function MensXP() {
                             pagination={{ clickable: true }}
                         >
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={mensxp}
                                     alt="MensXp" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={mensxpInterior}
                                     alt="MensXp" />

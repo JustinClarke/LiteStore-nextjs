@@ -39,13 +39,13 @@ export default function ThePantProject() {
                             pagination={{ clickable: true }}
                         >
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={tpp}
                                     alt="Wow" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={tppInterior}
                                     alt="Wow" />

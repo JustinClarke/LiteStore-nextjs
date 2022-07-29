@@ -41,19 +41,19 @@ export default function Vitro() {
                             pagination={{ clickable: true }}
                         >
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={vitro}
                                     alt="Vitro Naturals" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={vitroInterior1}
                                     alt="Vitro Naturals" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={vitroInterior}
                                     alt="Vitro Naturals" />
