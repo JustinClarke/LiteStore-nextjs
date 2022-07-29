@@ -31,7 +31,7 @@ export default function index() {
                 <meta name="description" content="LiteStore" />
             </Head>
             <Header />
-            <div className="w-full h-[86.75vh] md:h-[93vh] bg-cover bg-center" style={{ backgroundimg: 'url(https://garudamall.in/wp-content/uploads/2019/11/mall2.jpg)' }}>
+            <div className="w-full h-[86.75vh] md:h-[93vh] bg-cover bg-center" style={{ backgroundImage: 'url(https://garudamall.in/wp-content/uploads/2019/11/mall2.jpg)' }}>
                 <div className="flex items-center justify-center h-full w-full ">
                     <div className="text-center w-full bg-gray-900 bg-opacity-40">
                         <h1 className="text-5xl md:text-6xl pt-3 text-white font-bold uppercase">Garuda Mall</h1>
