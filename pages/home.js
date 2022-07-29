@@ -111,12 +111,13 @@ export default function home() {
 
 			<div className="relative bg-black">
 				<div className="bg-hero-section bg-no-repeat h-[86.75vh] md:h-[93vh] bg-center bg-cover">
-					{/* <video autoPlay loop muted className="absolute inset-0 min-w-full object-cover h-[86.75vh] md:h-[93vh] xl:h-auto">
+					<video autoPlay loop muted className="absolute inset-0 min-w-full object-cover h-[86.75vh] md:h-[93vh] xl:h-auto">
 						<source
 							src="https://litestore.in/assets/img/video/litestore.mp4"
 							type="video/mp4"
 						/>
-					</video> */}
+						Your browser does not support the video tag.
+					</video>
 					<div className="absolute inset-0">
 						<div className="text-7xl md:text-[12rem] font-black pt-[45%] md:pt-[15%] leading-9 md:leading-none text-center text-white">
 							LiteStore
@@ -129,7 +130,6 @@ export default function home() {
 									</button>
 								</a>
 							</Link>
-
 						</div>
 					</div>
 				</div>
