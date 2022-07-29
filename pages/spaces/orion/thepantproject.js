@@ -15,8 +15,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
-import tpp from '../../../public/images/stores/orion/tpp/tpp.webp'
-import tppInterior from '../../../public/images/stores/orion/tpp/tpp2.webp'
+const tpp = '/images/stores/orion/tpp/tpp.webp'
+const tppInterior = '/images/stores/orion/tpp/tpp2.webp'
 
 export default function ThePantProject() {
     return (

@@ -4,9 +4,9 @@ import Image from 'next/image'
 import Header from './layout/Header'
 import Footer from './layout/Footer'
 
-import puneet from '../public/images/team/puneet.webp'
-import tarun from '../public/images/team/tarun.jpg'
-import pranav from '../public/images/team/pranav.webp'
+const puneet = '/images/team/puneet.webp'
+const tarun = '/images/team/tarun.jpg'
+const pranav = '/images/team/pranav.webp'
 
 export default function company() {
     return (
@@ -35,7 +35,7 @@ export default function company() {
                     <div className="flex justify-center">
                         <div className="rounded-lg shadow-lg bg-white max-w-sm">
                             <a href="#">
-                                <Image src={puneet} className="rounded-t-lg" alt="Puneet Dinesh" />
+                                <img src={puneet} className="rounded-t-lg" alt="Puneet Dinesh" />
                             </a>
                             <div className="p-6">
                                 <h5 className="text-purple text-xl text-center font-semibold mb-2">Puneet Dinesh</h5>
@@ -45,7 +45,7 @@ export default function company() {
                     <div className="flex justify-center">
                         <div className="rounded-lg shadow-lg bg-white max-w-sm">
                             <a href="#">
-                                <Image src={pranav} className="rounded-t-lg" alt="Pranav Agarwal" />
+                                <img src={pranav} className="rounded-t-lg" alt="Pranav Agarwal" />
                             </a>
                             <div className="p-6">
                                 <h5 className="text-purple text-xl text-center font-semibold mb-2">Pranav Agarwal</h5>
@@ -55,7 +55,7 @@ export default function company() {
                     <div className="flex justify-center">
                         <div className="rounded-lg shadow-lg bg-white max-w-sm">
                             <a href="#">
-                                <Image src={tarun} className="rounded-t-lg" alt="Tarun Sundaram" />
+                                <img src={tarun} className="rounded-t-lg" alt="Tarun Sundaram" />
                             </a>
                             <div className="p-6">
                                 <h5 className="text-purple text-xl text-center font-semibold mb-2">Tarun Sundaram</h5>

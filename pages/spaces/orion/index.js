@@ -15,15 +15,15 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
-import wow from '../../../public/images/stores/orion/wow/wow1.webp'
-import wowInterior from '../../../public/images/stores/orion/wow/wow2.webp'
-import tpp from '../../../public/images/stores/orion/tpp/tpp.webp'
-import tppInterior from '../../../public/images/stores/orion/tpp/tpp2.webp'
-import sleepycat from '../../../public/images/stores/orion/sleepycat/sleepycat.webp'
-import sleepycatInterior from '../../../public/images/stores/orion/sleepycat/sleepycat3.webp'
+const wow = '/images/stores/orion/wow/wow1.webp'
+const wowInterior = '/images/stores/orion/wow/wow2.webp'
+const tpp = '/images/stores/orion/tpp/tpp.webp'
+const tppInterior = '/images/stores/orion/tpp/tpp2.webp'
+const sleepycat = '/images/stores/orion/sleepycat/sleepycat.webp'
+const sleepycatInterior = '/images/stores/orion/sleepycat/sleepycat3.webp'
 
-import orionRender1 from '../../../public/images/stores/orion/render1.webp'
-import orionRender2 from '../../../public/images/stores/orion/render2.webp'
+const orionRender1 = '/images/stores/orion/orionRender1.webp'
+const orionRender2 = '/images/stores/orion/orionRender2.webp'
 
 export default function index() {
     return (

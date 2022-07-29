@@ -15,9 +15,9 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
-import vitro from '../../../public/images/stores/garuda/vitro/vitro.webp'
-import vitroInterior from '../../../public/images/stores/garuda/vitro/vitro2.webp'
-import vitroInterior1 from '../../../public/images/stores/garuda/vitro/vitro1.webp'
+const vitro = '/images/stores/garuda/vitro/vitro.webp'
+const vitroInterior = '/images/stores/garuda/vitro/vitro2.webp'
+const vitroInterior1 = '/images/stores/garuda/vitro/vitro1.webp'
 
 
 export default function Vitro() {

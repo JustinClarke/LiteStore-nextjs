@@ -6,7 +6,6 @@ import Header from './layout/Header'
 import Footer from './layout/Footer'
 
 import React, { useState, useEffect } from 'react';
-
 import CountUp from 'react-countup'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -19,59 +18,59 @@ import 'swiper/css/effect-fade';
 import 'swiper/css/virtual';
 
 // store images
-import wow from '../public/images/stores/orion/wow/wow1.webp'
-import tpp from '../public/images/stores/orion/tpp/tpp.webp'
-import sleepycat from '../public/images/stores/orion/sleepycat/sleepycat.webp'
+const wow  = '/images/stores/orion/wow/wow1.webp'
+const tpp  = '/images/stores/orion/tpp/tpp.webp'
+const sleepycat  = '/images/stores/orion/sleepycat/sleepycat.webp'
 
-import mensxp from '../public/images/stores/garuda/mensxp/mensxp.webp'
-import vitro from '../public/images/stores/garuda/vitro/vitro.webp'
+const mensxp  = '/images/stores/garuda/mensxp/mensxp.webp'
+const vitro  = '/images/stores/garuda/vitro/vitro.webp'
 
 // store logos
-import wowLogo from '../public/logos/trusted/wow.webp'
-import tppLogo from '../public/logos/trusted/tpp.webp'
-import sleepycatLogo from '../public/logos/trusted/sleepycat.webp'
-import mensxpLogo from '../public/logos/trusted/mensxp.webp'
-import vitroLogo from '../public/logos/trusted/vitro.webp'
-import jblLogo from '../public/logos/trusted/jbl.webp'
-import zymratLogo from '../public/logos/trusted/zymrat.webp'
+const wowLogo  = '/logos/trusted/wow.webp'
+const tppLogo  = '/logos/trusted/tpp.webp'
+const sleepycatLogo  = '/logos/trusted/sleepycat.webp'
+const mensxpLogo  = '/logos/trusted/mensxp.webp'
+const vitroLogo  = '/logos/trusted/vitro.webp'
+const jblLogo  = '/logos/trusted/jbl.webp'
+const zymratLogo  = '/logos/trusted/zymrat.webp'
 
 // real estate partner logos
-import brigadeReap from '../public/logos/real-estate-partners/brigade-reap.webp'
-import brigade from '../public/logos/real-estate-partners/brigade.webp'
-import brookfield from '../public/logos/real-estate-partners/brookfield.webp'
-import garuda from '../public/logos/real-estate-partners/garuda.webp'
-import lulu from '../public/logos/real-estate-partners/lulu.webp'
+const brigadeReap  = '/logos/real-estate-partners/brigade-reap.webp'
+const brigade  = '/logos/real-estate-partners/brigade.webp'
+const brookfield  = '/logos/real-estate-partners/brookfield.webp'
+const garuda  = '/logos/real-estate-partners/garuda.webp'
+const lulu  = '/logos/real-estate-partners/lulu.webp'
 
 // media logos
-import apn from '../public/logos/articles/apn.webp'
-import fml from '../public/logos/articles/fml.webp'
-import ir from '../public/logos/articles/ir.webp'
-import mb from '../public/logos/articles/mb.webp'
-import pl from '../public/logos/articles/pl.webp'
-import twi from '../public/logos/articles/twi.webp'
+const apn  = '/logos/articles/apn.webp'
+const fml  = '/logos/articles/fml.webp'
+const ir  = '/logos/articles/ir.webp'
+const mb  = '/logos/articles/mb.webp'
+const pl  = '/logos/articles/pl.webp'
+const twi  = '/logos/articles/twi.webp'
 
-function useWindowSize() {
+function WindowSize() {
 	// Initialize state with undefined width/height so server and client renders match
 	// Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
 	const [windowSize, setWindowSize] = useState({
-	width: undefined,
-	height: undefined,
+		width: undefined,
+		height: undefined,
 	});
 	useEffect(() => {
-	// Handler to call on window resize
-	function handleResize() {
-		// Set window width/height to state
-		setWindowSize({
-		width: window.innerWidth,
-		height: window.innerHeight,
-		});
-	}
-	// Add event listener
-	window.addEventListener("resize", handleResize);
-	// Call handler right away so state gets updated with initial window size
-	handleResize();
-	// Remove event listener on cleanup
-	return () => window.removeEventListener("resize", handleResize);
+		// Handler to call on window resize
+		function handleResize() {
+			// Set window width/height to state
+			setWindowSize({
+				width: window.innerWidth,
+				height: window.innerHeight,
+			});
+		}
+		// Add event listener
+		window.addEventListener("resize", handleResize);
+		// Call handler right away so state gets updated with initial window size
+		handleResize();
+		// Remove event listener on cleanup
+		return () => window.removeEventListener("resize", handleResize);
 	}, []); // Empty array ensures that effect is only run on mount
 	return windowSize;
 }
@@ -80,7 +79,7 @@ export default function home() {
 	const counterDurarion = 7;
 	var slidesPerView = 7;
 
-	const { height, width } = useWindowSize();
+	const { height, width } = WindowSize();
 	if (width < 480) {
 		var slidesPerView = 4;
 	}
@@ -91,6 +90,7 @@ export default function home() {
 				<meta name="description" content="LiteStore" />
 			</Head>
 			<Header />
+
 			{/* <div>
 				<video
 					autoplay="true"
@@ -100,7 +100,7 @@ export default function home() {
 					className="w-full min-w-full h-[86.75vh] md:h-[93vh] top-0 left-0 right-0 bottom-0 z-0 bg-cover"
 					>
 						<source
-						src="https://litestore.in/assets/img/video/litestore.mp4"
+						src="https://litestore.in/public/img/video/litestore.mp4"
 						type="video/mp4"
 						/>
 					Your browser does not support the video tag.
@@ -187,8 +187,8 @@ export default function home() {
 				</div>
 			</section>
 
-			<section id="amenities" className="text-gray-600 body-font">
-				<div className="pt-10 pb-20 px-5 md:px-60">
+			<section id="amenities" className="pt-10 pb-20 px-5 md:px-40 lg:px-20 xl:px-60">
+				<div className="text-gray-600">
 					<h1 className="pb-10 col-span-2 text-3xl md:text-4xl text-left md:text-center font-medium">Your Flexi-Store comes ready with</h1>
 					<div className="grid grid-cols-2 gap-4 md:gap-12 auto-cols-[500px]">
 						<div className="col-span-1">
@@ -271,16 +271,16 @@ export default function home() {
 						<h1 className="pb-2 col-span-2 text-2xl md:text-4xl font-light text-center text-light-white">LiteStore<sup>®</sup>, Orion Mall</h1>
 						<Link href="/spaces/orion/wow">
 							<a>
-								<Image
-									className="rounded-lg hover:scale-125 transition ease-in-out duration-500"
+								<img
+									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
 									src={wow}
 									alt="Wow" />
 							</a>
 						</Link>
 						<Link href="/spaces/orion/sleepycat">
 							<a>
-								<Image
-									className="rounded-lg hover:scale-125 transition ease-in-out duration-500"
+								<img
+									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
 									src={sleepycat}
 									alt="SleepyCat" />
 							</a>
@@ -288,8 +288,8 @@ export default function home() {
 						<div className="px-[25%] col-span-2">
 							<Link href="/spaces/orion/thepantproject">
 								<a>
-									<Image
-										className="rounded-lg hover:scale-125 transition ease-in-out duration-500"
+									<img
+										className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
 										src={tpp}
 										alt="The Pant Project" />
 								</a>
@@ -300,23 +300,23 @@ export default function home() {
 						<h1 className="pb-2 col-span-2 text-2xl md:text-4xl font-light text-center text-light-white">LiteStore<sup>®</sup>, Garuda Mall</h1>
 						<Link href="/spaces/garuda/mensxp">
 							<a>
-								<Image
-									className="rounded-lg hover:scale-125 transition ease-in-out duration-500"
+								<img
+									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
 									src={mensxp}
 									alt="MensXp" />
 							</a>
 						</Link>
 						<Link href="/spaces/garuda/vitro">
 							<a>
-								<Image
-									className="rounded-lg hover:scale-125 transition ease-in-out duration-500"
+								<img
+									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
 									src={vitro}
 									alt="Vito Naturals" />
 							</a>
 						</Link>
 
 						<div>
-							<Image
+							<img
 								className="rounded-lg invisible"
 								src={vitro}
 								alt="Vito Naturals" />
@@ -325,7 +325,7 @@ export default function home() {
 				</div>
 			</section>
 
-			<section id="counter" className="px-5 md:px-80 py-5 md:py-10 text-center">
+			<section id="counter" className="px-5 md:px-60 lg:px-40 xl:px-60 py-5 md:py-10 text-center">
 				<div className="grid grid-cols-3 gap-12 justify-items-center text-purple">
 					<h1 className="col-span-3 font-bold text-xl md:text-3xl text-black">INDIA'S FIRST ONLINE PLATFORM FOR SHORT-TERM RETAIL SPACES.</h1>
 					<div className="grid grid-cols-1 justify-items-center">
@@ -423,43 +423,43 @@ export default function home() {
 					// pagination={{ clickable: true }}
 					>
 						<SwiperSlide>
-							<Image
+							<img
 								className="rounded-lg"
 								src={wowLogo}
 								alt="Wow" />
 						</SwiperSlide>
 						<SwiperSlide>
-							<Image
+							<img
 								className="rounded-lg"
 								src={tppLogo}
 								alt="Wow" />
 						</SwiperSlide>
 						<SwiperSlide>
-							<Image
+							<img
 								className="rounded-lg"
 								src={sleepycatLogo}
 								alt="Wow" />
 						</SwiperSlide>
 						<SwiperSlide>
-							<Image
+							<img
 								className="rounded-lg"
 								src={mensxpLogo}
 								alt="Wow" />
 						</SwiperSlide>
 						<SwiperSlide>
-							<Image
+							<img
 								className="rounded-lg"
 								src={vitroLogo}
 								alt="Wow" />
 						</SwiperSlide>
 						<SwiperSlide>
-							<Image
+							<img
 								className="rounded-lg"
 								src={jblLogo}
 								alt="Wow" />
 						</SwiperSlide>
 						<SwiperSlide>
-							<Image
+							<img
 								className="rounded-lg"
 								src={zymratLogo}
 								alt="Wow" />
@@ -469,54 +469,54 @@ export default function home() {
 
 				<h1 className="pb-5 md:pb-10 col-span-5 text-center text-medium text-xl md:text-3xl uppercase">Real Estate Partners</h1>
 				<div className="px-10 md:px-[30%] grid grid-cols-5 gap-6">
-					<Image
+					<img
 						className="rounded-lg"
 						src={brigade}
 						alt="Wow" />
-					<Image
+					<img
 						className="rounded-lg"
 						src={brookfield}
 						alt="Wow" />
-					<Image
+					<img
 						className="rounded-lg"
 						src={brigadeReap}
 						alt="Wow" />
-					<Image
+					<img
 						className="rounded-lg"
 						src={garuda}
 						alt="Wow" />
-					<Image
+					<img
 						className="rounded-lg"
 						src={lulu}
 						alt="Wow" />
 				</div>
 
 				<h1 className="pt-5 md:pt-10 md:pb-3 col-span-6 md:col-span-6 text-center text-medium text-xl md:text-3xl uppercase">Media</h1>
-				
+
 				{/* Desktop View */}
 				<div className="invisible md:visible">
 					<div className="px-10 md:px-60 grid grid-cols-6 gap-10">
-						<Image
+						<img
 							className="rounded-lg"
 							src={apn}
 							alt="Wow" />
-						<Image
+						<img
 							className="rounded-lg"
 							src={fml}
 							alt="Wow" />
-						<Image
+						<img
 							className="rounded-lg"
 							src={mb}
 							alt="Wow" />
-						<Image
+						<img
 							className="rounded-lg"
 							src={pl}
 							alt="Wow" />
-						<Image
+						<img
 							className="rounded-lg"
 							src={twi}
 							alt="Wow" />
-						<Image
+						<img
 							className="rounded-lg"
 							src={ir}
 							alt="Wow" />
@@ -525,52 +525,52 @@ export default function home() {
 
 				{/* Mobile View */}
 				<div className="flex md:hidden">
-						<Swiper
-							modules={[Navigation, Pagination, A11y, EffectFade, Autoplay]}
-							spaceBetween={20}
-							slidesPerView={slidesPerView}
-							autoplay={true}
-							loop={true}
-							centeredSlides={true}
-							grabCursor={true}
-						>
-							<SwiperSlide>
-								<Image
-									className="rounded-lg"
-									src={apn}
-									alt="Wow" />
-							</SwiperSlide>
-							<SwiperSlide>
-								<Image
-									className="rounded-lg"
-									src={fml}
-									alt="Wow" />
-							</SwiperSlide>
-							<SwiperSlide>
-								<Image
-									className="rounded-lg"
-									src={mb}
-									alt="Wow" />
-							</SwiperSlide>
-							<SwiperSlide>
-								<Image
-									className="rounded-lg"
-									src={pl}
-									alt="Wow" />
-							</SwiperSlide>
-							<SwiperSlide>
-								<Image
-									className="rounded-lg"
-									src={twi}
-									alt="Wow" />
-							</SwiperSlide>
-							<SwiperSlide>
-								<Image
-									className="rounded-lg"
-									src={ir}
-									alt="Wow" />
-							</SwiperSlide>
-						</Swiper>
+					<Swiper
+						modules={[Navigation, Pagination, A11y, EffectFade, Autoplay]}
+						spaceBetween={20}
+						slidesPerView={slidesPerView}
+						autoplay={true}
+						loop={true}
+						centeredSlides={true}
+						grabCursor={true}
+					>
+						<SwiperSlide>
+							<img
+								className="rounded-lg"
+								src={apn}
+								alt="Wow" />
+						</SwiperSlide>
+						<SwiperSlide>
+							<img
+								className="rounded-lg"
+								src={fml}
+								alt="Wow" />
+						</SwiperSlide>
+						<SwiperSlide>
+							<img
+								className="rounded-lg"
+								src={mb}
+								alt="Wow" />
+						</SwiperSlide>
+						<SwiperSlide>
+							<img
+								className="rounded-lg"
+								src={pl}
+								alt="Wow" />
+						</SwiperSlide>
+						<SwiperSlide>
+							<img
+								className="rounded-lg"
+								src={twi}
+								alt="Wow" />
+						</SwiperSlide>
+						<SwiperSlide>
+							<img
+								className="rounded-lg"
+								src={ir}
+								alt="Wow" />
+						</SwiperSlide>
+					</Swiper>
 				</div>
 			</section>
 

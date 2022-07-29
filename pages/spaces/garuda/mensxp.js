@@ -15,8 +15,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
-import mensxp from '../../../public/images/stores/garuda/mensxp/mensxp.webp'
-import mensxpInterior from '../../../public/images/stores/garuda/mensxp/mensxp1.webp'
+const mensxp = '/images/stores/garuda/mensxp/mensxp.webp'
+const mensxpInterior = '/images/stores/garuda/mensxp/mensxp1.webp'
 
 export default function MensXP() {
     return (

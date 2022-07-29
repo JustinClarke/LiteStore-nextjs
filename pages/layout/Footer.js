@@ -6,7 +6,7 @@ function Footer() {
 
     return (
         <footer className="text-center lg:text-left text-sm">
-            <div className="px-5 md:px-40 py-10 text-center md:text-left bg-black text-gray-300">
+            <div className="px-5 md:px-40 lg:px-20 xl:px-40 py-10 text-center md:text-left bg-black text-gray-300">
                 <div className="grid grid-1 md:grid-cols-2 lg:grid-cols-5 gap-1">
                     <div>
                         <h6 className="text-4xl font-extralight mb-4 flex justify-center md:justify-start">

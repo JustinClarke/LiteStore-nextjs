@@ -15,13 +15,13 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
-import mensxp from '../../../public/images/stores/garuda/mensxp/mensxp.webp'
-import mensxpInterior from '../../../public/images/stores/garuda/mensxp/mensxp1.webp'
-import vitro from '../../../public/images/stores/garuda/vitro/vitro.webp'
-import vitroInterior from '../../../public/images/stores/garuda/vitro/vitro1.webp'
+const mensxp = '/images/stores/garuda/mensxp/mensxp.webp'
+const mensxpInterior = '/images/stores/garuda/mensxp/mensxp1.webp'
+const vitro = '/images/stores/garuda/vitro/vitro.webp'
+const vitroInterior = '/images/stores/garuda/vitro/vitro1.webp'
 
-import garudaRender1 from '../../../public/images/stores/garuda/render1.webp'
-import garudaRender2 from '../../../public/images/stores/garuda/render2.webp'
+const garudaRender1 = '/images/stores/garuda/garudaRender1.webp'
+const garudaRender2 = '/images/stores/garuda/garudaRender2.webp'
 
 export default function index() {
     return (
@@ -31,7 +31,7 @@ export default function index() {
                 <meta name="description" content="LiteStore" />
             </Head>
             <Header />
-            <div className="w-full h-[86.75vh] md:h-[93vh] bg-cover bg-center" style={{ backgroundImage: 'url(https://garudamall.in/wp-content/uploads/2019/11/mall2.jpg)' }}>
+            <div className="w-full h-[86.75vh] md:h-[93vh] bg-cover bg-center" style={{ backgroundimg: 'url(https://garudamall.in/wp-content/uploads/2019/11/mall2.jpg)' }}>
                 <div className="flex items-center justify-center h-full w-full ">
                     <div className="text-center w-full bg-gray-900 bg-opacity-40">
                         <h1 className="text-5xl md:text-6xl pt-3 text-white font-bold uppercase">Garuda Mall</h1>
@@ -51,13 +51,13 @@ export default function index() {
                             pagination={{ clickable: true }}
                         >
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={mensxp}
                                     alt="MensXp" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={vitro}
                                     alt="Vitro Naturals" />
@@ -95,13 +95,13 @@ export default function index() {
                             autoplay={true}
                         >
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={garudaRender1}
                                     alt="Orion Mall" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={garudaRender2}
                                     alt="Orion Mall" />
@@ -121,13 +121,13 @@ export default function index() {
                             autoplay={true}
                         >
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={mensxpInterior}
                                     alt="MensXp" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={vitroInterior}
                                     alt="Vitro Naturals" />

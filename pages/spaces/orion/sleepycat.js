@@ -15,9 +15,9 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
-import sleepycat from '../../../public/images/stores/orion/sleepycat/sleepycat.webp'
-import sleepycatInterior from '../../../public/images/stores/orion/sleepycat/sleepycat2.webp'
-import sleepycatInterior1 from '../../../public/images/stores/orion/sleepycat/sleepycat3.webp'
+const sleepycat = '/images/stores/orion/sleepycat/sleepycat.webp'
+const sleepycatInterior = '/images/stores/orion/sleepycat/sleepycat2.webp'
+const sleepycatInterior1 = '/images/stores/orion/sleepycat/sleepycat3.webp'
 
 export default function Sleepycat() {
     return (
@@ -40,19 +40,19 @@ export default function Sleepycat() {
                             pagination={{ clickable: true }}
                         >
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={sleepycat}
                                     alt="SleepyCat" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={sleepycatInterior}
                                     alt="SleepyCat" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={sleepycatInterior1}
                                     alt="SleepyCat" />
