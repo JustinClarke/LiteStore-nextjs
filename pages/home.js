@@ -6,10 +6,12 @@ import Header from './layout/Header'
 import Footer from './layout/Footer'
 
 import React, { useState, useEffect } from 'react';
+import WindowSize from './utilities/WindowSize';
+
 import CountUp from 'react-countup'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, EffectFade, A11y, Autoplay, Virtual } from 'swiper';
+import { Navigation, Pagination, EffectFade, A11y, Autoplay } from 'swiper';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -18,62 +20,37 @@ import 'swiper/css/effect-fade';
 import 'swiper/css/virtual';
 
 // store images
-const wow  = '/images/stores/orion/wow/wow1.webp'
-const tpp  = '/images/stores/orion/tpp/tpp.webp'
-const sleepycat  = '/images/stores/orion/sleepycat/sleepycat.webp'
+const wow = '/images/stores/orion/wow/wow1.webp'
+const tpp = '/images/stores/orion/tpp/tpp.webp'
+const sleepycat = '/images/stores/orion/sleepycat/sleepycat.webp'
 
-const mensxp  = '/images/stores/garuda/mensxp/mensxp.webp'
-const vitro  = '/images/stores/garuda/vitro/vitro.webp'
+const mensxp = '/images/stores/garuda/mensxp/mensxp.webp'
+const vitro = '/images/stores/garuda/vitro/vitro.webp'
 
 // store logos
-const wowLogo  = '/logos/trusted/wow.webp'
-const tppLogo  = '/logos/trusted/tpp.webp'
-const sleepycatLogo  = '/logos/trusted/sleepycat.webp'
-const mensxpLogo  = '/logos/trusted/mensxp.webp'
-const vitroLogo  = '/logos/trusted/vitro.webp'
-const jblLogo  = '/logos/trusted/jbl.webp'
-const zymratLogo  = '/logos/trusted/zymrat.webp'
+const wowLogo = '/logos/trusted/wow.webp'
+const tppLogo = '/logos/trusted/tpp.webp'
+const sleepycatLogo = '/logos/trusted/sleepycat.webp'
+const mensxpLogo = '/logos/trusted/mensxp.webp'
+const vitroLogo = '/logos/trusted/vitro.webp'
+const jblLogo = '/logos/trusted/jbl.webp'
+const zymratLogo = '/logos/trusted/zymrat.webp'
+const frootle = '/logos/trusted/frootle.webp'
 
 // real estate partner logos
-const brigadeReap  = '/logos/real-estate-partners/brigade-reap.webp'
-const brigade  = '/logos/real-estate-partners/brigade.webp'
-const brookfield  = '/logos/real-estate-partners/brookfield.webp'
-const garuda  = '/logos/real-estate-partners/garuda.webp'
-const lulu  = '/logos/real-estate-partners/lulu.webp'
+const brigadeReap = '/logos/real-estate-partners/brigade-reap.webp'
+const brigade = '/logos/real-estate-partners/brigade.webp'
+const brookfield = '/logos/real-estate-partners/brookfield.webp'
+const garuda = '/logos/real-estate-partners/garuda.webp'
+const lulu = '/logos/real-estate-partners/lulu.webp'
 
 // media logos
-const apn  = '/logos/articles/apn.webp'
-const fml  = '/logos/articles/fml.webp'
-const ir  = '/logos/articles/ir.webp'
-const mb  = '/logos/articles/mb.webp'
-const pl  = '/logos/articles/pl.webp'
-const twi  = '/logos/articles/twi.webp'
-
-function WindowSize() {
-	// Initialize state with undefined width/height so server and client renders match
-	// Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
-	const [windowSize, setWindowSize] = useState({
-		width: undefined,
-		height: undefined,
-	});
-	useEffect(() => {
-		// Handler to call on window resize
-		function handleResize() {
-			// Set window width/height to state
-			setWindowSize({
-				width: window.innerWidth,
-				height: window.innerHeight,
-			});
-		}
-		// Add event listener
-		window.addEventListener("resize", handleResize);
-		// Call handler right away so state gets updated with initial window size
-		handleResize();
-		// Remove event listener on cleanup
-		return () => window.removeEventListener("resize", handleResize);
-	}, []); // Empty array ensures that effect is only run on mount
-	return windowSize;
-}
+const apn = '/logos/articles/apn.webp'
+const fml = '/logos/articles/fml.webp'
+const ir = '/logos/articles/ir.webp'
+const mb = '/logos/articles/mb.webp'
+const pl = '/logos/articles/pl.webp'
+const twi = '/logos/articles/twi.webp'
 
 export default function home() {
 	const counterDurarion = 7;
@@ -100,14 +77,40 @@ export default function home() {
 					className="w-full min-w-full h-[86.75vh] md:h-[93vh] top-0 left-0 right-0 bottom-0 z-0 bg-cover"
 					>
 						<source
-						src="https://litestore.in/public/img/video/litestore.mp4"
+						src="https://litestore.in/assets/img/video/litestore.mp4"
 						type="video/mp4"
 						/>
 					Your browser does not support the video tag.
 				</video>
 			</div> */}
 
-			<section id="about">
+			<div className="relative bg-black">
+				<div className="bg-hero-section bg-no-repeat h-[86.75vh] md:h-[93vh] bg-center bg-cover">
+					<video autoPlay loop muted className="absolute inset-0 min-w-full object-cover h-[86.75vh] md:h-[93vh] xl:h-auto">
+						<source
+							src="https://litestore.in/assets/img/video/litestore.mp4"
+							type="video/mp4"
+						/>
+					</video>
+					<div className="absolute inset-0">
+						<div className="text-[12rem] font-black pt-[15%] leading-none text-center text-white">
+							LiteStore
+							<p className="text-4xl font-medium leading-none">Launch your own Flexi-Store, instantly</p>
+							<Link href="/spaces">
+								<a>
+									<button className="py-2 px-10 bg-purple hover:bg-darker-purple active:bg-black font-medium text-xl text-white rounded transition ease-in-out delay-10 duration-200 hover:-translate-y-1 hover:scale-110"
+										href="#">
+										Get Started
+									</button>
+								</a>
+							</Link>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<section id="about" className="xl:pt-10">
 				<div className="px-5 md:px-40 pt-5 pb-5 text-center font-light">
 					<h1 className="text-3xl md:text-4xl font-medium text-gray-600">Going offline <span className="invisible md:hidden" ><br /></span> can't get any easier</h1>
 					<h2 className="pt-2 text-sm md:text-xl font-light">LiteStore<sup>®</sup> is an online platform to find, book & set-up retail experience centres on a short term basis.</h2>
@@ -432,37 +435,43 @@ export default function home() {
 							<img
 								className="rounded-lg"
 								src={tppLogo}
-								alt="Wow" />
+								alt="The Pant Project" />
 						</SwiperSlide>
 						<SwiperSlide>
 							<img
 								className="rounded-lg"
 								src={sleepycatLogo}
-								alt="Wow" />
+								alt="SleepyCat" />
 						</SwiperSlide>
 						<SwiperSlide>
 							<img
 								className="rounded-lg"
 								src={mensxpLogo}
-								alt="Wow" />
+								alt="MensXP" />
 						</SwiperSlide>
 						<SwiperSlide>
 							<img
 								className="rounded-lg"
 								src={vitroLogo}
-								alt="Wow" />
+								alt="Vitro" />
 						</SwiperSlide>
 						<SwiperSlide>
 							<img
 								className="rounded-lg"
 								src={jblLogo}
-								alt="Wow" />
+								alt="JBL" />
 						</SwiperSlide>
 						<SwiperSlide>
 							<img
 								className="rounded-lg"
 								src={zymratLogo}
-								alt="Wow" />
+								alt="Zymrat" />
+						</SwiperSlide>
+						<SwiperSlide>
+							<img
+								className="rounded-lg"
+								src={frootle}
+								alt="Frootle" />
 						</SwiperSlide>
 					</Swiper>
 				</div>
@@ -472,23 +481,23 @@ export default function home() {
 					<img
 						className="rounded-lg"
 						src={brigade}
-						alt="Wow" />
+						alt="Brigade" />
 					<img
 						className="rounded-lg"
 						src={brookfield}
-						alt="Wow" />
+						alt="Brookfield" />
 					<img
 						className="rounded-lg"
 						src={brigadeReap}
-						alt="Wow" />
+						alt="Brigade Reap" />
 					<img
 						className="rounded-lg"
 						src={garuda}
-						alt="Wow" />
+						alt="Garuda Mall" />
 					<img
 						className="rounded-lg"
 						src={lulu}
-						alt="Wow" />
+						alt="Lulu Mall" />
 				</div>
 
 				<h1 className="pt-5 md:pt-10 md:pb-3 col-span-6 md:col-span-6 text-center text-medium text-xl md:text-3xl uppercase">Media</h1>
@@ -499,27 +508,27 @@ export default function home() {
 						<img
 							className="rounded-lg"
 							src={apn}
-							alt="Wow" />
+							alt="APN News" />
 						<img
 							className="rounded-lg"
 							src={fml}
-							alt="Wow" />
+							alt="FM Live" />
 						<img
 							className="rounded-lg"
 							src={mb}
-							alt="Wow" />
+							alt="Media Brief" />
 						<img
 							className="rounded-lg"
 							src={pl}
-							alt="Wow" />
+							alt="Pro Live" />
 						<img
 							className="rounded-lg"
 							src={twi}
-							alt="Wow" />
+							alt="This week India" />
 						<img
 							className="rounded-lg"
 							src={ir}
-							alt="Wow" />
+							alt="India Retailing" />
 					</div>
 				</div>
 
