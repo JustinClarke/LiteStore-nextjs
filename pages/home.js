@@ -113,7 +113,7 @@ export default function home() {
 			</div> */}
 
 			<div className="relative bg-black">
-				<div className="bg-no-repeat h-[86.75vh] md:h-[93vh] bg-center bg-cover">
+				<div className="bg-hero-section bg-no-repeat h-[86.75vh] md:h-[93vh] bg-center bg-cover">
 					<video autoPlay loop muted className="absolute inset-0 min-w-full object-cover h-[86.75vh] md:h-[93vh] xl:h-auto">
 						<source
 							src={video}
@@ -126,7 +126,7 @@ export default function home() {
 							LiteStore
 							<p className="text-xl pt-8 md:pt-0 md:text-4xl font-medium md:leading-none">Launch your own Flexi-Store, instantly</p>
 						</div>
-							<div className="grid pt-10">
+						<div className="grid pt-10">
 							<Link href="/spaces">
 								<a className="mx-auto">
 									<button className="py-2 px-10 bg-purple hover:bg-darker-purple active:bg-black font-medium text-xl text-white rounded transition ease-in-out delay-10 duration-200 hover:-translate-y-1 hover:scale-110"
@@ -140,7 +140,7 @@ export default function home() {
 				</div>
 			</div>
 
-			<section id="about" className="xl:pt-10">
+			<section id="about" className="md:pt-8 xl:pt-20">
 				<div className="px-5 md:px-40 pt-5 pb-5 text-center font-light">
 					<h1 className="text-3xl md:text-4xl font-medium text-gray-600">Going offline <span className="invisible md:hidden" ><br /></span> can't get any easier</h1>
 					<h2 className="pt-2 text-sm md:text-xl font-light">LiteStore<sup>®</sup> is an online platform to find, book & set-up retail experience centres on a short term basis.</h2>
