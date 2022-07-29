@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Header from './layout/Header'
 import Footer from './layout/Footer'
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 import CountUp from 'react-countup'
 
@@ -50,12 +50,40 @@ import mb from '../public/logos/articles/mb.webp'
 import pl from '../public/logos/articles/pl.webp'
 import twi from '../public/logos/articles/twi.webp'
 
+function useWindowSize() {
+	// Initialize state with undefined width/height so server and client renders match
+	// Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
+	const [windowSize, setWindowSize] = useState({
+	width: undefined,
+	height: undefined,
+	});
+	useEffect(() => {
+	// Handler to call on window resize
+	function handleResize() {
+		// Set window width/height to state
+		setWindowSize({
+		width: window.innerWidth,
+		height: window.innerHeight,
+		});
+	}
+	// Add event listener
+	window.addEventListener("resize", handleResize);
+	// Call handler right away so state gets updated with initial window size
+	handleResize();
+	// Remove event listener on cleanup
+	return () => window.removeEventListener("resize", handleResize);
+	}, []); // Empty array ensures that effect is only run on mount
+	return windowSize;
+}
 
 export default function home() {
-
 	const counterDurarion = 7;
-
 	var slidesPerView = 7;
+
+	const { height, width } = useWindowSize();
+	if (width < 480) {
+		var slidesPerView = 4;
+	}
 	return (
 		<div>
 			<Head>
@@ -297,7 +325,7 @@ export default function home() {
 				</div>
 			</section>
 
-			<section id="counter" className="px-5 md:px-80 py-10 md:py-10 text-center">
+			<section id="counter" className="px-5 md:px-80 py-5 md:py-10 text-center">
 				<div className="grid grid-cols-3 gap-12 justify-items-center text-purple">
 					<h1 className="col-span-3 font-bold text-xl md:text-3xl text-black">INDIA'S FIRST ONLINE PLATFORM FOR SHORT-TERM RETAIL SPACES.</h1>
 					<div className="grid grid-cols-1 justify-items-center">
@@ -381,8 +409,8 @@ export default function home() {
 				</div>
 			</section>
 
-			<section id="logos" className="py-10">
-				<h1 className="pb-5 text-center text-medium text-xl md:text-3xl uppercase">Trusted By</h1>
+			<section id="logos" className="pt-5 pb-5 md:pb-10">
+				<h1 className="pb-2 text-center text-medium text-xl md:text-3xl uppercase">Trusted By</h1>
 				<div className="flex">
 					<Swiper
 						modules={[Navigation, Pagination, A11y, EffectFade, Autoplay]}
@@ -438,8 +466,9 @@ export default function home() {
 						</SwiperSlide>
 					</Swiper>
 				</div>
+
+				<h1 className="pb-5 md:pb-10 col-span-5 text-center text-medium text-xl md:text-3xl uppercase">Real Estate Partners</h1>
 				<div className="px-10 md:px-[30%] grid grid-cols-5 gap-6">
-					<h1 className="pb-5 md:pb-5 col-span-5 text-center text-medium text-xl md:text-3xl uppercase">Real Estate Partners</h1>
 					<Image
 						className="rounded-lg"
 						src={brigade}
@@ -461,32 +490,87 @@ export default function home() {
 						src={lulu}
 						alt="Wow" />
 				</div>
-				<div className="px-10 md:px-60 grid grid-cols-6 gap-10">
-					<h1 className="py-5 md:pt-10 pb-0 col-span-6 text-center text-medium text-xl md:text-3xl uppercase">Media</h1>
-					<Image
-						className="rounded-lg"
-						src={apn}
-						alt="Wow" />
-					<Image
-						className="rounded-lg"
-						src={fml}
-						alt="Wow" />
-					<Image
-						className="rounded-lg"
-						src={mb}
-						alt="Wow" />
-					<Image
-						className="rounded-lg"
-						src={pl}
-						alt="Wow" />
-					<Image
-						className="rounded-lg"
-						src={twi}
-						alt="Wow" />
-					<Image
-						className="rounded-lg"
-						src={ir}
-						alt="Wow" />
+
+				<h1 className="pt-5 md:pt-10 md:pb-3 col-span-6 md:col-span-6 text-center text-medium text-xl md:text-3xl uppercase">Media</h1>
+				
+				{/* Desktop View */}
+				<div className="invisible md:visible">
+					<div className="px-10 md:px-60 grid grid-cols-6 gap-10">
+						<Image
+							className="rounded-lg"
+							src={apn}
+							alt="Wow" />
+						<Image
+							className="rounded-lg"
+							src={fml}
+							alt="Wow" />
+						<Image
+							className="rounded-lg"
+							src={mb}
+							alt="Wow" />
+						<Image
+							className="rounded-lg"
+							src={pl}
+							alt="Wow" />
+						<Image
+							className="rounded-lg"
+							src={twi}
+							alt="Wow" />
+						<Image
+							className="rounded-lg"
+							src={ir}
+							alt="Wow" />
+					</div>
+				</div>
+
+				{/* Mobile View */}
+				<div className="flex md:hidden">
+						<Swiper
+							modules={[Navigation, Pagination, A11y, EffectFade, Autoplay]}
+							spaceBetween={20}
+							slidesPerView={slidesPerView}
+							autoplay={true}
+							loop={true}
+							centeredSlides={true}
+							grabCursor={true}
+						>
+							<SwiperSlide>
+								<Image
+									className="rounded-lg"
+									src={apn}
+									alt="Wow" />
+							</SwiperSlide>
+							<SwiperSlide>
+								<Image
+									className="rounded-lg"
+									src={fml}
+									alt="Wow" />
+							</SwiperSlide>
+							<SwiperSlide>
+								<Image
+									className="rounded-lg"
+									src={mb}
+									alt="Wow" />
+							</SwiperSlide>
+							<SwiperSlide>
+								<Image
+									className="rounded-lg"
+									src={pl}
+									alt="Wow" />
+							</SwiperSlide>
+							<SwiperSlide>
+								<Image
+									className="rounded-lg"
+									src={twi}
+									alt="Wow" />
+							</SwiperSlide>
+							<SwiperSlide>
+								<Image
+									className="rounded-lg"
+									src={ir}
+									alt="Wow" />
+							</SwiperSlide>
+						</Swiper>
 				</div>
 			</section>
 
