@@ -111,7 +111,7 @@ function Footer() {
 
             <div className="md:hidden pt-4 bg-light-white">
                 <p>
-                    &copy; Copyright meh {year} <strong>Popspace Technologies Pvt. Ltd. </strong>
+                    &copy; Copyright {year} <strong>Popspace Technologies Pvt. Ltd. </strong>
                     <br /> All Rights Reserved
                 </p>
             </div>
