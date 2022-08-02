@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Image from 'next/image'
 
 import Header from '../../layout/Header'
 import Footer from '../../layout/Footer'
@@ -27,10 +26,10 @@ export default function MensXP() {
             </Head>
             <Header />
             <div className="px-5 md:px-40 pt-5 md:pt-10 pb-10 bg-light-white">
-                <h1 className="text-6xl text-mensxp-orange font-bold pb-2">MensXP <span className="text-black font-light"> Flexi-Store,</span><span className="text-black font-semibold"> Garuda Mall</span> </h1>
-                <h1 className="text-2xl font-light py-3">March '22 - June '22</h1>
+                <h1 data-aos="fade-up" className="text-6xl text-mensxp-orange font-bold pb-2">MensXP <span className="text-black font-light"> Flexi-Store,</span><span className="text-black font-semibold"> Garuda Mall</span> </h1>
+                <h1 data-aos="fade-up" className="text-2xl font-light py-3">March '22 - June '22</h1>
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
-                    <div className="flex col-span-2">
+                    <div data-aos="fade" className="flex col-span-2">
                         <Swiper
                             modules={[Navigation, Pagination, A11y, EffectFade, Autoplay]}
                             effect="fade"
@@ -53,7 +52,7 @@ export default function MensXP() {
                         </Swiper>
                     </div>
                     <div className="flex col-span-1 justify-left text-justify">
-                        <div className="grid grid-cols-1 gap-6">
+                        <div data-aos="fade-up" className="grid grid-cols-1 gap-6">
                             <div>
                                 <h1 className="text-4xl font-semibold pb-1">About</h1>
                                 <p className="font-light">After successfully capturing the internet shopping space, MensXP has opened its first store at Bangalore's Garuda Mall</p>

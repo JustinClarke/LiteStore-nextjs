@@ -63,18 +63,18 @@ function Footer() {
                             About
                         </h6>
                         <p className="mb-4">
-                            <Link href="/careers">
+                            <Link href="/about/careers">
                                 <a className="hover:text-light-white transition ease-in-out delay-10 duration-200">Careers</a>
                             </Link>
                         </p>
                         <p className="mb-4">
-                            <Link href="/company">
+                            <Link href="/about/company">
                                 <a className="hover:text-light-white transition ease-in-out delay-10 duration-200">Company</a>
                             </Link>
                         </p>
                         <p className="mb-4">
                             {/* <Link href="/faqs"> */}
-                                <a className="hover:text-light-white transition ease-in-out delay-10 duration-200" href="https://lite-store.vercel.app/faqs/faq-section.html">FAQs</a>
+                            <a className="hover:text-light-white transition ease-in-out delay-10 duration-200" href="https://lite-store.vercel.app/faqs/faq-section.html">FAQs</a>
                             {/* </Link> */}
                         </p>
                     </div>
@@ -96,12 +96,12 @@ function Footer() {
                         </h6>
 
                         <p className="mb-4">
-                            <Link href="/privacypolicy">
+                            <Link href="/legal/privacypolicy">
                                 <a className="hover:text-light-white transition ease-in-out delay-10 duration-200">Privacy Policy</a>
                             </Link>
                         </p>
                         <p className="mb-4">
-                            <Link href="/termsofuse">
+                            <Link href="/legal/termsofuse">
                                 <a className="hover:text-light-white transition ease-in-out delay-10 duration-200">Terms of use</a>
                             </Link>
                         </p>

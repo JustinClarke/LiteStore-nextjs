@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Image from 'next/image'
 
 import Header from '../../layout/Header'
 import Footer from '../../layout/Footer'
@@ -33,7 +32,7 @@ export default function index() {
             <Header />
             <div className="w-full h-[86.75vh] md:h-[93vh] bg-cover bg-center" style={{ backgroundImage: 'url(https://garudamall.in/wp-content/uploads/2019/11/mall2.jpg)' }}>
                 <div className="flex items-center justify-center h-full w-full ">
-                    <div className="text-center w-full bg-gray-900 bg-opacity-40">
+                    <div data-aos="fade-up" className="text-center w-full bg-gray-900 bg-opacity-40">
                         <h1 className="text-5xl md:text-6xl pt-3 text-white font-bold uppercase">Garuda Mall</h1>
                         <h2 className="text-lg md:text-xl pt-1 pb-3 text-white font-medium">CENTRAL BUSINESS DISTRICT</h2>
                     </div>
@@ -42,7 +41,7 @@ export default function index() {
 
             <div className="px-5 md:px-40 py-10 bg-light-white">
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
-                    <div className="flex">
+                    <div data-aos="fade-up" className="flex">
                         <Swiper
                             modules={[Navigation, Pagination, A11y, EffectFade, Autoplay]}
                             effect="fade"
@@ -66,15 +65,15 @@ export default function index() {
                     </div>
                     <div className="flex col-span-2 justify-left">
                         <div className="grid grid-cols-1 gap-6">
-                            <div>
+                            <div data-aos="fade-up">
                                 <h1 className="text-4xl font-semibold pb-1">About</h1>
                                 <p className="font-light">Nestled in the heart of the city - Garuda Mall is one of Bangalore's most popular malls. Situated in the Central Business District of Bangalore - Garuda is a destination mall for every Bangalorean and hosts world's most exciting brands.</p>
                             </div>
-                            <div>
+                            <div data-aos="fade-up">
                                 <h1 className="text-4xl font-semibold pb-1">Size</h1>
                                 <p className="font-light">330 sq. ft. Carpet Area (Central Atrium, 2nd Floor)</p>
                             </div>
-                            <div>
+                            <div data-aos="fade-up">
                                 <h1 className="text-4xl font-semibold pb-1">Location Adjacencies</h1>
                                 <p className="font-light">Upper Ground Floor, Chumbak, Soch, Bombay Store, Shoppers Stop</p>
                             </div>
@@ -85,7 +84,7 @@ export default function index() {
 
 
             <div className="px-5 md:px-40 py-10 text-light-white bg-black">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+                <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
                     <h1 className="text-4xl font-light text-center p-[25%]">One week to ideate and confirm design</h1>
                     <div className="flex">
                         <Swiper
@@ -112,7 +111,7 @@ export default function index() {
             </div>
 
             <div className="px-5 md:px-40 py-10 text-light-white bg-black">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+                <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
                     <div className="flex">
                         <Swiper
                             modules={[Navigation, Pagination, A11y, EffectFade, Autoplay]}
@@ -139,7 +138,7 @@ export default function index() {
             </div>
 
             <div className="px-5 md:px-40 py-10 text-black bg-light-white">
-                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
+                <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
                     <h1 className="text-4xl font-light pb-1">Locate Us</h1>
                     <div className="flex col-span-4">
                         <iframe

@@ -1,8 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
 
-import Header from './layout/Header'
-import Footer from './layout/Footer'
+import Header from '../layout/Header'
+import Footer from '../layout/Footer'
 
 const puneet = '/images/team/puneet.webp'
 const tarun = '/images/team/tarun.jpg'

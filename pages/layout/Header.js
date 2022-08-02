@@ -11,7 +11,7 @@ export default function header() {
 					<Link href="/spaces">
 						<a className="font-light hover:font-medium">Find a Space</a>
 					</Link>
-					<Link href="/company">
+					<Link href="/about/company">
 						<a className="font-light hover:font-medium">Company</a>
 					</Link>
 					<Link href="/contact">

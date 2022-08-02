@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Image from 'next/image'
 
 import Header from '../../layout/Header'
 import Footer from '../../layout/Footer'
@@ -28,10 +27,9 @@ export default function mensxp() {
             </Head>
             <Header />
             <div className="px-5 md:px-40 pt-5 md:pt-10 pb-10 bg-light-white">
-                <h1 className="text-6xl text-wow-gold font-bold pb-2">Wow <br className="invisible md:hidden" /><span className="text-black font-light"> Flexi-Store,</span><span className="text-black font-semibold"> Orion Mall</span> </h1>
-                <h1 className="text-2xl font-light py-3">November '21</h1>
-
-                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
+                <h1 data-aos="fade-up" className="text-6xl text-wow-gold font-bold pb-2">Wow <br className="invisible md:hidden" /><span className="text-black font-light"> Flexi-Store,</span><span className="text-black font-semibold"> Orion Mall</span> </h1>
+                <h1 data-aos="fade-up" className="text-2xl font-light py-3">November '21</h1>
+                <div data-aos="fade" className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
                     <div className="flex col-span-2">
                         <Swiper
                             modules={[Navigation, Pagination, A11y, EffectFade, Autoplay]}
@@ -62,7 +60,7 @@ export default function mensxp() {
                     </div>
                     <div className="flex col-span-1 justify-left text-justify">
                         <div className="grid grid-cols-1 gap-6">
-                            <div>
+                            <div data-aos="fade-up">
                                 <h1 className="text-4xl font-semibold pb-1">About</h1>
                                 <p className="font-light">One of India's most successful skincare, haircare and wellness brands, WOW has been a trailblazer in the D2C online market.</p>
                                 <p className="font-light pt-2">The WOW FlexiStore featured the best of the product line that WOW offers including top sellers like apple cider vinegar shampoo, black onion seed oil and Vitamin C face washes. Customers gushed over the Body Cupid range of products which included a wide range of scrubs and perfumes with many coming back repeatedly during the month to get their hands on more!</p>

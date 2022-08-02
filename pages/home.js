@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Link from 'next/link'
 
 import Header from './layout/Header'
@@ -81,7 +80,7 @@ function WindowSize() {
 }
 
 export default function home() {
-	const counterDurarion = 7;
+	const counterDurarion = 8;
 	var slidesPerView = 7;
 
 	const { height, width } = WindowSize();
@@ -96,22 +95,6 @@ export default function home() {
 			</Head>
 			<Header />
 
-			{/* <div>
-				<video
-					autoplay="true"
-					loop="true"
-					muted="true"
-					playsinline="true"
-					className="w-full min-w-full h-[86.75vh] md:h-[93vh] top-0 left-0 right-0 bottom-0 z-0 bg-cover"
-					>
-						<source
-						src="https://litestore.in/assets/img/video/litestore.mp4"
-						type="video/mp4"
-						/>
-					Your browser does not support the video tag.
-				</video>
-			</div> */}
-
 			<div className="relative bg-black">
 				<div className="bg-hero-section bg-no-repeat h-[86.75vh] md:h-[93vh] bg-center bg-cover">
 					<video autoPlay loop muted className="absolute inset-0 min-w-full object-cover h-[86.75vh] md:h-[93vh] xl:h-auto">
@@ -121,11 +104,11 @@ export default function home() {
 						/>
 						Your browser does not support the video tag.
 					</video>
-					<div className="relative inset-0">
-						<div className="text-7xl md:text-[12rem] font-black pt-[45%] md:pt-[15%] leading-9 md:leading-none text-center text-white">
+					<div data-aos="fade-up" data-aos-delay="100" className="relative inset-0 text-white text-center">
+						<h1 className="text-7xl md:text-[12rem] font-black pt-[45%] md:pt-[15%] leading-9 md:leading-none">
 							LiteStore
-							<p className="text-xl pt-8 md:pt-0 md:text-4xl font-medium md:leading-none">Launch your own Flexi-Store, instantly</p>
-						</div>
+						</h1>
+						<p className="text-xl pt-8 md:pt-0 md:text-4xl font-medium md:leading-none">Launch your own Flexi-Store, instantly</p>
 						<div className="grid pt-10">
 							<Link href="/spaces">
 								<a className="mx-auto">
@@ -141,79 +124,76 @@ export default function home() {
 			</div>
 
 			<section id="about" className="md:pt-8 xl:pt-20">
-				<div className="px-5 md:px-40 pt-5 pb-5 text-center font-light">
+				<div data-aos="fade-up" className="px-5 md:px-40 pt-5 pb-5 text-center font-light">
 					<h1 className="text-3xl md:text-4xl font-medium text-gray-600">Going offline <span className="invisible md:hidden" ><br /></span> can't get any easier</h1>
 					<h2 className="pt-2 text-sm md:text-xl font-light">LiteStore<sup>®</sup> is an online platform to find, book & set-up retail experience centres on a short term basis.</h2>
 				</div>
-
 				<div className="text-gray-600 body-font">
-					<div className="container px-5 pt-0 pb-5 md:pb-10 mx-auto flex flex-wrap">
-						<div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
-							<div className="h-full w-6 absolute inset-0 flex items-center justify-center">
-								<div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
+					<div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+						<div className="h-full w-6 absolute inset-0 flex items-center justify-center">
+							<div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
+						</div>
+						<div data-aos="fade-up" className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-purple text-white relative z-10 title-font font-medium text-sm font-sans">1</div>
+						<div data-aos="fade-up" className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+							<div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-purple rounded-full inline-flex items-center justify-center">
+								<svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+									<path strokeLinecap="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+								</svg>
 							</div>
-							<div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-purple text-white relative z-10 title-font font-medium text-sm font-sans">1</div>
-							<div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-								<div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-purple rounded-full inline-flex items-center justify-center">
-									<svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-										<path strokeLinecap="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-									</svg>
-								</div>
-								<div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-									<h2 className="font-medium title-font mb-1 text-xl">Find a Space</h2>
-									<p className="leading-relaxed">Select a location from our curated list of venues</p>
-								</div>
+							<div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
+								<h2 className="font-medium title-font mb-1 text-xl">Find a Space</h2>
+								<p className="leading-relaxed">Select a location from our curated list of venues</p>
 							</div>
 						</div>
-						<div className="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
-							<div className="h-full w-6 absolute inset-0 flex items-center justify-center">
-								<div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
+					</div>
+					<div className="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+						<div className="h-full w-6 absolute inset-0 flex items-center justify-center">
+							<div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
+						</div>
+						<div data-aos="fade-up" className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-purple text-white relative z-10 title-font font-medium text-sm font-sans">2</div>
+						<div data-aos="fade-up" className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+							<div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-purple rounded-full inline-flex items-center justify-center">
+								<svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+									<path strokeLinecap="round" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
+								</svg>
 							</div>
-							<div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-purple text-white relative z-10 title-font font-medium text-sm font-sans">2</div>
-							<div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-								<div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-purple rounded-full inline-flex items-center justify-center">
-									<svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-										<path strokeLinecap="round" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
-									</svg>
-								</div>
-								<div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-									<h2 className="font-medium title-font mb-1 text-xl">Book & Pay</h2>
-									<p className="leading-relaxed">Simple agreement, signed digitally & transparent pricing</p>
-								</div>
+							<div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
+								<h2 className="font-medium title-font mb-1 text-xl">Book & Pay</h2>
+								<p className="leading-relaxed">Simple agreement, signed digitally & transparent pricing</p>
 							</div>
 						</div>
-						<div className="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
-							<div className="h-full w-6 absolute inset-0 flex items-center justify-center">
-								<div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
+					</div>
+					<div className="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+						<div className="h-full w-6 absolute inset-0 flex items-center justify-center">
+							<div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
+						</div>
+						<div data-aos="fade-up" className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-purple text-white relative z-10 title-font font-medium text-sm font-sans">3</div>
+						<div data-aos="fade-up" className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+							<div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-purple rounded-full inline-flex items-center justify-center">
+								<svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+									<path strokeLinecap="round" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
+								</svg>
 							</div>
-							<div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-purple text-white relative z-10 title-font font-medium text-sm font-sans">3</div>
-							<div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-								<div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-purple rounded-full inline-flex items-center justify-center">
-									<svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-										<path strokeLinecap="round" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
-									</svg>
-								</div>
-								<div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-									<h2 className="font-medium title-font mb-1 text-xl">Customize Your Store</h2>
-									<p className="leading-relaxed">Choose your store layout and select from our list of add-on services</p>
-								</div>
+							<div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
+								<h2 className="font-medium title-font mb-1 text-xl">Customize Your Store</h2>
+								<p className="leading-relaxed">Choose your store layout and select from our list of add-on services</p>
 							</div>
 						</div>
-						<div className="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
-							<div className="h-full w-6 absolute inset-0 flex items-center justify-center">
-								<div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
+					</div>
+					<div className="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+						<div className="h-full w-6 absolute inset-0 flex items-center justify-center">
+							<div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
+						</div>
+						<div data-aos="fade-up" className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-purple text-white relative z-10 title-font font-medium text-sm font-sans">4</div>
+						<div data-aos="fade-up" className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+							<div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-purple rounded-full inline-flex items-center justify-center">
+								<svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+									<path strokeLinecap="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+								</svg>
 							</div>
-							<div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-purple text-white relative z-10 title-font font-medium text-sm font-sans">4</div>
-							<div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-								<div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-purple rounded-full inline-flex items-center justify-center">
-									<svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-										<path strokeLinecap="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-									</svg>
-								</div>
-								<div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-									<h2 className="font-medium title-font mb-1 text-xl">Launch Your Store</h2>
-									<p className="leading-relaxed">Bring your product, team, ideas and head over to your store</p>
-								</div>
+							<div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
+								<h2 className="font-medium title-font mb-1 text-xl">Launch Your Store</h2>
+								<p className="leading-relaxed">Bring your product, team, ideas and head over to your store</p>
 							</div>
 						</div>
 					</div>
@@ -222,10 +202,10 @@ export default function home() {
 
 			<section id="amenities" className="pt-10 pb-20 px-5 md:px-40 lg:px-20 xl:px-60">
 				<div className="text-gray-600">
-					<h1 className="pb-10 col-span-2 text-3xl md:text-4xl text-left md:text-center font-medium">Your Flexi-Store comes ready with</h1>
+					<h1 data-aos="fade-up" className="pb-10 col-span-2 text-3xl md:text-4xl text-left md:text-center font-medium">Your Flexi-Store comes ready with</h1>
 					<div className="grid grid-cols-2 gap-4 md:gap-12 auto-cols-[500px]">
 						<div className="col-span-1">
-							<div className="pt-40 md:pt-0 flex items-center border-b pb-10 border-gray-200 sm:flex-row flex-col">
+							<div data-aos="fade-up" className="pt-40 md:pt-0 flex items-center border-b pb-10 border-gray-200 sm:flex-row flex-col">
 								<div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-purple flex-shrink-0">
 									<svg xmlns="http://www.w3.org/2000/svg" className="h-14 w-14" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
 										<path strokeLinecap="round" strokeLinejoin="round" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
@@ -236,7 +216,7 @@ export default function home() {
 									<p className="leading-relaxed text-base">The interiors, lighting & fitout are already complete so you can leave your toolbox at home</p>
 								</div>
 							</div>
-							<div className="flex items-center border-b pb-10 pt-10 border-gray-200 sm:flex-row flex-col">
+							<div data-aos="fade-up" className="flex items-center border-b pb-10 pt-10 border-gray-200 sm:flex-row flex-col">
 								<div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
 									<h2 className="text-gray-900 text-xl title-font font-medium mb-2">Modular Fixtures</h2>
 									<p className="leading-relaxed text-base">Chic and easy to assemble fixtures for a wide range of product categories</p>
@@ -247,7 +227,7 @@ export default function home() {
 									</svg>
 								</div>
 							</div>
-							<div className="flex items-center sm:flex-row pt-10 flex-col">
+							<div data-aos="fade-up" className="flex items-center sm:flex-row pt-10 flex-col">
 								<div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-purple flex-shrink-0">
 									<svg xmlns="http://www.w3.org/2000/svg" className="h-14 w-14" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
 										<path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
@@ -260,7 +240,7 @@ export default function home() {
 							</div>
 						</div>
 						<div className="col-span-1">
-							<div className="flex items-center border-b pb-10 border-gray-200 sm:flex-row flex-col">
+							<div data-aos="fade-up" className="flex items-center border-b pb-10 border-gray-200 sm:flex-row flex-col">
 								<div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-purple flex-shrink-0">
 									<svg xmlns="http://www.w3.org/2000/svg" className="h-14 w-14" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
 										<path strokeLinecap="round" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -271,7 +251,7 @@ export default function home() {
 									<p className="leading-relaxed text-base">We've asked everybody for permission, so you don't have to!</p>
 								</div>
 							</div>
-							<div className="flex items-center border-b pb-10 pt-10 border-gray-200 sm:flex-row flex-col">
+							<div data-aos="fade-up" className="flex items-center border-b pb-10 pt-10 border-gray-200 sm:flex-row flex-col">
 								<div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
 									<h2 className="text-gray-900 text-xl title-font font-medium mb-2">Branding</h2>
 									<p className="leading-relaxed text-base">Digital Screens and dedicated surfaces will bring your brand to life in the store</p>
@@ -282,7 +262,7 @@ export default function home() {
 									</svg>
 								</div>
 							</div>
-							<div className="flex items-center sm:flex-row pt-10 flex-col">
+							<div data-aos="fade-up" className="flex items-center sm:flex-row pt-10 flex-col">
 								<div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-purple flex-shrink-0">
 									<svg xmlns="http://www.w3.org/2000/svg" className="h-14 w-14" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
 										<path strokeLinecap="round" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
@@ -295,11 +275,12 @@ export default function home() {
 							</div>
 						</div>
 					</div>
+
 				</div>
 			</section>
 
 			<section id="brands" className="px-5 md:px-40 py-10 bg-black justify-center">
-				<div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+				<div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-2 gap-4">
 					<div className="grid grid-cols-2 gap-4">
 						<h1 className="pb-2 col-span-2 text-2xl md:text-4xl font-light text-center text-light-white">LiteStore<sup>®</sup>, Orion Mall</h1>
 						<Link href="/spaces/orion/wow">
@@ -359,7 +340,7 @@ export default function home() {
 			</section>
 
 			<section id="counter" className="px-5 md:px-60 lg:px-40 xl:px-60 py-5 md:py-10 text-center">
-				<div className="grid grid-cols-3 gap-12 justify-items-center text-purple">
+				<div data-aos="fade-up" className="grid grid-cols-3 gap-12 justify-items-center text-purple">
 					<h1 className="col-span-3 font-bold text-xl md:text-3xl text-black">INDIA'S FIRST ONLINE PLATFORM FOR SHORT-TERM RETAIL SPACES.</h1>
 					<div className="grid grid-cols-1 justify-items-center">
 						<div className="flex col-span-1">
@@ -443,8 +424,8 @@ export default function home() {
 			</section>
 
 			<section id="logos" className="pt-5 pb-5 md:pb-10">
-				<h1 className="pb-2 text-center text-medium text-xl md:text-3xl uppercase">Trusted By</h1>
-				<div className="flex">
+				<h1 data-aos="fade-up" className="pb-2 text-center text-medium text-xl md:text-3xl uppercase">Trusted By</h1>
+				<div data-aos="fade-up" className="flex">
 					<Swiper
 						modules={[Navigation, Pagination, A11y, EffectFade, Autoplay]}
 						spaceBetween={50}
@@ -506,8 +487,8 @@ export default function home() {
 					</Swiper>
 				</div>
 
-				<h1 className="pb-5 md:pb-10 col-span-5 text-center text-medium text-xl md:text-3xl uppercase">Real Estate Partners</h1>
-				<div className="px-10 md:px-[30%] grid grid-cols-5 gap-6">
+				<h1 data-aos="fade-up" className="pb-5 md:pb-10 col-span-5 text-center text-medium text-xl md:text-3xl uppercase">Real Estate Partners</h1>
+				<div data-aos="fade-up" className="px-10 md:px-[30%] grid grid-cols-5 gap-6">
 					<img
 						className="rounded-lg"
 						src={brigade}
@@ -533,7 +514,7 @@ export default function home() {
 				<h1 className="pt-5 md:pt-10 md:pb-3 col-span-6 md:col-span-6 text-center text-medium text-xl md:text-3xl uppercase">Media</h1>
 
 				{/* Desktop View */}
-				<div className="invisible md:visible">
+				<div data-aos="fade-up" className="invisible md:visible">
 					<div className="px-10 md:px-60 grid grid-cols-6 gap-10">
 						<img
 							className="rounded-lg"
@@ -563,7 +544,7 @@ export default function home() {
 				</div>
 
 				{/* Mobile View */}
-				<div className="flex md:hidden">
+				<div data-aos="fade-up" className="flex md:hidden">
 					<Swiper
 						modules={[Navigation, Pagination, A11y, EffectFade, Autoplay]}
 						spaceBetween={20}

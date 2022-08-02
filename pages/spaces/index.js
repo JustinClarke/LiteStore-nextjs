@@ -1,12 +1,22 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Image from 'next/image'
 
 import Header from '../layout/Header'
 import Footer from '../layout/Footer'
 
 const orion = '/images/stores/orion/orion.jpg'
 const garuda = '/images/stores/garuda/garuda.webp'
+
+
+// store logos
+const wowLogo = '../logos/trusted/wow.webp'
+const tppLogo = '../logos/trusted/tpp.webp'
+const sleepycatLogo = '../logos/trusted/sleepycat.webp'
+const mensxpLogo = '../logos/trusted/mensxp.webp'
+const vitroLogo = '../logos/trusted/vitro.webp'
+const jblLogo = '../logos/trusted/jbl.webp'
+const zymratLogo = '../logos/trusted/zymrat.webp'
+const frootle = '../logos/trusted/frootle.webp'
 
 export default function spaces() {
     return (
@@ -17,13 +27,13 @@ export default function spaces() {
             </Head>
             <Header />
             <div className="px-5 md:px-40 lg:px-20 xl:px-40 pt-5 pb-5 font-light bg-light-white">
-                <h1 className="text-4xl font-medium">Flagship Spaces</h1>
-                <h2 className="pt-2 text-xl font-light">Operated by LiteStore<sup>®</sup></h2>
+                <h1 data-aos="fade" className="text-4xl font-medium">Flagship Spaces</h1>
+                <h2 data-aos="fade" className="pt-2 text-xl font-light">Operated by LiteStore<sup>®</sup></h2>
             </div>
 
             <div className="px-5 md:px-40 lg:px-20 xl:px-40 pb-10 bg-light-white">
                 <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-6">
-                    <div className="flex justify-left">
+                    <div data-aos="fade" className="flex justify-left">
                         <Link href="/spaces/orion">
                             <a>
                                 <div className="rounded-lg shadow-lg bg-white max-w-sm hover:scale-105 transition ease-in-out duration-500">
@@ -42,7 +52,35 @@ export default function spaces() {
                             </a>
                         </Link>
                     </div>
-                    <div className="flex justify-left">
+                    <div data-aos="fade-up" className="flex justify-left">
+                        <div className="grid grid-cols-2 grid-rows-3 gap-6">
+                            <Link href="/spaces/orion/wow">
+                                <a>
+                                    <img
+                                        className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+                                        src={wowLogo}
+                                        alt="Wow" />
+                                </a>
+                            </Link>
+                            <Link href="/spaces/orion/thepantproject">
+                                <a>
+                                    <img
+                                        className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+                                        src={tppLogo}
+                                        alt="The Pant Project" />
+                                </a>
+                            </Link>
+                            <Link href="/spaces/orion/sleepycat">
+                                <a>
+                                    <img
+                                        className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+                                        src={sleepycatLogo}
+                                        alt="SleepyCat" />
+                                </a>
+                            </Link>
+                        </div>
+                    </div>
+                    <div data-aos="fade" className="flex justify-left">
                         <Link href="/spaces/garuda">
                             <a>
                                 <div className="rounded-lg shadow-lg bg-white max-w-sm hover:scale-105 transition ease-in-out duration-500">
@@ -60,6 +98,26 @@ export default function spaces() {
                                 </div>
                             </a>
                         </Link>
+                    </div>
+                    <div data-aos="fade-up" className="flex justify-left">
+                        <div className="grid grid-cols-2 grid-rows-3 gap-6">
+                            <Link href="/spaces/garuda/mensxp">
+                                <a>
+                                    <img
+                                        className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+                                        src={mensxpLogo}
+                                        alt="MensXP" />
+                                </a>
+                            </Link>
+                            <Link href="/spaces/garuda/vitro">
+                                <a>
+                                    <img
+                                        className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+                                        src={vitroLogo}
+                                        alt="Vitro Naturals" />
+                                </a>
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </div>
