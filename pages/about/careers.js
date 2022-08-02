@@ -8,7 +8,19 @@ export default function careers() {
         <div>
             <Head>
                 <title>Careers | LiteStore</title>
-                <meta name="description" content="LiteStore" />
+				<meta name="description" content="Careers | LiteStore" />
+				<meta name="twitter:title" content="Careers | LiteStore" />
+				<meta property="og:title" content="Careers | LiteStore" />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z1S5RX2Q4E"></script>
+				<script>
+					window.dataLayer = window.dataLayer || [];
+					function gtag(){
+						dataLayer.push(arguments)
+					}
+					gtag('js', new Date());
+
+					gtag('config', 'G-Z1S5RX2Q4E');
+				</script>
             </Head>
             <Header />
             <div className="px-8 md:px-60 pt-5 md:pt-10 pb-10 font-light bg-light-white text-justify">

@@ -15,16 +15,16 @@ export default function index() {
                 <meta name="description" content="Blog | LiteStore" />
                 <meta name="twitter:title" content="Blog | LiteStore" />
                 <meta property="og:title" content="Blog | LiteStore" />
-                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209054329-1"></script>
-                <script>
-                    window.dataLayer = window.dataLayer || [];
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z1S5RX2Q4E"></script>
+				<script>
+					window.dataLayer = window.dataLayer || [];
+					function gtag(){
+						dataLayer.push(arguments)
+					}
+					gtag('js', new Date());
 
-                    function gtag() {
-                        dataLayer.push(arguments)
-                    }
-                    gtag('js', new Date());
-                    gtag('config', 'UA-209054329-1');
-                </script>
+					gtag('config', 'G-Z1S5RX2Q4E');
+				</script>
             </Head>
             <Header />
             <h1 className="px-5 md:px-40 pt-5 md:pt-10 text-6xl font-semibold">Blog</h1>

@@ -26,15 +26,15 @@ export default function Sleepycat() {
 				<meta name="description" content="SleepyCat | LiteStore" />
 				<meta name="twitter:title" content="SleepyCat | LiteStore" />
 				<meta property="og:title" content="SleepyCat | LiteStore" />
-                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209054329-1"></script>
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z1S5RX2Q4E"></script>
 				<script>
 					window.dataLayer = window.dataLayer || [];
-					
-					function gtag() {
+					function gtag(){
 						dataLayer.push(arguments)
 					}
 					gtag('js', new Date());
-					gtag('config', 'UA-209054329-1');
+
+					gtag('config', 'G-Z1S5RX2Q4E');
 				</script>
             </Head>
             <Header />

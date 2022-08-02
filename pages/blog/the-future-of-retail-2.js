@@ -15,15 +15,15 @@ export default function blog() {
 				<meta name="description" content="Blog | LiteStore" />
 				<meta name="twitter:title" content="Blog | LiteStore" />
 				<meta property="og:title" content="Blog | LiteStore" />
-				<script async src="https://www.googletagmanager.com/gtag/js?id=UA-209054329-1"></script>
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z1S5RX2Q4E"></script>
 				<script>
 					window.dataLayer = window.dataLayer || [];
-					
-					function gtag() {
+					function gtag(){
 						dataLayer.push(arguments)
 					}
 					gtag('js', new Date());
-					gtag('config', 'UA-209054329-1');
+
+					gtag('config', 'G-Z1S5RX2Q4E');
 				</script>
 			</Head>
 			<Header />
