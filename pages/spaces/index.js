@@ -14,9 +14,9 @@ const tppLogo = '../logos/trusted/tpp.webp'
 const sleepycatLogo = '../logos/trusted/sleepycat.webp'
 const mensxpLogo = '../logos/trusted/mensxp.webp'
 const vitroLogo = '../logos/trusted/vitro.webp'
-// const jblLogo = '../logos/trusted/jbl.webp'
+const jblLogo = '../logos/trusted/jbl.webp'
 // const zymratLogo = '../logos/trusted/zymrat.webp'
-// const frootle = '../logos/trusted/frootle.webp'
+const frootleLogo = '../logos/trusted/frootle.webp'
 
 export default function spaces() {
     return (
@@ -140,6 +140,26 @@ export default function spaces() {
                                 </div>
                             </a>
                         </Link>
+                    </div>
+                    <div data-aos="fade-up" className="flex justify-left">
+                        <div className="grid grid-cols-2 grid-rows-1 gap-3">
+                            <Link href="/spaces/garuda/mensxp">
+                                <a>
+                                    <img
+                                        className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+                                        src={jblLogo}
+                                        alt="MensXP" />
+                                </a>
+                            </Link>
+                            <Link href="/spaces/garuda/vitro">
+                                <a>
+                                    <img
+                                        className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+                                        src={frootleLogo}
+                                        alt="Vitro Naturals" />
+                                </a>
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </div>

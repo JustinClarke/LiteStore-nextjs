@@ -36,7 +36,7 @@ const mensxpLogo = '/logos/trusted/mensxp.webp'
 const vitroLogo = '/logos/trusted/vitro.webp'
 const jblLogo = '/logos/trusted/jbl.webp'
 const zymratLogo = '/logos/trusted/zymrat.webp'
-const frootle = '/logos/trusted/frootle.webp'
+const frootleLogo = '/logos/trusted/frootle.webp'
 
 // real estate partner logos
 const brigadeReap = '/logos/real-estate-partners/brigade-reap.webp'
@@ -481,7 +481,7 @@ export default function home() {
 						<SwiperSlide>
 							<img
 								className="rounded-lg"
-								src={frootle}
+								src={frootleLogo}
 								alt="Frootle" />
 						</SwiperSlide>
 					</Swiper>
