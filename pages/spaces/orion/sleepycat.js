@@ -23,19 +23,10 @@ export default function Sleepycat() {
         <div>
             <Head>
                 <title>SleepyCat | LiteStore</title>
-				<meta name="description" content="SleepyCat | LiteStore" />
-				<meta name="twitter:title" content="SleepyCat | LiteStore" />
-				<meta property="og:title" content="SleepyCat | LiteStore" />
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z1S5RX2Q4E"></script>
-				<script>
-					window.dataLayer = window.dataLayer || [];
-					function gtag(){
-						dataLayer.push(arguments)
-					}
-					gtag('js', new Date());
+                <meta name="description" content="SleepyCat | LiteStore" />
+                <meta name="twitter:title" content="SleepyCat | LiteStore" />
+                <meta property="og:title" content="SleepyCat | LiteStore" />
 
-					gtag('config', 'G-Z1S5RX2Q4E');
-				</script>
             </Head>
             <Header />
             <div className="px-5 md:px-40 pt-5 md:pt-10 pb-10 bg-light-white">

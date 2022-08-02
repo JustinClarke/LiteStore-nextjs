@@ -12,19 +12,10 @@ export default function company() {
         <div>
             <Head>
                 <title>Company | LiteStore</title>
-				<meta name="description" content="Company | LiteStore" />
-				<meta name="twitter:title" content="Company | LiteStore" />
-				<meta property="og:title" content="Company | LiteStore" />
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z1S5RX2Q4E"></script>
-				<script>
-					window.dataLayer = window.dataLayer || [];
-					function gtag(){
-						dataLayer.push(arguments)
-					}
-					gtag('js', new Date());
+                <meta name="description" content="Company | LiteStore" />
+                <meta name="twitter:title" content="Company | LiteStore" />
+                <meta property="og:title" content="Company | LiteStore" />
 
-					gtag('config', 'G-Z1S5RX2Q4E');
-				</script>
             </Head>
             <Header />
             <div className="px-8 md:px-80 pt-5 md:pt-10 pb-10 font-light text-justify bg-light-white">
