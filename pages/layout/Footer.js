@@ -74,7 +74,7 @@ function Footer() {
                         </p>
                         <p className="mb-4">
                             {/* <Link href="/faqs"> */}
-                            <a className="hover:text-light-white transition ease-in-out delay-10 duration-200" href="https://lite-store.vercel.app/faqs/faq-section.html">FAQs</a>
+                            <a className="hover:text-light-white transition ease-in-out delay-10 duration-200" href="https://litestore-faqs.vercel.app/faqs/faq-section.html">FAQs</a>
                             {/* </Link> */}
                         </p>
                     </div>

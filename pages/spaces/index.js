@@ -14,9 +14,9 @@ const tppLogo = '../logos/trusted/tpp.webp'
 const sleepycatLogo = '../logos/trusted/sleepycat.webp'
 const mensxpLogo = '../logos/trusted/mensxp.webp'
 const vitroLogo = '../logos/trusted/vitro.webp'
-const jblLogo = '../logos/trusted/jbl.webp'
-const zymratLogo = '../logos/trusted/zymrat.webp'
-const frootle = '../logos/trusted/frootle.webp'
+// const jblLogo = '../logos/trusted/jbl.webp'
+// const zymratLogo = '../logos/trusted/zymrat.webp'
+// const frootle = '../logos/trusted/frootle.webp'
 
 export default function spaces() {
     return (
