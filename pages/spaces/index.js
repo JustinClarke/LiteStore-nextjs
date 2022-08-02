@@ -4,9 +4,9 @@ import Link from 'next/link'
 import Header from '../layout/Header'
 import Footer from '../layout/Footer'
 
-const orion = '/images/stores/orion/orion.jpg'
+const orion = '/images/stores/orion/orion.webp'
 const garuda = '/images/stores/garuda/garuda.webp'
-
+const lulu = '/images/stores/lulu/lulu.webp'
 
 // store logos
 const wowLogo = '../logos/trusted/wow.webp'
@@ -33,6 +33,7 @@ export default function spaces() {
 
             <div className="px-5 md:px-40 lg:px-20 xl:px-40 pb-10 bg-light-white">
                 <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-6">
+                    {/* Orion Mall */}
                     <div data-aos="fade" className="flex justify-left">
                         <Link href="/spaces/orion">
                             <a>
@@ -53,7 +54,7 @@ export default function spaces() {
                         </Link>
                     </div>
                     <div data-aos="fade-up" className="flex justify-left">
-                        <div className="grid grid-cols-2 grid-rows-3 gap-6">
+                        <div className="grid grid-cols-2 grid-rows-2 gap-3">
                             <Link href="/spaces/orion/wow">
                                 <a>
                                     <img
@@ -80,6 +81,7 @@ export default function spaces() {
                             </Link>
                         </div>
                     </div>
+                    {/* Garuda Mall */}
                     <div data-aos="fade" className="flex justify-left">
                         <Link href="/spaces/garuda">
                             <a>
@@ -100,7 +102,7 @@ export default function spaces() {
                         </Link>
                     </div>
                     <div data-aos="fade-up" className="flex justify-left">
-                        <div className="grid grid-cols-2 grid-rows-3 gap-6">
+                        <div className="grid grid-cols-2 grid-rows-1 gap-3">
                             <Link href="/spaces/garuda/mensxp">
                                 <a>
                                     <img
@@ -118,6 +120,26 @@ export default function spaces() {
                                 </a>
                             </Link>
                         </div>
+                    </div>
+                    {/* Lulu Mall */}
+                    <div data-aos="fade" className="flex justify-left">
+                        <Link href="/spaces/lulu">
+                            <a>
+                                <div className="rounded-lg shadow-lg bg-white max-w-sm hover:scale-105 transition ease-in-out duration-500">
+                                    <img
+                                        src={lulu}
+                                        className="rounded-t-lg "
+                                        alt="Lulu Mall" />
+                                    <div className="p-6">
+                                        <p className="text-purple text-3xl text-left font-semibold mb-2 hover:underline">
+                                            Lulu Mall,
+                                            <br />
+                                            <span className="text-black">Bangalore</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </Link>
                     </div>
                 </div>
             </div>
