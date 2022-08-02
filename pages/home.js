@@ -123,7 +123,7 @@ export default function home() {
 				</div>
 			</div>
 
-			<section id="about" className="md:pt-8 xl:pt-20">
+			<section id="about" className="px-5 md:pt-8 xl:pt-20">
 				<div data-aos="fade-up" className="px-5 md:px-40 pt-5 pb-5 text-center font-light">
 					<h1 className="text-3xl md:text-4xl font-medium text-gray-600">Going offline <span className="invisible md:hidden" ><br /></span> can't get any easier</h1>
 					<h2 className="pt-2 text-sm md:text-xl font-light">LiteStore<sup>®</sup> is an online platform to find, book & set-up retail experience centres on a short term basis.</h2>
