@@ -23,7 +23,9 @@ export default function mensxp() {
         <div>
             <Head>
                 <title>Wow | LiteStore</title>
-                <meta name="description" content="LiteStore" />
+				<meta name="description" content="Wow | LiteStore" />
+				<meta name="twitter:title" content="Wow | LiteStore" />
+				<meta property="og:title" content="Wow | LiteStore" />Wow
             </Head>
             <Header />
             <div className="px-5 md:px-40 pt-5 md:pt-10 pb-10 bg-light-white">

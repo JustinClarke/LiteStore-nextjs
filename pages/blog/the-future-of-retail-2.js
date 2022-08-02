@@ -12,7 +12,9 @@ export default function blog() {
 		<div>
 			<Head>
 				<title>Blog | LiteStore</title>
-				<meta name="description" content="LiteStore" />
+				<meta name="description" content="Blog | LiteStore" />
+				<meta name="twitter:title" content="Blog | LiteStore" />
+				<meta property="og:title" content="Blog | LiteStore" />
 			</Head>
 			<Header />
 			<div className="px-5 md:px-80 pt-5 md:pt-5 pb-10 font-light bg-white text-justify">

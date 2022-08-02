@@ -30,7 +30,9 @@ export default function Contact() {
 		<div>
 			<Head>
 				<title>Contact | LiteStore</title>
-				<meta name="description" content="LiteStore" />
+				<meta name="description" content="Contact | LiteStore" />
+				<meta name="twitter:title" content="Contact | LiteStore" />
+				<meta property="og:title" content="Contact | LiteStore" />
 			</Head>
 			<Header />
 

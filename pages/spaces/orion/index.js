@@ -29,7 +29,9 @@ export default function index() {
         <div>
             <Head>
                 <title>Orion Mall | LiteStore</title>
-                <meta name="description" content="LiteStore" />
+				<meta name="description" content="Orion Mall | LiteStore" />
+				<meta name="twitter:title" content="Orion Mall | LiteStore" />
+				<meta property="og:title" content="Orion Mall | LiteStore" />
             </Head>
             <Header />
             <div className="w-full h-[86.75vh] md:h-[93vh] bg-cover bg-center" style={{ backgroundImage: 'urlhttps://litestore-faqs.vercel.app/assets/img/places/orion/orion.jpg)' }}>

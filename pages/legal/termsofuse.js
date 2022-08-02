@@ -8,7 +8,8 @@ export default function termsofuse() {
         <div>
             <Head>
                 <title>Terms of use | LiteStore</title>
-                <meta name="description" content="LiteStore" />
+				<meta name="description" content="Terms of use | LiteStore" />
+				<meta property="og:title" content="Terms of use | LiteStore" />
             </Head>
             <Header />
             <div className="px-8 md:px-80 pt-5 md:pt-10 pb-10 font-light bg-light-white text-justify">

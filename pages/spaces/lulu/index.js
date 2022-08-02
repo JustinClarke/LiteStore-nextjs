@@ -24,6 +24,9 @@ export default function index() {
             <Head>
                 <title>Lulu Mall | LiteStore</title>
                 <meta name="description" content="LiteStore" />
+				<meta name="description" content="Lulu Mall | LiteStore" />
+				<meta name="twitter:title" content="Lulu Mall | LiteStore" />
+				<meta property="og:title" content="Lulu Mall | LiteStore" />
             </Head>
             <Header />
             <div className="w-full h-[86.75vh] md:h-[93vh] bg-cover bg-center" style={{ backgroundImage: 'url(https://images.newindianexpress.com/uploads/user/imagelibrary/2021/10/10/w900X450/Lulu_Hypermarket.jpg?w=400&dpr=2.6)' }}>

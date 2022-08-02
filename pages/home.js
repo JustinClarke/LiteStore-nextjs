@@ -91,7 +91,9 @@ export default function home() {
 		<div>
 			<Head>
 				<title>Home | LiteStore</title>
-				<meta name="description" content="LiteStore" />
+				<meta name="description" content="Home | LiteStore" />
+				<meta name="twitter:title" content="Home | LiteStore" />
+				<meta property="og:title" content="Home | LiteStore" />
 			</Head>
 			<Header />
 

@@ -23,7 +23,9 @@ export default function Sleepycat() {
         <div>
             <Head>
                 <title>SleepyCat | LiteStore</title>
-                <meta name="description" content="LiteStore" />
+				<meta name="description" content="SleepyCat | LiteStore" />
+				<meta name="twitter:title" content="SleepyCat | LiteStore" />
+				<meta property="og:title" content="SleepyCat | LiteStore" />
             </Head>
             <Header />
             <div className="px-5 md:px-40 pt-5 md:pt-10 pb-10 bg-light-white">

@@ -23,7 +23,9 @@ export default function spaces() {
         <div>
             <Head>
                 <title>Spaces | LiteStore</title>
-                <meta name="description" content="LiteStore" />
+                <meta name="description" content="Spaces | LiteStore" />
+                <meta name="twitter:title" content="Spaces | LiteStore" />
+                <meta property="og:title" content="Spaces | LiteStore" />Spaces
             </Head>
             <Header />
             <div className="px-5 md:px-40 lg:px-20 xl:px-40 pt-5 pb-5 font-light bg-light-white">
