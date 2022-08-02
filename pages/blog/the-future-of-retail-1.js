@@ -15,6 +15,16 @@ export default function blog() {
 				<meta name="description" content="Blog | LiteStore" />
 				<meta name="twitter:title" content="Blog | LiteStore" />
 				<meta property="og:title" content="Blog | LiteStore" />
+				<script async src="https://www.googletagmanager.com/gtag/js?id=UA-209054329-1"></script>
+				<script>
+					window.dataLayer = window.dataLayer || [];
+
+					function gtag() {
+						dataLayer.push(arguments)
+					}
+					gtag('js', new Date());
+					gtag('config', 'UA-209054329-1');
+				</script>
 			</Head>
 			<Header />
 			<div className="px-5 md:px-80 pt-5 md:pt-5 pb-10 font-light bg-white text-justify">

@@ -27,6 +27,16 @@ export default function index() {
 				<meta name="description" content="Lulu Mall | LiteStore" />
 				<meta name="twitter:title" content="Lulu Mall | LiteStore" />
 				<meta property="og:title" content="Lulu Mall | LiteStore" />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209054329-1"></script>
+				<script>
+					window.dataLayer = window.dataLayer || [];
+					
+					function gtag() {
+						dataLayer.push(arguments)
+					}
+					gtag('js', new Date());
+					gtag('config', 'UA-209054329-1');
+				</script>
             </Head>
             <Header />
             <div className="w-full h-[86.75vh] md:h-[93vh] bg-cover bg-center" style={{ backgroundImage: 'url(https://images.newindianexpress.com/uploads/user/imagelibrary/2021/10/10/w900X450/Lulu_Hypermarket.jpg?w=400&dpr=2.6)' }}>

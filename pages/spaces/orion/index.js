@@ -32,6 +32,16 @@ export default function index() {
 				<meta name="description" content="Orion Mall | LiteStore" />
 				<meta name="twitter:title" content="Orion Mall | LiteStore" />
 				<meta property="og:title" content="Orion Mall | LiteStore" />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209054329-1"></script>
+				<script>
+					window.dataLayer = window.dataLayer || [];
+					
+					function gtag() {
+						dataLayer.push(arguments)
+					}
+					gtag('js', new Date());
+					gtag('config', 'UA-209054329-1');
+				</script>
             </Head>
             <Header />
             <div className="w-full h-[86.75vh] md:h-[93vh] bg-cover bg-center" style={{ backgroundImage: 'urlhttps://litestore-faqs.vercel.app/assets/img/places/orion/orion.jpg)' }}>

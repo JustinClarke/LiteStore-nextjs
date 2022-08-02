@@ -33,6 +33,16 @@ export default function Contact() {
 				<meta name="description" content="Contact | LiteStore" />
 				<meta name="twitter:title" content="Contact | LiteStore" />
 				<meta property="og:title" content="Contact | LiteStore" />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209054329-1"></script>
+				<script>
+					window.dataLayer = window.dataLayer || [];
+					
+					function gtag() {
+						dataLayer.push(arguments)
+					}
+					gtag('js', new Date());
+					gtag('config', 'UA-209054329-1');
+				</script>
 			</Head>
 			<Header />
 

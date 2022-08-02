@@ -25,7 +25,17 @@ export default function mensxp() {
                 <title>Wow | LiteStore</title>
 				<meta name="description" content="Wow | LiteStore" />
 				<meta name="twitter:title" content="Wow | LiteStore" />
-				<meta property="og:title" content="Wow | LiteStore" />Wow
+				<meta property="og:title" content="Wow | LiteStore" />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209054329-1"></script>
+				<script>
+					window.dataLayer = window.dataLayer || [];
+					
+					function gtag() {
+						dataLayer.push(arguments)
+					}
+					gtag('js', new Date());
+					gtag('config', 'UA-209054329-1');
+				</script>
             </Head>
             <Header />
             <div className="px-5 md:px-40 pt-5 md:pt-10 pb-10 bg-light-white">

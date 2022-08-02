@@ -8,8 +8,18 @@ export default function termsofuse() {
         <div>
             <Head>
                 <title>Terms of use | LiteStore</title>
-				<meta name="description" content="Terms of use | LiteStore" />
-				<meta property="og:title" content="Terms of use | LiteStore" />
+                <meta name="description" content="Terms of use | LiteStore" />
+                <meta property="og:title" content="Terms of use | LiteStore" />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209054329-1"></script>
+                <script>
+                    window.dataLayer = window.dataLayer || [];
+
+                    function gtag() {
+                        dataLayer.push(arguments)
+                    }
+                    gtag('js', new Date());
+                    gtag('config', 'UA-209054329-1');
+                </script>
             </Head>
             <Header />
             <div className="px-8 md:px-80 pt-5 md:pt-10 pb-10 font-light bg-light-white text-justify">
