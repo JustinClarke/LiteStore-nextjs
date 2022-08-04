@@ -330,13 +330,12 @@ export default function home() {
 									alt="Vito Naturals" />
 							</a>
 						</Link>
-
-						<div>
+						{/* <div>
 							<img
 								className="rounded-lg invisible"
 								src={vitro}
 								alt="Vito Naturals" />
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</section>
