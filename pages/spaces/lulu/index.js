@@ -24,9 +24,10 @@ export default function index() {
             <Head>
                 <title>Lulu Mall | LiteStore</title>
                 <meta name="description" content="LiteStore" />
-				<meta name="description" content="Lulu Mall | LiteStore" />
-				<meta name="twitter:title" content="Lulu Mall | LiteStore" />
-				<meta property="og:title" content="Lulu Mall | LiteStore" />
+                <meta name="description" content="Lulu Mall | LiteStore" />
+                <meta name="twitter:title" content="Lulu Mall | LiteStore" />
+                <meta property="og:title" content="Lulu Mall | LiteStore" />
+
             </Head>
             <Header />
             <div className="w-full h-[86.75vh] md:h-[93vh] bg-cover bg-center" style={{ backgroundImage: 'url(https://images.newindianexpress.com/uploads/user/imagelibrary/2021/10/10/w900X450/Lulu_Hypermarket.jpg?w=400&dpr=2.6)' }}>
@@ -70,7 +71,7 @@ export default function index() {
                             </SwiperSlide>
                         </Swiper>
                     </div>
-                        <div className="flex col-span-2 justify-left text-justify">
+                    <div className="flex col-span-2 justify-left text-justify">
                         <div className="grid grid-cols-1 gap-6">
                             <div data-aos="fade-up">
                                 <h1 className="text-4xl font-semibold pb-1">About</h1>
@@ -92,7 +93,7 @@ export default function index() {
                     </div>
                 </div>
             </div>
-{/* 
+            {/* 
             <div className="px-5 md:px-40 py-10 text-light-white bg-black">
                 <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
                     <h1 className="text-4xl font-light text-center p-[25%]">One week to ideate and confirm design</h1>

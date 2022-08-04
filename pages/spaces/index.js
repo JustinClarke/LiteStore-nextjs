@@ -25,7 +25,8 @@ export default function spaces() {
                 <title>Spaces | LiteStore</title>
                 <meta name="description" content="Spaces | LiteStore" />
                 <meta name="twitter:title" content="Spaces | LiteStore" />
-                <meta property="og:title" content="Spaces | LiteStore" />Spaces
+                <meta property="og:title" content="Spaces | LiteStore" />
+
             </Head>
             <Header />
             <div className="px-5 md:px-40 lg:px-20 xl:px-40 pt-5 pb-5 font-light bg-light-white">
@@ -145,8 +146,7 @@ export default function spaces() {
                     </div>
                     <div data-aos="fade-up" className="flex justify-left">
                         <div className="grid grid-cols-2 grid-rows-1 gap-3">
-
-                        <Link href="/spaces">
+                            <Link href="/spaces">
                                 <a>
                                     <img
                                         className="rounded-lg hover:scale-105 transition ease-in-out duration-500"

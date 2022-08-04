@@ -8,8 +8,9 @@ export default function privacypolicy() {
         <div>
             <Head>
                 <title>Privacy Policy | LiteStore</title>
-				<meta name="description" content="Privacy Policy | LiteStore" />
-				<meta property="og:title" content="Privacy Policy | LiteStore" />
+                <meta name="description" content="Privacy Policy | LiteStore" />
+                <meta property="og:title" content="Privacy Policy | LiteStore" />
+
             </Head>
             <Header />
             <div className="px-8 md:px-80 pt-5 md:pt-10 pb-10 font-light bg-light-white text-justify">

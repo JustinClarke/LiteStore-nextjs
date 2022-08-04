@@ -12,7 +12,10 @@ export default function company() {
         <div>
             <Head>
                 <title>Company | LiteStore</title>
-                <meta name="description" content="LiteStore" />
+                <meta name="description" content="Company | LiteStore" />
+                <meta name="twitter:title" content="Company | LiteStore" />
+                <meta property="og:title" content="Company | LiteStore" />
+
             </Head>
             <Header />
             <div className="px-8 md:px-80 pt-5 md:pt-10 pb-10 font-light text-justify bg-light-white">

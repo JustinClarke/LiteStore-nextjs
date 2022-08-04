@@ -8,7 +8,10 @@ export default function careers() {
         <div>
             <Head>
                 <title>Careers | LiteStore</title>
-                <meta name="description" content="LiteStore" />
+                <meta name="description" content="Careers | LiteStore" />
+                <meta name="twitter:title" content="Careers | LiteStore" />
+                <meta property="og:title" content="Careers | LiteStore" />
+
             </Head>
             <Header />
             <div className="px-8 md:px-60 pt-5 md:pt-10 pb-10 font-light bg-light-white text-justify">

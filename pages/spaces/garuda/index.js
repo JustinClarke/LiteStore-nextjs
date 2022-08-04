@@ -27,9 +27,10 @@ export default function index() {
         <div>
             <Head>
                 <title>Garuda Mall | LiteStore</title>
-				<meta name="description" content="Garuda Mall | LiteStore" />
-				<meta name="twitter:title" content="Garuda Mall | LiteStore" />
-				<meta property="og:title" content="Garuda Mall | LiteStore" />
+                <meta name="description" content="Garuda Mall | LiteStore" />
+                <meta name="twitter:title" content="Garuda Mall | LiteStore" />
+                <meta property="og:title" content="Garuda Mall | LiteStore" />
+
             </Head>
             <Header />
             <div className="w-full h-[86.75vh] md:h-[93vh] bg-cover bg-center" style={{ backgroundImage: 'url(https://garudamall.in/wp-content/uploads/2019/11/mall2.jpg)' }}>

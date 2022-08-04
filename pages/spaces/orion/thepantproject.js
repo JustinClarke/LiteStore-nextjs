@@ -22,9 +22,10 @@ export default function ThePantProject() {
         <div>
             <Head>
                 <title>The Pant Project | LiteStore</title>
-				<meta name="description" content="The Pant Project | LiteStore" />
-				<meta name="twitter:title" content="The Pant Project | LiteStore" />
-				<meta property="og:title" content="The Pant Project | LiteStore" />
+                <meta name="description" content="The Pant Project | LiteStore" />
+                <meta name="twitter:title" content="The Pant Project | LiteStore" />
+                <meta property="og:title" content="The Pant Project | LiteStore" />
+
             </Head>
             <Header />
             <div className="px-5 md:px-40 pt-5 md:pt-10 pb-10 bg-light-white">
