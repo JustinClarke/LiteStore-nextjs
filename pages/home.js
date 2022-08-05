@@ -98,8 +98,8 @@ export default function home() {
 			<Header />
 
 			<div className="relative bg-black">
-				<div className="bg-hero-section bg-no-repeat h-[86.75vh] md:h-[93vh] bg-center bg-cover">
-					<video autoPlay loop muted className="absolute inset-0 min-w-full object-cover h-[86.75vh] md:h-[93vh] xl:h-auto">
+				<div className="bg-hero-section bg-no-repeat h-[88vh] md:h-[93vh] bg-center bg-cover">
+					<video autoPlay loop muted className="absolute inset-0 min-w-full object-cover h-[86.75vh] md:h-[93vh] ">
 						<source
 							src={video}
 							type="video/mp4"

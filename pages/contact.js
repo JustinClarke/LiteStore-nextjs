@@ -73,7 +73,7 @@ export default function Contact() {
 								Send Message
 							</button>
 						</Link>
-						{/* <p class="text-xs text-gray-500 mt-3">Message Sent</p> */}
+						{/* <p className="text-xs text-gray-500 mt-3">Message Sent</p> */}
 					</form>
 				</div>
 			</section>

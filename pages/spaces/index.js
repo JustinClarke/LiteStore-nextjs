@@ -36,20 +36,20 @@ export default function spaces() {
 
             <div className="px-5 md:px-40 lg:px-20 xl:px-40 pb-10 bg-light-white">
                 <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-6">
+
                     {/* Orion Mall */}
                     <div data-aos="fade" className="flex justify-left">
                         <Link href="/spaces/orion">
                             <a>
-                                <div className="rounded-lg shadow-lg bg-white max-w-sm hover:scale-105 transition ease-in-out duration-500">
+                                <div className="rounded-lg shadow-lg bg-white hover:text-white hover:bg-black max-w-sm hover:scale-105 transition ease-in-out duration-500">
                                     <img
                                         src={orion}
                                         className="rounded-t-lg "
                                         alt="Orion Mall" />
                                     <div className="p-6">
-                                        <p className="text-purple text-3xl text-left font-semibold mb-2 hover:underline">
+                                        <p className="text-3xl text-left font-semibold mb-2">
                                             Orion Mall,
-                                            <br />
-                                            <span className="text-black">Bangalore</span>
+                                            <br /> Bangalore
                                         </p>
                                     </div>
                                 </div>
@@ -84,20 +84,20 @@ export default function spaces() {
                             </Link>
                         </div>
                     </div>
+
                     {/* Garuda Mall */}
                     <div data-aos="fade" className="flex justify-left">
                         <Link href="/spaces/garuda">
                             <a>
-                                <div className="rounded-lg shadow-lg bg-white max-w-sm hover:scale-105 transition ease-in-out duration-500">
+                                <div className="rounded-lg shadow-lg bg-white hover:text-white hover:bg-black max-w-sm hover:scale-105 transition ease-in-out duration-500">
                                     <img
                                         src={garuda}
                                         className="rounded-t-lg "
                                         alt="Garuda Mall" />
                                     <div className="p-6">
-                                        <p className="text-purple text-3xl text-left font-semibold mb-2 hover:underline">
+                                        <p className="text-3xl text-left font-semibold mb-2">
                                             Garuda Mall,
-                                            <br />
-                                            <span className="text-black">Bangalore</span>
+                                            <br /> Bangalore
                                         </p>
                                     </div>
                                 </div>
@@ -124,20 +124,20 @@ export default function spaces() {
                             </Link>
                         </div>
                     </div>
+
                     {/* Lulu Mall */}
                     <div data-aos="fade" className="flex justify-left">
                         <Link href="/spaces/lulu">
                             <a>
-                                <div className="rounded-lg shadow-lg bg-white max-w-sm hover:scale-105 transition ease-in-out duration-500">
+                                <div className="rounded-lg shadow-lg bg-white hover:text-white hover:bg-black max-w-sm hover:scale-105 transition ease-in-out duration-500">
                                     <img
                                         src={lulu}
                                         className="rounded-t-lg "
                                         alt="Lulu Mall" />
                                     <div className="p-6">
-                                        <p className="text-purple text-3xl text-left font-semibold mb-2 hover:underline">
+                                        <p className="text-3xl text-left font-semibold mb-2">
                                             Lulu Mall,
-                                            <br />
-                                            <span className="text-black">Bangalore</span>
+                                            <br /> Bangalore
                                         </p>
                                     </div>
                                 </div>
