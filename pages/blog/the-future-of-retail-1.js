@@ -17,7 +17,7 @@ export default function blog() {
 				<meta property="og:title" content="Blog | LiteStore" />
 			</Head>
 			<Header />
-			<div className="px-5 md:px-80 pt-5 md:pt-5 pb-10 font-light bg-white text-justify">
+			<div data-aos="fade-up" data-aos-delay="100" className="px-5 md:px-80 pt-5 md:pt-5 pb-10 font-light bg-white text-justify">
 				<h1 className="py-5 font-serif text-gray-700 text-4xl text-center">The Future of Retail: More Than Just Space - I</h1>
 				<p><span className="font-semibold">Date:</span> 19 May 2021</p>
 				<h2 className="py-5 font-serif text-gray-600 text-3xl text-center italic">'Physical Retail Isn't dead. Boring Retail Is'</h2>
@@ -70,7 +70,7 @@ export default function blog() {
 						target="_blank" rel="noreferrer"
 					> 4,831 media placements</a>.
 				</p>
-				<div className="py-3 w-1/2 mx-auto">
+				<div className="py-3 w-full md:w-1/2 mx-auto">
 					<img className="rounded-lg" src={blog1} alt="blog" layout='responsive' />
 					<div className="pt-2 font-semibold text-purple hover:text-black">
 						<a href="https://www.hungryforever.com"><span className="text-black">Picture Credits:</span> Hungry Forever</a>
@@ -95,7 +95,7 @@ export default function blog() {
 						target="_blank" rel="noreferrer"
 					> 125 percent</a>.
 				</p>
-				<div className="py-3 w-1/2 mx-auto">
+				<div className="py-3 w-full md:w-1/2 mx-auto">
 					<img className="rounded-lg" src={blog2} alt="blog" layout='responsive' />
 					<div className="pt-2 font-semibold text-purple hover:text-black">
 						<a href="https://www.stylus.com"><span className="text-black">Picture Credits:</span> Stylus</a>

@@ -12,11 +12,11 @@ export default function index() {
                 <meta name="description" content="LiteStore" />
             </Head>
             <Header />
-            <h1 data-aos="fade-up" className="px-5 md:px-40 pt-5 text-6xl font-semibold">FAQs</h1>
+            <h1 data-aos="fade-up" className="px-5 md:px-40 pt-10 md:pt-20 text-6xl font-semibold">FAQs</h1>
 
             <div>
                 <section className="text-gray-600 body-font">
-                    <div className="px-5 md:px-40 py-10 lg:py-36 mx-auto">
+                    <div className="px-5 md:px-40 py-5 lg:py-36 mx-auto">
                         <div className="flex flex-wrap -m-4 text-center">
                             <Link href="/faqs/general">
                                 <a className="p-4 md:w-1/4 sm:w-1/2 w-full hover:scale-110 transition ease-in-out duration-500">

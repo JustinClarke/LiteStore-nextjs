@@ -17,7 +17,7 @@ export default function blog() {
 				<meta property="og:title" content="Blog | LiteStore" />
 			</Head>
 			<Header />
-			<div className="px-5 md:px-80 pt-5 md:pt-5 pb-10 font-light bg-white text-justify">
+			<div data-aos="fade-up" data-aos-delay="100" className="px-5 md:px-80 pt-5 md:pt-5 pb-10 font-light bg-white text-justify">
 				<h1 className="py-5 font-serif text-gray-700 text-4xl text-center">The Future of Retail: More Than Just Space - II</h1>
 				<p><span className="font-semibold">Date:</span> 19 May 2021</p>
 				<p className="pt-3">
@@ -40,7 +40,7 @@ export default function blog() {
 				<p className="py-3">
 					Admittedly, from a sales point of view, it makes more financial sense to pack the store with inventory. But that would be missing the point. Creating a lasting impression of your brand in a customer's mind is not merely about making a sale then and there.It is about creating an experience which builds a positive association with the brand. Doing this offline, in a physical store, is not only unique but creates a deeper, more personal bond with the customer.
 				</p>
-				<div className="py-3 w-1/2 mx-auto">
+				<div className="py-3 w-full md:w-1/2 mx-auto">
 					<img className="rounded-lg" src={blog1} alt="blog" layout='responsive' />
 					<div className="pt-2 font-semibold text-purple hover:text-black">
 						<a href="http://www.pen-online.jp"><span className="text-black">Picture Credits:</span> Pen Online</a>
@@ -60,7 +60,7 @@ export default function blog() {
 						target="_blank" rel="noreferrer"
 					> 125 percent</a>.
 				</p>
-				<div className="py-3 w-1/2 mx-auto">
+				<div className="py-3 w-full md:w-1/2 mx-auto">
 					<img className="rounded-lg" src={blog2} alt="blog" layout='responsive' />
 					<div className="pt-2 font-semibold text-purple hover:text-black">
 						<a href="https://www.artsy.net"><span className="text-black">Picture Credits:</span> Artsy</a>

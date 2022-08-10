@@ -9,13 +9,13 @@ export default function header() {
 				</Link>
 				<div className="flex flex-row items-center sm:justify-end sm:mt-0 sm:pl-5">
 					<Link href="/spaces">
-						<a className="p-3 md:p-6 font-light hover:text-white hover:bg-purple transition ease-in-out delay-10 duration-200">Find a Space</a>
+						<a className="p-3 md:p-6 font-light hover:text-white hover:bg-purple transition ease-in-out delay-20 duration-300">Find a Space</a>
 					</Link>
 					<Link href="/about/company">
-						<a className="p-3 md:p-6 font-light hover:text-white hover:bg-purple transition ease-in-out delay-10 duration-200">Company</a>
+						<a className="p-3 md:p-6 font-light hover:text-white hover:bg-purple transition ease-in-out delay-20 duration-300">Company</a>
 					</Link>
 					<Link href="/contact">
-						<a className="p-3 md:p-6 font-light hover:text-white hover:bg-purple transition ease-in-out delay-10 duration-200">Contact Us</a>
+						<a className="p-3 md:p-6 font-light hover:text-white hover:bg-purple transition ease-in-out delay-20 duration-300">Contact Us</a>
 					</Link>
 				</div>
 			</nav>

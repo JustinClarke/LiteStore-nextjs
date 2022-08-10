@@ -18,11 +18,11 @@ export default function index() {
 
             </Head>
             <Header />
-            <h1 className="px-5 md:px-40 pt-5 md:pt-10 text-6xl font-semibold">Blog</h1>
+            <h1 data-aos="fade-up" data-aos-delay="100" className="px-5 md:px-40 pt-5 md:pt-10 text-6xl font-semibold">Blog</h1>
             <section className="px-5 md:px-40 py-10 text-gray-600 body-font">
                 <div className="">
                     <div className="flex flex-wrap gap-6">
-                        <div className="py-4 px-4 lg:w-1/3 border-2 border-gray-200 border-opacity-60 rounded-lg">
+                        <div data-aos="fade-up" data-aos-delay="100" className="py-4 px-4 lg:w-1/3 border-2 border-gray-200 border-opacity-60 rounded-lg">
                             <div className="pb-4">
                                 <img className="rounded-lg" src={blog1} alt="blog" />
                             </div>
@@ -48,7 +48,7 @@ export default function index() {
                                 </div>
                             </div>
                         </div>
-                        <div className="py-4 px-4 lg:w-1/3 border-2 border-gray-200 border-opacity-60 rounded-lg">
+                        <div data-aos="fade-up" data-aos-delay="200" className="py-4 px-4 lg:w-1/3 border-2 border-gray-200 border-opacity-60 rounded-lg">
                             <div className="pb-4">
                                 <img className="rounded-lg" src={blog2} alt="blog" />
                             </div>
