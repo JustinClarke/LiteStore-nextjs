@@ -21,12 +21,12 @@ import 'swiper/css/virtual';
 const video = '/video/litestore.mp4'
 
 // store images
-const wow = '/images/stores/orion/wow/wow1.webp'
-const tpp = '/images/stores/orion/tpp/tpp.webp'
-const sleepycat = '/images/stores/orion/sleepycat/sleepycat.webp'
+const wow = '/images/spaces/orion/wow/wow1.webp'
+const tpp = '/images/spaces/orion/tpp/tpp.webp'
+const sleepycat = '/images/spaces/orion/sleepycat/sleepycat.webp'
 
-const mensxp = '/images/stores/garuda/mensxp/mensxp.webp'
-const vitro = '/images/stores/garuda/vitro/vitro.webp'
+const mensxp = '/images/spaces/garuda/mensxp/mensxp.webp'
+const vitro = '/images/spaces/garuda/vitro/vitro.webp'
 
 // store logos
 const wowLogo = '/logos/trusted/wow.webp'
