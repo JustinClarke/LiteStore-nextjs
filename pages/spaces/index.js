@@ -30,15 +30,15 @@ export default function spaces() {
             </Head>
             <Header />
             <div className="px-5 md:px-40 lg:px-20 xl:px-40 pt-5 pb-5 font-light bg-light-white">
-                <h1 data-aos="fade" className="text-4xl font-medium">Flagship Spaces</h1>
-                <h2 data-aos="fade" className="pt-2 text-xl font-light">Operated by LiteStore<sup>®</sup></h2>
+                <h1 data-aos="fade" data-aos-delay="300" className="text-4xl font-medium">Flagship Spaces</h1>
+                <h2 data-aos="fade" data-aos-delay="300" className="pt-2 text-xl font-light">Operated by LiteStore<sup>®</sup></h2>
             </div>
 
             <div className="px-5 md:px-40 lg:px-20 xl:px-40 pb-10 bg-light-white">
                 <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-6">
 
                     {/* Orion Mall */}
-                    <div data-aos="fade" className="flex justify-left">
+                    <div data-aos="fade" data-aos-delay="300" className="flex justify-left">
                         <Link href="/spaces/orion">
                             <a>
                                 <div className="rounded-lg shadow-lg bg-white hover:text-white hover:bg-black max-w-sm hover:scale-105 transition ease-in-out duration-500">
@@ -86,7 +86,7 @@ export default function spaces() {
                     </div>
 
                     {/* Garuda Mall */}
-                    <div data-aos="fade" className="flex justify-left">
+                    <div data-aos="fade" data-aos-delay="300" className="flex justify-left">
                         <Link href="/spaces/garuda">
                             <a>
                                 <div className="rounded-lg shadow-lg bg-white hover:text-white hover:bg-black max-w-sm hover:scale-105 transition ease-in-out duration-500">
@@ -126,7 +126,7 @@ export default function spaces() {
                     </div>
 
                     {/* Lulu Mall */}
-                    <div data-aos="fade" className="flex justify-left">
+                    <div data-aos="fade" data-aos-delay="300" className="flex justify-left">
                         <Link href="/spaces/lulu">
                             <a>
                                 <div className="rounded-lg shadow-lg bg-white hover:text-white hover:bg-black max-w-sm hover:scale-105 transition ease-in-out duration-500">
