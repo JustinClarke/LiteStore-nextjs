@@ -35,8 +35,8 @@ export default function company() {
 
                 <div className="px-0 md:px-60 pb-10">
                     <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
-                        <div className="flex justify-center">
-                            <div data-aos="fade-up" data-aos-delay="100" className="rounded-lg shadow-lg bg-white max-w-sm">
+                        <div data-aos="fade-up" data-aos-delay="300" className="flex justify-center">
+                            <div className="rounded-lg shadow-lg bg-white max-w-sm">
                                 <a href="#">
                                     <img src={puneet} className="rounded-t-lg" alt="Puneet Dinesh" />
                                 </a>
@@ -45,7 +45,7 @@ export default function company() {
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="fade-up" data-aos-delay="100" className="flex justify-center">
+                        <div data-aos="fade-up" data-aos-delay="300" className="flex justify-center">
                             <div className="rounded-lg shadow-lg bg-white max-w-sm">
                                 <a href="#">
                                     <img src={pranav} className="rounded-t-lg" alt="Pranav Agarwal" />
@@ -55,7 +55,7 @@ export default function company() {
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="fade-up" data-aos-delay="100" className="flex justify-center">
+                        <div data-aos="fade-up" data-aos-delay="300" className="flex justify-center">
                             <div className="rounded-lg shadow-lg bg-white max-w-sm">
                                 <a href="#">
                                     <img src={tarun} className="rounded-t-lg" alt="Tarun Sundaram" />
