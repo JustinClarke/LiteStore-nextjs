@@ -443,27 +443,27 @@ export default function brands() {
             <div className="px-5 md:px-40">
                 <div className="grid grid-cols-1 md:grid-cols-3 py-5">
                     <h1 data-aos="fade-up" className="col-span-1 pt-5 text-6xl font-semibold"><span className="text-purple">Brands</span> FAQs</h1>
-                    <div data-aos="fade-up" class="col-span-1 md:col-span-2 text-gray-600 body-font">
-                        <div class="container py-5">
-                            <div class="flex flex-wrap -m-4 text-center justify-end">
+                    <div data-aos="fade-up" className="col-span-1 md:col-span-2 text-gray-600 body-font">
+                        <div className="container py-5">
+                            <div className="flex flex-wrap -m-4 text-center justify-end">
                                 <Link href="/faqs/general">
-                                    <a class="p-2 md:p-4 w-full md:w-auto">
-                                        <div class="border-2 border-gray-200 px-2 py-2 md:px-4 md:py-4 rounded-lg transition ease-in-out delay-10 duration-200 hover:-translate-y-1 hover:scale-110">
-                                            <p class="leading-relaxed">General FAQs</p>
+                                    <a className="p-2 md:p-4 w-full md:w-auto">
+                                        <div className="border-2 border-gray-200 px-2 py-2 md:px-4 md:py-4 rounded-lg transition ease-in-out delay-10 duration-200 hover:-translate-y-1 hover:scale-110">
+                                            <p className="leading-relaxed">General FAQs</p>
                                         </div>
                                     </a>
                                 </Link>
                                 <Link href="/faqs/landowners">
-                                    <a class="p-2 md:p-4 w-full md:w-auto">
-                                        <div class="border-2 border-gray-200 px-2 py-2 md:px-4 md:py-4 rounded-lg transition ease-in-out delay-10 duration-200 hover:-translate-y-1 hover:scale-110">
-                                            <p class="leading-relaxed">Landowners FAQs</p>
+                                    <a className="p-2 md:p-4 w-full md:w-auto">
+                                        <div className="border-2 border-gray-200 px-2 py-2 md:px-4 md:py-4 rounded-lg transition ease-in-out delay-10 duration-200 hover:-translate-y-1 hover:scale-110">
+                                            <p className="leading-relaxed">Landowners FAQs</p>
                                         </div>
                                     </a>
                                 </Link>
                                 <Link href="/faqs/services">
-                                    <a class="p-2 md:p-4 w-full md:w-auto">
-                                        <div class="border-2 border-gray-200 px-2 py-2 md:px-4 md:py-4 rounded-lg transition ease-in-out delay-10 duration-200 hover:-translate-y-1 hover:scale-110">
-                                            <p class="leading-relaxed">Services FAQs</p>
+                                    <a className="p-2 md:p-4 w-full md:w-auto">
+                                        <div className="border-2 border-gray-200 px-2 py-2 md:px-4 md:py-4 rounded-lg transition ease-in-out delay-10 duration-200 hover:-translate-y-1 hover:scale-110">
+                                            <p className="leading-relaxed">Services FAQs</p>
                                         </div>
                                     </a>
                                 </Link>
