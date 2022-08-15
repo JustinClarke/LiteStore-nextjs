@@ -31,6 +31,7 @@ module.exports = {
 		'vitro-green': '#2c4b35',
 		'wow-gold': '#bc9850',
 		'sleepycat-orange': '#ff6832',
+		'jbl-orange': '#ff3200',
 		white: colors.white,
 		gray: colors.gray,
 		emerald: colors.emerald,

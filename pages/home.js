@@ -340,8 +340,8 @@ export default function home() {
 				</div>
 			</section>
 
-			<section id="counter" className="px-5 md:px-60 lg:px-40 xl:px-60 py-5 md:py-10 text-center">
-				<div data-aos="fade-up" className="grid grid-cols-3 gap-12 justify-items-center text-purple">
+			<section id="counter" className="px-0 md:px-60 lg:px-40 xl:px-60 py-5 md:py-10 text-center">
+				<div data-aos="fade-up" className="grid grid-cols-3 gap-12 justify-center text-purple">
 					<h1 className="col-span-3 font-bold text-xl md:text-3xl text-black">INDIA'S FIRST ONLINE PLATFORM FOR SHORT-TERM RETAIL SPACES.</h1>
 					<div className="grid grid-cols-1 justify-items-center">
 						<div className="flex col-span-1">
@@ -381,7 +381,7 @@ export default function home() {
 						</div>
 						<p className="pt-8 leading-4 text-sm md:text-2xl text-black font-semibold">Sunk Cost</p>
 					</div>
-					<div className="grid grid-cols-1 justify-items-center">
+					<div className="grid grid-cols-1 justify-items-end md:justify-items-center">
 						<div className="flex col-span-1">
 							<p className="text-5xl md:text-8xl font-black font-sans">
 								<CountUp
@@ -407,7 +407,7 @@ export default function home() {
 						</div>
 						<p className="pt-9 leading-4 text-sm md:text-xl text-black font-semibold">Cheaper than Conventional Retail Models</p>
 					</div>
-					<div className="grid grid-cols-1 justify-items-center">
+					<div className="grid grid-cols-1 justify-items-end md:justify-items-center pr-1 md:pr-0">
 						<div className="flex col-span-1">
 							<p className="pt-3 md:pt-5 text-xl md:text-6xl font-semibold">₹</p>
 							<p className="text-5xl md:text-8xl font-black font-sans">
@@ -419,7 +419,7 @@ export default function home() {
 							</p>
 							<p className="pt-6 md:pt-16 text-[10px] md:text-lg leading-none md:leading-none text-left">Lakh+ GMV</p>
 						</div>
-						<p className="pt-2 leading-4 text-sm md:text-xl text-black font-semibold">Sold in Flexi-Stores</p>
+						<p className="pt-2 pr-2 md:pr-0 leading-4 text-sm md:text-xl text-black font-semibold">Sold in<br className="invisible md:hidden" /> Flexi-Stores</p>
 					</div>
 				</div>
 			</section>
@@ -536,7 +536,7 @@ export default function home() {
 						<img
 							className="rounded-lg"
 							src={twi}
-							alt="This week India" />
+							alt="This Week India" />
 						<img
 							className="rounded-lg"
 							src={ir}
@@ -559,37 +559,37 @@ export default function home() {
 							<img
 								className="rounded-lg"
 								src={apn}
-								alt="Wow" />
+								alt="APN News" />
 						</SwiperSlide>
 						<SwiperSlide>
 							<img
 								className="rounded-lg"
 								src={fml}
-								alt="Wow" />
+								alt="FM Live" />
 						</SwiperSlide>
 						<SwiperSlide>
 							<img
 								className="rounded-lg"
 								src={mb}
-								alt="Wow" />
+								alt="Media Brief" />
 						</SwiperSlide>
 						<SwiperSlide>
 							<img
 								className="rounded-lg"
 								src={pl}
-								alt="Wow" />
+								alt="Pro Live" />
 						</SwiperSlide>
 						<SwiperSlide>
 							<img
 								className="rounded-lg"
 								src={twi}
-								alt="Wow" />
+								alt="This Week India" />
 						</SwiperSlide>
 						<SwiperSlide>
 							<img
 								className="rounded-lg"
 								src={ir}
-								alt="Wow" />
+								alt="India Retailing" />
 						</SwiperSlide>
 					</Swiper>
 				</div>
