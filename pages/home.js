@@ -417,7 +417,7 @@ export default function home() {
 									duration={counterDurarion}
 								/>
 							</p>
-							<p className="pt-6 md:pt-16 pr-2 md:pr-0 text-[10px] md:text-lg leading-none md:leading-none text-left">Lakh+ GMV</p>
+							<p className="pt-6 md:pt-16 text-[10px] md:text-lg leading-none md:leading-none text-left">Lakh+ GMV</p>
 						</div>
 						<p className="pt-2 leading-4 text-sm md:text-xl text-black font-semibold">Sold in Flexi-Stores</p>
 					</div>
