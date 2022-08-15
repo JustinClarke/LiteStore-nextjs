@@ -35,11 +35,36 @@ export default function index() {
 
             </Head>
             <Header />
-            <div className="w-full h-[86.75vh] md:h-[93vh] bg-cover bg-center" style={{ backgroundImage: 'urlhttps://litestore.in/images/spaces/orion/orion-landscape.jpg)' }}>
+            <div className="w-full h-[86.75vh] md:h-[93vh] bg-cover bg-center" style={{ backgroundImage: 'url(https://litestore.in/images/spaces/orion/orion-landscape.jpg)' }}>
                 <div className="flex items-center justify-center h-full w-full ">
                     <div data-aos="fade-up" className="text-center w-full bg-gray-900 bg-opacity-40">
                         <h1 className="text-5xl md:text-6xl pt-3 text-white font-bold uppercase">Orion Mall</h1>
-                        <h2 className="text-lg md:text-xl pt-1 pb-3 text-white font-medium">Brigade Gateway, Rajajinagar</h2>
+                        <h2 className="text-lg md:text-xl pt-1 text-white font-medium">Brigade Gateway, Rajajinagar</h2>
+                        <div data-aos="fade-up" className="text-light-white body-font">
+                            <div className="grid grid-cols-3 px-0 md:px-60 text-center justify-center">
+                                <Link href="/spaces/orion/wow">
+                                    <a className="p-2 md:p-4 w-full md:w-auto">
+                                        <div className="border-2 hover:bg-wow-gold border-gray-200 py-2 md:py-4 rounded-lg transition ease-in-out delay-10 duration-200 hover:-translate-y-1 hover:scale-105">
+                                            <p className="leading-relaxed">Wow Skin Care</p>
+                                        </div>
+                                    </a>
+                                </Link>
+                                <Link href="/spaces/orion/thepantproject">
+                                    <a className="p-2 md:p-4 w-full md:w-auto">
+                                        <div className="border-2 hover:bg-black border-gray-200 py-2 md:py-4 rounded-lg transition ease-in-out delay-10 duration-200 hover:-translate-y-1 hover:scale-105">
+                                            <p className="leading-relaxed">The Pant Project</p>
+                                        </div>
+                                    </a>
+                                </Link>
+                                <Link href="/spaces/orion/sleepycat">
+                                    <a className="p-2 md:p-4 w-full md:w-auto">
+                                        <div className="border-2 hover:bg-sleepycat-orange border-gray-200 py-2 md:py-4 rounded-lg transition ease-in-out delay-10 duration-200 hover:-translate-y-1 hover:scale-105">
+                                            <p className="leading-relaxed">SleepyCat</p>
+                                        </div>
+                                    </a>
+                                </Link>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
