@@ -3,9 +3,9 @@ import Head from 'next/head'
 import Header from '../layout/Header'
 import Footer from '../layout/Footer'
 
-const puneet = '/images/team/puneet.webp'
-const tarun = '/images/team/tarun.jpg'
-const pranav = '/images/team/pranav.webp'
+const puneet = '/team/puneet.webp'
+const tarun = '/team/tarun.jpg'
+const pranav = '/team/pranav.webp'
 
 export default function company() {
     return (

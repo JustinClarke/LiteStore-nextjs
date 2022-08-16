@@ -14,9 +14,9 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
-const lulu1 = '/images/spaces/lulu/lulu1.webp'
-const lulu2 = '/images/spaces/lulu/lulu2.jpeg'
-const lulu3 = '/images/spaces/lulu/lulu3.jpeg'
+const lulu1 = '/spaces/lulu/lulu1.webp'
+const lulu2 = '/spaces/lulu/lulu2.jpeg'
+const lulu3 = '/spaces/lulu/lulu3.jpeg'
 
 export default function index() {
     return (

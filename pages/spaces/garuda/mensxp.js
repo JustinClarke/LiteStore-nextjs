@@ -14,8 +14,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
-const mensxp = '/images/spaces/garuda/mensxp/mensxp.webp'
-const mensxpInterior = '/images/spaces/garuda/mensxp/mensxp1.webp'
+const mensxp = '/spaces/garuda/mensxp/mensxp.webp'
+const mensxpInterior = '/spaces/garuda/mensxp/mensxp1.webp'
 
 export default function MensXP() {
     return (

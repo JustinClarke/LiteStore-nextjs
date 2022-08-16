@@ -14,13 +14,13 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
-const mensxp = '/images/spaces/garuda/mensxp/mensxp.webp'
-const mensxpInterior = '/images/spaces/garuda/mensxp/mensxp1.webp'
-const vitro = '/images/spaces/garuda/vitro/vitro.webp'
-const vitroInterior = '/images/spaces/garuda/vitro/vitro1.webp'
+const mensxp = '/spaces/garuda/mensxp/mensxp.webp'
+const mensxpInterior = '/spaces/garuda/mensxp/mensxp1.webp'
+const vitro = '/spaces/garuda/vitro/vitro.webp'
+const vitroInterior = '/spaces/garuda/vitro/vitro1.webp'
 
-const garudaRender1 = '/images/spaces/garuda/garudaRender1.webp'
-const garudaRender2 = '/images/spaces/garuda/garudaRender2.webp'
+const garudaRender1 = '/spaces/garuda/garudaRender1.webp'
+const garudaRender2 = '/spaces/garuda/garudaRender2.webp'
 
 export default function index() {
     return (

@@ -14,15 +14,15 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
-const wow = '/images/spaces/orion/wow/wow1.webp'
-const wowInterior = '/images/spaces/orion/wow/wow2.webp'
-const tpp = '/images/spaces/orion/tpp/tpp.webp'
-const tppInterior = '/images/spaces/orion/tpp/tpp2.webp'
-const sleepycat = '/images/spaces/orion/sleepycat/sleepycat.webp'
-const sleepycatInterior = '/images/spaces/orion/sleepycat/sleepycat3.webp'
+const wow = '/spaces/orion/wow/wow1.webp'
+const wowInterior = '/spaces/orion/wow/wow2.webp'
+const tpp = '/spaces/orion/tpp/tpp.webp'
+const tppInterior = '/spaces/orion/tpp/tpp2.webp'
+const sleepycat = '/spaces/orion/sleepycat/sleepycat.webp'
+const sleepycatInterior = '/spaces/orion/sleepycat/sleepycat3.webp'
 
-const orionRender1 = '/images/spaces/orion/orionRender1.webp'
-const orionRender2 = '/images/spaces/orion/orionRender2.webp'
+const orionRender1 = '/spaces/orion/orionRender1.webp'
+const orionRender2 = '/spaces/orion/orionRender2.webp'
 
 export default function index() {
     return (
@@ -35,7 +35,7 @@ export default function index() {
 
             </Head>
             <Header />
-            <div className="w-full h-[86.75vh] md:h-[93vh] bg-cover bg-center" style={{ backgroundImage: 'url(https://litestore.in/images/spaces/orion/orion-landscape.jpg)' }}>
+            <div className="w-full h-[86.75vh] md:h-[93vh] bg-cover bg-center" style={{ backgroundImage: 'url(https://litestore.in/spaces/orion/orion-landscape.jpg)' }}>
                 <div className="flex items-center justify-center h-full w-full ">
                     <div data-aos="fade-up" className="text-center w-full bg-gray-900 bg-opacity-40">
                         <h1 className="text-5xl md:text-6xl pt-3 text-white font-bold uppercase">Orion Mall</h1>
