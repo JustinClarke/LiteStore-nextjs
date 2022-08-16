@@ -4,9 +4,9 @@ import Link from 'next/link'
 import Header from '../layout/Header'
 import Footer from '../layout/Footer'
 
-const orion = '/images/spaces/orion/orion.webp'
-const garuda = '/images/spaces/garuda/garuda.webp'
-const lulu = '/images/spaces/lulu/lulu.webp'
+const orion = '/spaces/orion/orion.webp'
+const garuda = '/spaces/garuda/garuda.webp'
+const lulu = '/spaces/lulu/lulu.webp'
 
 // store logos
 const wowLogo = '../logos/trusted/wow.webp'

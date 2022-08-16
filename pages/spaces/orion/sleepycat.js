@@ -14,9 +14,9 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
-const sleepycat = '/images/spaces/orion/sleepycat/sleepycat.webp'
-const sleepycatInterior = '/images/spaces/orion/sleepycat/sleepycat2.webp'
-const sleepycatInterior1 = '/images/spaces/orion/sleepycat/sleepycat3.webp'
+const sleepycat = '/spaces/orion/sleepycat/sleepycat.webp'
+const sleepycatInterior = '/spaces/orion/sleepycat/sleepycat2.webp'
+const sleepycatInterior1 = '/spaces/orion/sleepycat/sleepycat3.webp'
 
 export default function Sleepycat() {
     return (

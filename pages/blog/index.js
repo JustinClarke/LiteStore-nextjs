@@ -4,8 +4,8 @@ import Link from 'next/link'
 import Header from '../layout/Header'
 import Footer from '../layout/Footer'
 
-const blog1 = '/images/blog/cheetos.webp'
-const blog2 = '/images/blog/blog2.webp'
+const blog1 = '/blog/cheetos.webp'
+const blog2 = '/blog/blog2.webp'
 
 export default function index() {
     return (

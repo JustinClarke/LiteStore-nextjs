@@ -14,9 +14,9 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
-const wow = '/images/spaces/orion/wow/wow1.webp'
-const wow1 = '/images/spaces/orion/wow/wow.webp'
-const wowInterior = '/images/spaces/orion/wow/wow2.webp'
+const wow = '/spaces/orion/wow/wow1.webp'
+const wow1 = '/spaces/orion/wow/wow.webp'
+const wowInterior = '/spaces/orion/wow/wow2.webp'
 
 export default function mensxp() {
     return (
