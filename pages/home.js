@@ -97,7 +97,7 @@ export default function home() {
 			</Head>
 			<Header />
 
-			<div className="relative bg-black">
+			<section id="head" className="relative bg-black">
 				<div className="bg-hero-section bg-no-repeat h-[88vh] md:h-[93vh] bg-center bg-cover">
 					<video autoPlay loop muted className="absolute inset-0 min-w-full object-cover h-[86.75vh] md:h-[93vh] ">
 						<source
@@ -123,7 +123,7 @@ export default function home() {
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 
 			<section id="about" className="px-5 md:pt-8 xl:pt-20">
 				<div data-aos="fade-up" className="px-5 md:px-40 pt-5 pb-5 text-center font-light">
