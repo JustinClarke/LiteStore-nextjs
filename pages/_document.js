@@ -6,7 +6,7 @@ export default function Document() {
 			<Head>
 				<link rel="icon" href="/favicon.ico" />
 				<meta name="twitter:site" content="https://litestore.in" />
-				<meta property="og:url" content="https://litestore.in" />
+				<meta property="og:image" content="https://litestore.in/logo.jpg" />
 				<meta name="twitter:card" content="https://litestore.in/logo.jpg" />
 				<meta property="og:image" content="https://litestore.in/logo.jpg" />
 				<meta property="og:description" content="Booking retail space can't get any easier LiteStore™ is an online platform for listing and booking commercial retail spaces which can be rented on an ultra short term basis." />

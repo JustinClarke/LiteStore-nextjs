@@ -5,8 +5,7 @@ import * as React from 'react';
 import { Accordion, AccordionSummary, AccordionDetails } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
-import Header from '../layout/Header'
-import Footer from '../layout/Footer'
+import { Header, Footer } from '../layout'
 
 import data from './utils/data'
 
@@ -15,7 +14,7 @@ export default function brands() {
         <div>
             <Head>
                 <title>FAQs | LiteStore</title>
-                <meta name="description" content="LiteStore" />
+                <meta name="og:title" content="LiteStore" />
             </Head>
             <Header />
             <div className="px-5 md:px-40">

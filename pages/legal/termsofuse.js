@@ -1,14 +1,13 @@
 import Head from 'next/head'
 
-import Header from '../layout/Header'
-import Footer from '../layout/Footer'
+import { Header, Footer } from '../layout'
 
 export default function termsofuse() {
     return (
         <div>
             <Head>
                 <title>Terms of use | LiteStore</title>
-                <meta name="description" content="Terms of use | LiteStore" />
+                <meta name="og:title" content="Terms of use | LiteStore" />
                 <meta property="og:title" content="Terms of use | LiteStore" />
 
             </Head>

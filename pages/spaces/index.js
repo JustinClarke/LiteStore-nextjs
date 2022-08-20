@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-import Header from '../layout/Header'
-import Footer from '../layout/Footer'
+import { Header, Footer } from '../layout'
 
 const orion = '/spaces/orion/orion.webp'
 const garuda = '/spaces/garuda/garuda.webp'
@@ -23,7 +22,7 @@ export default function spaces() {
         <div>
             <Head>
                 <title>Spaces | LiteStore</title>
-                <meta name="description" content="Spaces | LiteStore" />
+                <meta name="og:title" content="Spaces | LiteStore" />
                 <meta name="twitter:title" content="Spaces | LiteStore" />
                 <meta property="og:title" content="Spaces | LiteStore" />
 

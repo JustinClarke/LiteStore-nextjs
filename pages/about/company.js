@@ -1,7 +1,6 @@
 import Head from 'next/head'
 
-import Header from '../layout/Header'
-import Footer from '../layout/Footer'
+import { Header, Footer } from '../layout'
 
 const puneet = '/team/puneet.webp'
 const tarun = '/team/tarun.jpg'
@@ -12,7 +11,7 @@ export default function company() {
         <div>
             <Head>
                 <title>Company | LiteStore</title>
-                <meta name="description" content="Company | LiteStore" />
+                <meta name="og:title" content="Company | LiteStore" />
                 <meta name="twitter:title" content="Company | LiteStore" />
                 <meta property="og:title" content="Company | LiteStore" />
 

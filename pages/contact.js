@@ -5,8 +5,7 @@ import { useState } from 'react';
 
 import axios from 'axios';
 
-import Header from './layout/Header'
-import Footer from './layout/Footer'
+import { Header, Footer } from './layout'
 
 export default function Contact() {
 	const [name, setName] = useState('');
@@ -30,7 +29,7 @@ export default function Contact() {
 		<div>
 			<Head>
 				<title>Contact | LiteStore</title>
-				<meta name="description" content="Contact | LiteStore" />
+				<meta name="og:title" content="Contact | LiteStore" />
 				<meta name="twitter:title" content="Contact | LiteStore" />
 				<meta property="og:title" content="Contact | LiteStore" />
 			</Head>

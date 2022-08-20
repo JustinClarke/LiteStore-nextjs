@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-import Header from '../../layout/Header'
-import Footer from '../../layout/Footer'
+import { Header, Footer } from '../layout'
 
 import React from 'react';
 
@@ -22,7 +21,7 @@ export default function ThePantProject() {
         <div>
             <Head>
                 <title>The Pant Project | LiteStore</title>
-                <meta name="description" content="The Pant Project | LiteStore" />
+                <meta name="og:title" content="The Pant Project | LiteStore" />
                 <meta name="twitter:title" content="The Pant Project | LiteStore" />
                 <meta property="og:title" content="The Pant Project | LiteStore" />
 

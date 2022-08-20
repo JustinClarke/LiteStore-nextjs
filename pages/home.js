@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-import Header from './layout/Header'
-import Footer from './layout/Footer'
+import { Header, Footer } from './layout'
 
 import React, { useState, useEffect } from 'react';
 
@@ -91,39 +90,11 @@ export default function home() {
 		<div>
 			<Head>
 				<title>Home | LiteStore</title>
-				<meta name="description" content="Home | LiteStore" />
+				<meta name="og:title" content="Home | LiteStore" />
 				<meta name="twitter:title" content="Home | LiteStore" />
 				<meta property="og:title" content="Home | LiteStore" />
 			</Head>
 			<Header />
-
-			<section id="head" className="relative bg-black">
-				<div className="bg-hero-section bg-no-repeat h-[88vh] md:h-[93vh] bg-center bg-cover">
-					<video autoPlay loop muted className="absolute inset-0 min-w-full object-cover h-[86.75vh] md:h-[93vh] ">
-						<source
-							src={video}
-							type="video/mp4"
-						/>
-						Your browser does not support the video tag.
-					</video>
-					<div data-aos="fade-up" data-aos-delay="100" className="relative inset-0 text-white text-center">
-						<h1 className="text-7xl md:text-[12rem] font-black pt-[45%] md:pt-[15%] leading-9 md:leading-none">
-							LiteStore
-						</h1>
-						<p className="text-xl pt-8 md:pt-0 md:text-4xl font-medium md:leading-none">Launch your own Flexi-Store, instantly</p>
-						<div className="grid pt-10">
-							<Link href="/spaces">
-								<a className="mx-auto">
-									<button className="py-2 px-10 bg-purple hover:bg-darker-purple active:bg-black font-medium text-xl text-white rounded transition ease-in-out delay-10 duration-200 hover:-translate-y-1 hover:scale-110"
-										href="#">
-										Get Started
-									</button>
-								</a>
-							</Link>
-						</div>
-					</div>
-				</div>
-			</section>
 
 			<section id="about" className="px-5 md:pt-8 xl:pt-20">
 				<div data-aos="fade-up" className="px-5 md:px-40 pt-5 pb-5 text-center font-light">
