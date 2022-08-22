@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-import { Header, Footer } from '../layout'
+import { Header, Footer } from '../../layout'
 
 import React from 'react';
 
