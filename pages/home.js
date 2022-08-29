@@ -236,8 +236,8 @@ export default function home() {
 									</svg>
 								</div>
 								<div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-									<h2 className="text-gray-900 text-xl title-font font-medium mb-2">Store Amenities</h2>
-									<p className="leading-relaxed text-base">From security cameras, WiFi to maintenance and cleaning, we take care of it all</p>
+									<h2 className="text-gray-900 text-xl title-font font-medium mb-2"> Retail Analytics</h2>
+									<p className="leading-relaxed text-base"> Through Computer Vision technology, we track customer journeys and shopping patterns from our CCTV cameras in the stores to give you the full suite of data regarding your shoppers</p>
 								</div>
 							</div>
 						</div>
