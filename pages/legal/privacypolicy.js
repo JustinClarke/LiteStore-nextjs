@@ -1,14 +1,13 @@
 import Head from 'next/head'
 
-import Header from '../layout/Header'
-import Footer from '../layout/Footer'
+import { Header, Footer } from '../layout'
 
 export default function privacypolicy() {
     return (
         <div>
             <Head>
                 <title>Privacy Policy | LiteStore</title>
-                <meta name="description" content="Privacy Policy | LiteStore" />
+                <meta name="og:title" content="Privacy Policy | LiteStore" />
                 <meta property="og:title" content="Privacy Policy | LiteStore" />
 
             </Head>

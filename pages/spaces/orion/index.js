@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-import Header from '../../layout/Header'
-import Footer from '../../layout/Footer'
+import { Header, Footer } from '../../layout'
 
 import React from 'react';
 
@@ -29,7 +28,7 @@ export default function index() {
         <div>
             <Head>
                 <title>Orion Mall | LiteStore</title>
-                <meta name="description" content="Orion Mall | LiteStore" />
+                <meta name="og:title" content="Orion Mall | LiteStore" />
                 <meta name="twitter:title" content="Orion Mall | LiteStore" />
                 <meta property="og:title" content="Orion Mall | LiteStore" />
 

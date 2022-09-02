@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-import Header from './layout/Header'
-import Footer from './layout/Footer'
+import { Header, Footer } from './layout'
 
 import React, { useState, useEffect } from 'react';
 
@@ -91,13 +90,13 @@ export default function home() {
 		<div>
 			<Head>
 				<title>Home | LiteStore</title>
-				<meta name="description" content="Home | LiteStore" />
+				<meta name="og:title" content="Home | LiteStore" />
 				<meta name="twitter:title" content="Home | LiteStore" />
 				<meta property="og:title" content="Home | LiteStore" />
 			</Head>
 			<Header />
 
-			<div className="relative bg-black">
+			<section id="head" className="relative bg-black">
 				<div className="bg-hero-section bg-no-repeat h-[88vh] md:h-[93vh] bg-center bg-cover">
 					<video autoPlay loop muted className="absolute inset-0 min-w-full object-cover h-[86.75vh] md:h-[93vh] ">
 						<source
@@ -123,7 +122,7 @@ export default function home() {
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 
 			<section id="about" className="px-5 md:pt-8 xl:pt-20">
 				<div data-aos="fade-up" className="px-5 md:px-40 pt-5 pb-5 text-center font-light">
@@ -202,7 +201,7 @@ export default function home() {
 				</div>
 			</section>
 
-			<section id="amenities" className="pt-10 pb-20 px-5 md:px-40 lg:px-20 xl:px-60">
+			<section id="amenities" className="pt-16 pb-20 px-5 md:px-40 lg:px-20 xl:px-60">
 				<div className="text-gray-600">
 					<h1 data-aos="fade-up" className="pb-10 col-span-2 text-3xl md:text-4xl text-left md:text-center font-medium">Your Flexi-Store comes ready with</h1>
 					<div className="grid grid-cols-2 gap-4 md:gap-12 auto-cols-[500px]">

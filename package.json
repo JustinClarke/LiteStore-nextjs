@@ -15,6 +15,8 @@
     "@mui/material": "^5.9.3",
     "aos": "^3.0.0-beta.6",
     "axios": "^0.27.2",
+    "mongodb": "^4.9.0",
+    "mongoose": "^6.5.2",
     "next": "12.2.2",
     "react": "18.2.0",
     "react-accessible-accordion": "^5.0.0",

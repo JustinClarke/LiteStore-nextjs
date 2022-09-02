@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-import Header from '../../layout/Header'
-import Footer from '../../layout/Footer'
+import { Header, Footer } from '../../layout'
 
 import React from 'react';
 
@@ -23,7 +22,7 @@ export default function mensxp() {
         <div>
             <Head>
                 <title>Wow | LiteStore</title>
-                <meta name="description" content="Wow | LiteStore" />
+                <meta name="og:title" content="Wow | LiteStore" />
                 <meta name="twitter:title" content="Wow | LiteStore" />
                 <meta property="og:title" content="Wow | LiteStore" />
 

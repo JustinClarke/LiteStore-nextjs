@@ -1,14 +1,13 @@
 import Head from 'next/head'
 
-import Header from '../layout/Header'
-import Footer from '../layout/Footer'
+import { Header, Footer } from '../layout'
 
 export default function careers() {
     return (
         <div>
             <Head>
                 <title>Careers | LiteStore</title>
-                <meta name="description" content="Careers | LiteStore" />
+                <meta name="og:title" content="Careers | LiteStore" />
                 <meta name="twitter:title" content="Careers | LiteStore" />
                 <meta property="og:title" content="Careers | LiteStore" />
             </Head>

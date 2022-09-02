@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-import Header from '../layout/Header'
-import Footer from '../layout/Footer'
+import { Header, Footer } from '../layout'
 
 const blog1 = '/blog/cheetos.webp'
 const blog2 = '/blog/blog2.webp'
@@ -12,7 +11,7 @@ export default function index() {
         <div>
             <Head>
                 <title>Blog | LiteStore</title>
-                <meta name="description" content="Blog | LiteStore" />
+                <meta name="og:title" content="Blog | LiteStore" />
                 <meta name="twitter:title" content="Blog | LiteStore" />
                 <meta property="og:title" content="Blog | LiteStore" />
 
