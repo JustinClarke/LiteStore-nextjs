@@ -201,7 +201,7 @@ export default function home() {
 				</div>
 			</section>
 
-			<section id="amenities" className="pt-10 pb-20 px-5 md:px-40 lg:px-20 xl:px-60">
+			<section id="amenities" className="pt-16 pb-20 px-5 md:px-40 lg:px-20 xl:px-60">
 				<div className="text-gray-600">
 					<h1 data-aos="fade-up" className="pb-10 col-span-2 text-3xl md:text-4xl text-left md:text-center font-medium">Your Flexi-Store comes ready with</h1>
 					<div className="grid grid-cols-2 gap-4 md:gap-12 auto-cols-[500px]">
