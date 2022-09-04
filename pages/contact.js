@@ -5,7 +5,8 @@ import { useState } from 'react';
 
 import axios from 'axios';
 
-import { Header, Footer } from './layout'
+import Header from './layout/Header'
+import Footer from './layout/Footer'
 
 export default function Contact() {
 	const [name, setName] = useState('');
