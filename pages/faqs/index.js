@@ -1,14 +1,15 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-import { Header, Footer } from '../layout'
+import Header from '../layout/Header'
+import Footer from '../layout/Footer'
 
 export default function index() {
     return (
         <div>
             <Head>
                 <title>FAQs | LiteStore</title>
-                <meta name="og:title" content="LiteStore" />
+                <meta name="description" content="LiteStore" />
             </Head>
             <Header />
             <h1 data-aos="fade-up" className="px-5 md:px-40 pt-10 md:pt-20 text-6xl font-semibold">FAQs</h1>

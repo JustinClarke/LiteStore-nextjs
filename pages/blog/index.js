@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-import { Header, Footer } from '../layout'
+import Header from '../layout/Header'
+import Footer from '../layout/Footer'
 
 const blog1 = '/blog/cheetos.webp'
 const blog2 = '/blog/blog2.webp'

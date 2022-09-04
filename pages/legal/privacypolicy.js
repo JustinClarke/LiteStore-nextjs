@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
-import { Header, Footer } from '../layout'
+import Header from '../layout/Header'
+import Footer from '../layout/Footer'
 
 export default function privacypolicy() {
     return (
