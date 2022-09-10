@@ -14,7 +14,7 @@ export default function header() {
 					<Link href="/about/company">
 						<a className="p-3 md:p-6 font-light hover:text-white hover:bg-purple transition ease-in-out delay-20 duration-300">Company</a>
 					</Link>
-					<Link href="/about/contact">
+					<Link href="/contact">
 						<a className="p-3 md:p-6 font-light hover:text-white hover:bg-purple transition ease-in-out delay-20 duration-300">Contact Us</a>
 					</Link>
 				</div>
