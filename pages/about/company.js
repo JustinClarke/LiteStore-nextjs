@@ -13,9 +13,8 @@ export default function company() {
             <Head>
                 <title>Company | LiteStore</title>
                 <meta name="og:title" content="Company | LiteStore" />
-                <meta name="twitter:title" content="Company | LiteStore" />
+                <meta name="twitter:title" content="Company | L3iteStore" />
                 <meta property="og:title" content="Company | LiteStore" />
-
             </Head>
             <Header />
             <section className="bg-light-white">
