@@ -4,8 +4,9 @@ import Header from '../layout/Header'
 import Footer from '../layout/Footer'
 
 const puneet = '/team/puneet.webp'
-const tarun = '/team/tarun.jpg'
+const tarun = '/team/tarun.webp'
 const pranav = '/team/pranav.webp'
+const gaurav = '/team/gaurav.webp'
 
 export default function company() {
     return (
@@ -33,7 +34,7 @@ export default function company() {
                 </div>
 
                 <div className="px-0 md:px-60 pb-10">
-                    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
+                    <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                         <div data-aos="fade-up" data-aos-delay="300" className="flex justify-center">
                             <div className="rounded-lg shadow-lg bg-white max-w-sm">
                                 <a href="#">
@@ -61,6 +62,16 @@ export default function company() {
                                 </a>
                                 <div className="p-6">
                                     <h5 className="text-purple text-xl text-center font-semibold mb-2">Tarun Sundaram</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="fade-up" data-aos-delay="300" className="flex justify-center">
+                            <div className="rounded-lg shadow-lg bg-white max-w-sm">
+                                <a href="#">
+                                    <img src={gaurav} className="rounded-t-lg" alt="Tarun Sundaram" />
+                                </a>
+                                <div className="p-6">
+                                    <h5 className="text-purple text-xl text-center font-semibold mb-2">Gaurav</h5>
                                 </div>
                             </div>
                         </div>

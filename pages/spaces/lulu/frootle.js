@@ -14,24 +14,24 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
-const sleepycat = '/spaces/orion/sleepycat/sleepycat.webp'
-const sleepycatInterior = '/spaces/orion/sleepycat/sleepycat2.webp'
-const sleepycatInterior1 = '/spaces/orion/sleepycat/sleepycat3.webp'
+const frootle = '/spaces/lulu/frootle/frootle.webp'
+const frootleInterior = '/spaces/lulu/frootle/frootleInterior.webp'
+const frootleInterior1 = '/spaces/lulu/frootle/frootleInterior1.webp'
 
-export default function Sleepycat() {
+export default function mensxp() {
     return (
         <div>
             <Head>
-                <title>SleepyCat | LiteStore</title>
-                <meta name="og:title" content="SleepyCat | LiteStore" />
-                <meta name="twitter:title" content="SleepyCat | LiteStore" />
-                <meta property="og:title" content="SleepyCat | LiteStore" />
+                <title>Frootle | LiteStore</title>
+                <meta name="og:title" content="Wow | LiteStore" />
+                <meta name="twitter:title" content="Wow | LiteStore" />
+                <meta property="og:title" content="Wow | LiteStore" />
 
             </Head>
             <Header />
             <div className="px-5 md:px-40 pt-5 md:pt-10 pb-10 bg-light-white">
-                <h1 data-aos="fade-up" className="text-6xl text-sleepycat-orange font-bold">SleepyCat <br className="invisible md:hidden" /> <span className="text-black font-light"> Flexi-Store,</span><span className="text-black font-semibold"> Orion Mall</span></h1>
-                <h1 data-aos="fade-up" className="text-2xl font-light py-3">December '21 - March '22</h1>
+                <h1 data-aos="fade-up" className="text-6xl font-bold pb-2">FROOTLE <br className="invisible md:hidden" /><span className="text-black font-light"> Flexi-Store,</span><span className="text-black font-semibold"> Lulu Mall</span> </h1>
+                {/* <h1 data-aos="fade-up" className="text-2xl font-light py-3">November '21</h1> */}
                 <div data-aos="fade" className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
                     <div className="flex col-span-2">
                         <Swiper
@@ -43,20 +43,20 @@ export default function Sleepycat() {
                             <SwiperSlide>
                                 <img
                                     className="rounded-lg"
-                                    src={sleepycat}
-                                    alt="SleepyCat" />
+                                    src={frootle}
+                                    alt="frootle" />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img
                                     className="rounded-lg"
-                                    src={sleepycatInterior}
-                                    alt="SleepyCat" />
+                                    src={frootleInterior}
+                                    alt="frootle" />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img
                                     className="rounded-lg"
-                                    src={sleepycatInterior1}
-                                    alt="SleepyCat" />
+                                    src={frootleInterior1}
+                                    alt="frootle" />
                             </SwiperSlide>
                         </Swiper>
                     </div>
@@ -64,21 +64,28 @@ export default function Sleepycat() {
                         <div className="grid grid-cols-1 gap-6">
                             <div data-aos="fade-up">
                                 <h1 className="text-4xl font-semibold pb-1">About</h1>
-                                <p className="font-light">SleepyCat marked their first ever foray into an offline store with LiteStore this December in Bangalore!</p>
-                                <p className="font-light pt-2">With a chic, sleep themed experience centre, SleepyCat has brought the perfect sleep education to the hundreds of customers walking through their doors.</p>
-                                <p className="font-light pt-2">With a pillow bar to rest your head and a sleep station to try out the different materials in each product, customers find it hard to leave the store!</p>
-                                <div className="grid grid-cols-2 gap-6 pt-5 text-lg font-light">
-                                    <div className="text-left">
-                                        <h1 className="text-4xl font-semibold pb-1">700+</h1>
-                                        <p className="leading-5">New Customers educated about SleepyCat</p>
+                                <p className="font-light">
+                                    LiteStore is proud to launch its third Flexi-Store in Bangalore at LuLu Group International. We're delighted to host Frootle, a 'House of Brands' in our Flexi-Store.
+                                </p>
+                                <p className="font-light pt-2">
+                                    Frootle is the exclusive distributor in India for some of the biggest home appliance brands around the world. From high end robotic vacuum cleaners to air purifiers and cold pressed juicers - the Frootle Flexi-Store offers a wide variety of products in a fully experiential store.
+                                </p>
+                                {/* <div className="grid grid-cols-3 gap-6 pt-5 text-lg font-light">
+                                    <div>
+                                        <h1 className="text-4xl font-semibold pb-1">55%</h1>
+                                        <p className="leading-5">Daily Conversion Rate</p>
+                                    </div>
+                                    <div>
+                                        <h1 className="text-4xl font-semibold pb-1">1500+</h1>
+                                        <p className="leading-5">Pieces Sold</p>
                                     </div>
                                     <div>
                                         <h1 className="text-4xl font-semibold pb-1">1st</h1>
                                         <p className="leading-5">Exclusive offline store</p>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="flex pt-8">
-                                    <a className="inline-flex text-white bg-purple border-0 py-3 px-6 focus:outline-none hover:bg-darker-purple active:bg-black rounded text-lg transition ease-in-out delay-10 duration-200 hover:-translate-y-1 hover:scale-110" href="https://sleepycat.in" target="_blank" rel="noreferrer">
+                                    <a className="inline-flex text-white bg-purple border-0 py-3 px-6 focus:outline-none hover:bg-darker-purple active:bg-black rounded text-lg transition ease-in-out delay-10 duration-200 hover:-translate-y-1 hover:scale-110" href="https://frootleindia.com" target="_blank" rel="noreferrer">
                                         <span className="pr-3">Online Store</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -86,6 +93,7 @@ export default function Sleepycat() {
                                     </a>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -93,4 +101,4 @@ export default function Sleepycat() {
             <Footer />
         </div>
     )
-}
+} 3

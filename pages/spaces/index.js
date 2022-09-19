@@ -15,7 +15,7 @@ const sleepycatLogo = '../logos/trusted/sleepycat.webp'
 const mensxpLogo = '../logos/trusted/mensxp.webp'
 const vitroLogo = '../logos/trusted/vitro.webp'
 const jblLogo = '../logos/trusted/jbl.webp'
-// const zymratLogo = '../logos/trusted/zymrat.webp'
+const zymratLogo = '../logos/trusted/zymrat.webp'
 const frootleLogo = '../logos/trusted/frootle.webp'
 
 export default function spaces() {
@@ -57,7 +57,7 @@ export default function spaces() {
                         </Link>
                     </div>
                     <div data-aos="fade-up" className="flex justify-left">
-                        <div className="grid grid-cols-2 grid-rows-2 gap-3">
+                        <div className="grid grid-cols-2 grid-rows-3 gap-3">
                             <Link href="/spaces/orion/wow">
                                 <a>
                                     <img
@@ -105,7 +105,7 @@ export default function spaces() {
                         </Link>
                     </div>
                     <div data-aos="fade-up" className="flex justify-left">
-                        <div className="grid grid-cols-2 grid-rows-1 gap-3">
+                        <div className="grid grid-cols-2 grid-rows-3 gap-3">
                             <Link href="/spaces/garuda/mensxp">
                                 <a>
                                     <img
@@ -120,6 +120,14 @@ export default function spaces() {
                                         className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
                                         src={vitroLogo}
                                         alt="Vitro Naturals" />
+                                </a>
+                            </Link>
+                            <Link href="/spaces/garuda/zymrat">
+                                <a>
+                                    <img
+                                        className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+                                        src={zymratLogo}
+                                        alt="Zymrat" />
                                 </a>
                             </Link>
                         </div>
@@ -146,7 +154,7 @@ export default function spaces() {
                     </div>
                     <div data-aos="fade-up" className="flex justify-left">
                         <div className="grid grid-cols-2 grid-rows-1 gap-3">
-                            <Link href="/spaces">
+                            <Link href="/spaces/lulu/frootle">
                                 <a>
                                     <img
                                         className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
@@ -154,7 +162,7 @@ export default function spaces() {
                                         alt="Vitro Naturals" />
                                 </a>
                             </Link>
-                            <Link href="/spaces">
+                            <Link href="/spaces/lulu/jbl">
                                 <a>
                                     <img
                                         className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
@@ -162,6 +170,7 @@ export default function spaces() {
                                         alt="MensXP" />
                                 </a>
                             </Link>
+
                         </div>
                     </div>
                 </div>

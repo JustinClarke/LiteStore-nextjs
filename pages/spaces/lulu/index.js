@@ -49,7 +49,6 @@ export default function index() {
                             effect="fade"
                             slidesPerView={1}
                             autoplay={true}
-                            pagination={{ clickable: true }}
                         >
                             <SwiperSlide>
                                 <img
