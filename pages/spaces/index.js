@@ -162,6 +162,7 @@ export default function spaces() {
                                         alt="Vitro Naturals" />
                                 </a>
                             </Link>
+<<<<<<< Updated upstream
                             <Link href="/spaces/lulu/jbl">
                                 <a>
                                     <img
@@ -171,6 +172,16 @@ export default function spaces() {
                                 </a>
                             </Link>
 
+=======
+                            {/* <Link href="/spaces/lulu/jbl"> */}
+                            <a>
+                                <img
+                                    className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+                                    src={jblLogo}
+                                    alt="MensXP" />
+                            </a>
+                            {/* </Link> */}
+>>>>>>> Stashed changes
                         </div>
                     </div>
                 </div>
