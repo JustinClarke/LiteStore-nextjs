@@ -399,7 +399,7 @@ export default function home() {
 							<p className="text-5xl md:text-8xl font-black font-sans">
 								<CountUp
 									start={0}
-									end={78}
+									end={58}
 									duration={counterDurarion}
 								/>%
 							</p>
@@ -411,13 +411,14 @@ export default function home() {
 						<div className="flex col-span-1">
 							<p className="pt-3 md:pt-5 text-xl md:text-6xl font-semibold">₹</p>
 							<p className="text-5xl md:text-8xl font-black font-sans">
-								<CountUp
+								{/* <CountUp
 									start={0}
-									end={100}
+									end={1.5}
 									duration={counterDurarion}
-								/>
+								/> */}
+								1.5
 							</p>
-							<p className="pt-6 md:pt-16 text-[10px] md:text-lg leading-none md:leading-none text-left">Lakh+ GMV</p>
+							<p className="pt-6 md:pt-16 text-[10px] md:text-lg leading-none md:leading-none text-left">Cr+ GMV</p>
 						</div>
 						<p className="pt-2 pr-2 md:pr-0 leading-4 text-sm md:text-xl text-black font-semibold">Sold in<br className="invisible md:hidden" /> Flexi-Stores</p>
 					</div>
@@ -435,7 +436,6 @@ export default function home() {
 						loop={true}
 						centeredSlides={true}
 						grabCursor={true}
-					// pagination={{ clickable: true }}
 					>
 						<SwiperSlide>
 							<img

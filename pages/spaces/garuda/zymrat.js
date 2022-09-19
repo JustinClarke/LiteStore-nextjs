@@ -14,15 +14,15 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
-const wow = '/spaces/orion/wow/wow1.webp'
-const wow1 = '/spaces/orion/wow/wow.webp'
-const wowInterior = '/spaces/orion/wow/wow2.webp'
+const zymrat = '/spaces/garuda/zymrat/zymrat.webp'
+const zymrat1 = '/spaces/garuda/zymrat/zymrat1.webp'
+const zymratInterior = '/spaces/garuda/zymrat/zymratInterior.webp'
 
 export default function mensxp() {
     return (
         <div>
             <Head>
-                <title>JBL | LiteStore</title>
+                <title>Zymrat | LiteStore</title>
                 <meta name="og:title" content="Wow | LiteStore" />
                 <meta name="twitter:title" content="Wow | LiteStore" />
                 <meta property="og:title" content="Wow | LiteStore" />
@@ -30,7 +30,7 @@ export default function mensxp() {
             </Head>
             <Header />
             <div className="px-5 md:px-40 pt-5 md:pt-10 pb-10 bg-light-white">
-                <h1 data-aos="fade-up" className="text-6xl text-jbl-orange font-bold pb-2">JBL <br className="invisible md:hidden" /><span className="text-black font-light"> Flexi-Store,</span><span className="text-black font-semibold"> Lulu Mall</span> </h1>
+                <h1 data-aos="fade-up" className="text-6xl font-bold pb-2">Zymrat <br className="invisible md:hidden" /><span className="text-black font-light"> Flexi-Store,</span><span className="text-black font-semibold"> Lulu Mall</span> </h1>
                 {/* <h1 data-aos="fade-up" className="text-2xl font-light py-3">November '21</h1> */}
                 <div data-aos="fade" className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
                     <div className="flex col-span-2">
@@ -39,24 +39,25 @@ export default function mensxp() {
                             effect="fade"
                             slidesPerView={1}
                             autoplay={true}
+                        // pagination={{ clickable: true }}
                         >
                             <SwiperSlide>
                                 <img
                                     className="rounded-lg"
-                                    src={wow}
-                                    alt="Wow" />
+                                    src={zymrat}
+                                    alt="Zymrat" />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img
                                     className="rounded-lg"
-                                    src={wow1}
-                                    alt="Wow" />
+                                    src={zymrat1}
+                                    alt="Zymrat" />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img
                                     className="rounded-lg"
-                                    src={wowInterior}
-                                    alt="Wow" />
+                                    src={zymratInterior}
+                                    alt="Zymrat" />
                             </SwiperSlide>
                         </Swiper>
                     </div>
@@ -65,12 +66,12 @@ export default function mensxp() {
                             <div data-aos="fade-up">
                                 <h1 className="text-4xl font-semibold pb-1">About</h1>
                                 <p className="font-light">
-                                    The lights, colors and sounds have come to life in our latest Flexi-Store with the launch of JBL Sound Shop at LiteStore, Orion Mall, Bangalore.
+                                    New Brand Launch! LiteStore at Garuda Mall, Bangalore is now hosting Zymrat for 3 months.
                                 </p>
                                 <p className="font-light pt-2">
-                                    The Flexi-Store is energizing and unexpected - inspired by the mix-and match and experimental aesthetic of Gen Z.
+                                    A tech-first, performance focused gym wear brand, Zymrat has brought an exciting range of their best-sellers to the store. Ride their assault bike to Burn and Earn an added discount on your purchase.
                                 </p><p className="font-light pt-2">
-                                    Drop in at LiteStore till the end of Sept '22 to experience the joy of music with some of JBL's and HARMAN India's timeless classics.
+                                    The store has been designed to keep fitness and performance at the core of its identity. Drop in to LiteStore at 2nd Floor, Garuda Mall, Magrath Road to experience the best of gym wear.
                                 </p>
                                 {/* <div className="grid grid-cols-3 gap-6 pt-5 text-lg font-light">
                                     <div>
@@ -87,7 +88,7 @@ export default function mensxp() {
                                     </div>
                                 </div> */}
                                 <div className="flex pt-8">
-                                    <a className="inline-flex text-white bg-purple border-0 py-3 px-6 focus:outline-none hover:bg-darker-purple active:bg-black rounded text-lg transition ease-in-out delay-10 duration-200 hover:-translate-y-1 hover:scale-110" href="https://in.jbl.com" target="_blank" rel="noreferrer">
+                                    <a className="inline-flex text-white bg-purple border-0 py-3 px-6 focus:outline-none hover:bg-darker-purple active:bg-black rounded text-lg transition ease-in-out delay-10 duration-200 hover:-translate-y-1 hover:scale-110" href="https://zymrat.com" target="_blank" rel="noreferrer">
                                         <span className="pr-3">Online Store</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />

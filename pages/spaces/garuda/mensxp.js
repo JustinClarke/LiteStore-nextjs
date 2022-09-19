@@ -38,7 +38,6 @@ export default function MensXP() {
                             effect="fade"
                             slidesPerView={1}
                             autoplay={true}
-                            pagination={{ clickable: true }}
                         >
                             <SwiperSlide>
                                 <img
