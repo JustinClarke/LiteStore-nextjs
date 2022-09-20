@@ -82,6 +82,14 @@ export default function spaces() {
                                         alt="SleepyCat" />
                                 </a>
                             </Link>
+                            <Link href="/spaces/orion/jbl">
+                                <a>
+                                    <img
+                                        className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+                                        src={jblLogo}
+                                        alt="JBL" />
+                                </a>
+                            </Link>
                         </div>
                     </div>
 
@@ -159,29 +167,9 @@ export default function spaces() {
                                     <img
                                         className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
                                         src={frootleLogo}
-                                        alt="Vitro Naturals" />
+                                        alt="Frootle" />
                                 </a>
                             </Link>
-<<<<<<< Updated upstream
-                            <Link href="/spaces/lulu/jbl">
-                                <a>
-                                    <img
-                                        className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
-                                        src={jblLogo}
-                                        alt="MensXP" />
-                                </a>
-                            </Link>
-
-=======
-                            {/* <Link href="/spaces/lulu/jbl"> */}
-                            <a>
-                                <img
-                                    className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
-                                    src={jblLogo}
-                                    alt="MensXP" />
-                            </a>
-                            {/* </Link> */}
->>>>>>> Stashed changes
                         </div>
                     </div>
                 </div>

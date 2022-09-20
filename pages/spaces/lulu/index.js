@@ -14,9 +14,9 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
-const lulu1 = '/spaces/lulu/lulu1.webp'
-const lulu2 = '/spaces/lulu/lulu2.jpeg'
-const lulu3 = '/spaces/lulu/lulu3.jpeg'
+const frootle = '/spaces/lulu/frootle/frootle.webp'
+const frootleInterior = '/spaces/lulu/frootle/frootleInterior.webp'
+const frootleInterior1 = '/spaces/lulu/frootle/frootleInterior1.webp'
 
 export default function index() {
     return (
@@ -53,20 +53,20 @@ export default function index() {
                             <SwiperSlide>
                                 <img
                                     className="rounded-lg"
-                                    src={lulu1}
-                                    alt="Orion Mall" />
+                                    src={frootle}
+                                    alt="Lulu Mall" />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img
                                     className="rounded-lg"
-                                    src={lulu2}
-                                    alt="Orion Mall" />
+                                    src={frootleInterior}
+                                    alt="Lulu Mall" />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img
                                     className="rounded-lg"
-                                    src={lulu3}
-                                    alt="Orion Mall" />
+                                    src={frootleInterior1}
+                                    alt="Lulu Mall" />
                             </SwiperSlide>
                         </Swiper>
                     </div>
