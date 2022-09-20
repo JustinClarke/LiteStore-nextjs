@@ -24,6 +24,7 @@ const video = '/video/litestore.mp4'
 const wow = '/spaces/orion/wow/wow1.webp'
 const tpp = '/spaces/orion/tpp/tpp.webp'
 const sleepycat = '/spaces/orion/sleepycat/sleepycat.webp'
+const jbl = '/spaces/orion/jbl/jbl.webp'
 
 const mensxp = '/spaces/garuda/mensxp/mensxp.webp'
 const vitro = '/spaces/garuda/vitro/vitro.webp'
@@ -301,16 +302,22 @@ export default function home() {
 									alt="SleepyCat" />
 							</a>
 						</Link>
-						<div className="px-[25%] col-span-2">
-							<Link href="/spaces/orion/thepantproject">
-								<a>
-									<img
-										className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
-										src={tpp}
-										alt="The Pant Project" />
-								</a>
-							</Link>
-						</div>
+						<Link href="/spaces/orion/thepantproject">
+							<a>
+								<img
+									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+									src={tpp}
+									alt="The Pant Project" />
+							</a>
+						</Link>
+						<Link href="/spaces/orion/jbl">
+							<a>
+								<img
+									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+									src={jbl}
+									alt="JBL" />
+							</a>
+						</Link>
 					</div>
 					<div className="grid grid-cols-2 gap-4">
 						<h1 className="pb-2 col-span-2 text-2xl md:text-4xl font-light text-center text-light-white">LiteStore<sup>®</sup>, Garuda Mall</h1>
