@@ -29,6 +29,8 @@ const jbl = '/spaces/orion/jbl/jbl.webp'
 const mensxp = '/spaces/garuda/mensxp/mensxp.webp'
 const vitro = '/spaces/garuda/vitro/vitro.webp'
 
+const frootle = '/spaces/lulu/frootle/frootle.webp'
+
 // store logos
 const wowLogo = '/logos/trusted/wow.webp'
 const tppLogo = '/logos/trusted/tpp.webp'
@@ -337,12 +339,17 @@ export default function home() {
 									alt="Vito Naturals" />
 							</a>
 						</Link>
-						{/* <div>
-							<img
-								className="rounded-lg invisible"
-								src={vitro}
-								alt="Vito Naturals" />
-						</div> */}
+						<div className="grid justify-items-center">
+							<h1 className="pb-2 col-span-2 text-2xl md:text-4xl font-light self-center text-light-white">LiteStore<sup>®</sup>, <br /> Lulu Mall</h1>
+						</div>
+						<Link href="/spaces/lulu/frootle">
+							<a>
+								<img
+									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+									src={frootle}
+									alt="Frootle" />
+							</a>
+						</Link>
 					</div>
 				</div>
 			</section>
