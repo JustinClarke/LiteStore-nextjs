@@ -28,6 +28,7 @@ const jbl = '/spaces/orion/jbl/jbl.webp'
 
 const mensxp = '/spaces/garuda/mensxp/mensxp.webp'
 const vitro = '/spaces/garuda/vitro/vitro.webp'
+const zymrat = '/spaces/garuda/zymrat/zymrat.webp'
 
 const frootle = '/spaces/lulu/frootle/frootle.webp'
 
@@ -40,6 +41,7 @@ const vitroLogo = '/logos/trusted/vitro.webp'
 const jblLogo = '/logos/trusted/jbl.webp'
 const zymratLogo = '/logos/trusted/zymrat.webp'
 const frootleLogo = '/logos/trusted/frootle.webp'
+const skillmaticsLogo = '/logos/trusted/skillmatics.webp'
 
 // real estate partner logos
 const brigadeReap = '/logos/real-estate-partners/brigade-reap.webp'
@@ -85,10 +87,12 @@ function WindowSize() {
 export default function home() {
 	const counterDurarion = 8;
 	var slidesPerView = 7;
+	var slidesPerView2 = 3;
 
 	const { height, width } = WindowSize();
 	if (width < 480) {
 		var slidesPerView = 4;
+		var slidesPerView2 = 2;
 	}
 	return (
 		<div>
@@ -99,7 +103,7 @@ export default function home() {
 				<meta property="og:title" content="Home | LiteStore" />
 			</Head>
 			<Header />
-
+			
 			<section id="head" className="relative bg-black">
 				<div className="bg-hero-section bg-no-repeat h-[88vh] md:h-[93vh] bg-center bg-cover">
 					<video autoPlay loop muted className="absolute inset-0 min-w-full object-cover h-[86.75vh] md:h-[93vh] ">
@@ -284,7 +288,7 @@ export default function home() {
 				</div>
 			</section>
 
-			<section id="brands" className="px-5 md:px-40 py-10 bg-black justify-center">
+			{/* <section id="brands" className="px-5 md:px-40 py-10 bg-black justify-center">
 				<div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-2 gap-4">
 					<div className="grid grid-cols-2 gap-4">
 						<h1 className="pb-2 col-span-2 text-2xl md:text-4xl font-light text-center text-light-white">LiteStore<sup>®</sup>, Orion Mall</h1>
@@ -352,7 +356,100 @@ export default function home() {
 						</Link>
 					</div>
 				</div>
-			</section>
+			</section> */}
+
+			<div className="bg-black py-5">
+				<Swiper
+					modules={[Navigation, Pagination, A11y, EffectFade, Autoplay]}
+					spaceBetween={50}
+					slidesPerView={slidesPerView2}
+					autoplay={true}
+					loop={true}
+					centeredSlides={true}
+					grabCursor={true}
+				>
+					<SwiperSlide className="py-5">
+						<Link href="/spaces/orion/wow">
+							<a>
+								<img
+									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+									src={wow}
+									alt="Wow" />
+							</a>
+						</Link>
+					</SwiperSlide>
+					<SwiperSlide className="py-5">
+						<Link href="/spaces/orion/sleepycat">
+							<a>
+								<img
+									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+									src={sleepycat}
+									alt="SleepyCat" />
+							</a>
+						</Link>
+					</SwiperSlide>
+					<SwiperSlide className="py-5">
+						<Link href="/spaces/orion/thepantproject">
+							<a>
+								<img
+									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+									src={tpp}
+									alt="The Pant Project" />
+							</a>
+						</Link>
+					</SwiperSlide>
+					<SwiperSlide className="py-5">
+						<Link href="/spaces/orion/jbl">
+							<a>
+								<img
+									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+									src={jbl}
+									alt="JBL" />
+							</a>
+						</Link>
+					</SwiperSlide>
+					<SwiperSlide className="py-5">
+						<Link href="/spaces/garuda/mensxp">
+							<a>
+								<img
+									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+									src={mensxp}
+									alt="MensXp" />
+							</a>
+						</Link>
+					</SwiperSlide>
+					<SwiperSlide className="py-5">
+						<Link href="/spaces/garuda/vitro">
+							<a>
+								<img
+									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+									src={vitro}
+									alt="Vito Naturals" />
+							</a>
+						</Link>
+					</SwiperSlide>
+					<SwiperSlide className="py-5">
+						<Link href="/spaces/lulu/frootle">
+							<a>
+								<img
+									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+									src={zymrat}
+									alt="Zymrat" />
+							</a>
+						</Link>
+					</SwiperSlide>
+					<SwiperSlide className="py-5">
+						<Link href="/spaces/lulu/frootle">
+							<a>
+								<img
+									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+									src={frootle}
+									alt="Frootle" />
+							</a>
+						</Link>
+					</SwiperSlide>
+				</Swiper>
+			</div>
 
 			<section id="counter" className="px-0 md:px-60 lg:px-40 xl:px-60 py-5 md:py-10 text-center">
 				<div data-aos="fade-up" className="grid grid-cols-3 gap-12 justify-center text-purple">
@@ -499,6 +596,12 @@ export default function home() {
 								src={frootleLogo}
 								alt="Frootle" />
 						</SwiperSlide>
+						<SwiperSlide>
+							<img
+								className="rounded-lg"
+								src={skillmaticsLogo}
+								alt="Frootle" />
+						</SwiperSlide>
 					</Swiper>
 				</div>
 
@@ -607,6 +710,7 @@ export default function home() {
 						</SwiperSlide>
 					</Swiper>
 				</div>
+
 			</section>
 
 			<Footer />
