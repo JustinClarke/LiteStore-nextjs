@@ -103,7 +103,7 @@ export default function home() {
 				<meta property="og:title" content="Home | LiteStore" />
 			</Head>
 			<Header />
-			
+
 			<section id="head" className="relative bg-black">
 				<div className="bg-hero-section bg-no-repeat h-[88vh] md:h-[93vh] bg-center bg-cover">
 					<video autoPlay loop muted className="absolute inset-0 min-w-full object-cover h-[86.75vh] md:h-[93vh] ">
@@ -358,7 +358,7 @@ export default function home() {
 				</div>
 			</section> */}
 
-			<div className="bg-black py-5">
+			<div id="brands-alt" className="bg-black py-5">
 				<Swiper
 					modules={[Navigation, Pagination, A11y, EffectFade, Autoplay]}
 					spaceBetween={50}
