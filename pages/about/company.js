@@ -79,7 +79,7 @@ export default function company() {
                                     <img src={gaurav} className="rounded-t-lg" alt="Gaurav" />
                                 </a>
                                 <div className="p-6">
-                                    <h5 className="text-purple text-xl text-center font-semibold">Gaurav</h5>
+                                    <h5 className="text-purple text-xl text-center font-semibold">Gaurav Kapoor</h5>
                                     <h5 className="text-lg text-center font-semibold mb-2">Head | Retail Operations</h5>
                                 </div>
                             </div>
