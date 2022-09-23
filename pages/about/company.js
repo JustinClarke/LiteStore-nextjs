@@ -23,7 +23,7 @@ export default function company() {
                 <div data-aos="fade-up" data-aos-delay="100" className="px-8 md:px-80 pt-5 md:pt-10 pb-10 font-light text-justify">
                     <h1 className="text-4xl font-medium">What we do</h1>
                     <p className="pt-5">
-                        After co-riding, co-living and co-working, LiteStore® introduced co-retail. We offer premium retail storefronts for flexible bookings so that brands can bring their products to life and make a splash. The store becomes a destination with customers left wondering what their favorite digital brands are doing offline!
+                        After co-riding, co-living and co-working, LiteStore® introduces co-retail. We offer premium retail storefronts for flexible bookings so that brands can bring their products to life and make a splash. The store becomes a destination with customers left wondering what their favorite digital brands are doing offline!
                     </p>
                     <p className="pt-5">
                         We believe the future of retail is all about experiences within the store, rather than just buy and go. We work with the best designers to ensure that each store captures the brand identity, without all the hassles of setting up a long term store.
