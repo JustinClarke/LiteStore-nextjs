@@ -207,7 +207,7 @@ export default function home() {
 				</div>
 			</section>
 
-			<section id="amenities" className="pt-16 pb-20 px-5 md:px-40 lg:px-20 xl:px-60">
+			<section id="amenities" className="pt-16 pb-20 px-5 md:px-30 lg:px-20 xl:px-60">
 				<div className="text-gray-600">
 					<h1 data-aos="fade-up" className="pb-10 col-span-2 text-3xl md:text-4xl text-left md:text-center font-medium">Your Flexi-Store comes ready with</h1>
 					<div className="grid grid-cols-2 gap-4 md:gap-12 auto-cols-[500px]">
@@ -242,7 +242,7 @@ export default function home() {
 								</div>
 								<div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
 									<h2 className="text-gray-900 text-xl title-font font-medium mb-2"> Retail Analytics</h2>
-									<p className="leading-relaxed text-base"> Through Computer Vision technology, we track customer journeys and shopping patterns from our CCTV cameras in the stores to give you the full suite of data regarding your shoppers</p>
+									<p className="leading-relaxed text-base">Through Computer Vision technology, we track customer shopping patterns to give you data metrics.</p>
 								</div>
 							</div>
 						</div>
