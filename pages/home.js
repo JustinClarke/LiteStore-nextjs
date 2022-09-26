@@ -9,12 +9,10 @@ import React, { useState, useEffect } from 'react';
 import CountUp from 'react-countup'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, EffectFade, A11y, Autoplay } from 'swiper';
+import { Navigation, Pagination, EffectFade, A11y, Autoplay, Scrollbar } from 'swiper';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/effect-fade';
 import 'swiper/css/virtual';
 
 //video
@@ -87,12 +85,12 @@ function WindowSize() {
 export default function home() {
 	const counterDurarion = 8;
 	var slidesPerView = 7;
-	var slidesPerView2 = 3;
+	var slidesPerViewBrands = 3.1;
 
 	const { height, width } = WindowSize();
 	if (width < 480) {
 		var slidesPerView = 4;
-		var slidesPerView2 = 2;
+		var slidesPerViewBrands = 1.1;
 	}
 	return (
 		<div>
@@ -243,8 +241,8 @@ export default function home() {
 									</svg>
 								</div>
 								<div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-									<h2 className="text-gray-900 text-xl title-font font-medium mb-2">Store Amenities</h2>
-									<p className="leading-relaxed text-base">From security cameras, WiFi to maintenance and cleaning, we take care of it all</p>
+									<h2 className="text-gray-900 text-xl title-font font-medium mb-2"> Retail Analytics</h2>
+									<p className="leading-relaxed text-base"> Through Computer Vision technology, we track customer journeys and shopping patterns from our CCTV cameras in the stores to give you the full suite of data regarding your shoppers</p>
 								</div>
 							</div>
 						</div>
@@ -358,17 +356,21 @@ export default function home() {
 				</div>
 			</section> */}
 
-			<div id="brands-alt" className="bg-black py-5">
+			<section id="brands-alt" className="bg-black py-2 md:py-5">
 				<Swiper
+					style={{
+						"--swiper-navigation-color": "#fff",
+					}}
 					modules={[Navigation, Pagination, A11y, EffectFade, Autoplay]}
 					spaceBetween={50}
-					slidesPerView={slidesPerView2}
+					slidesPerView={slidesPerViewBrands}
 					autoplay={true}
 					loop={true}
 					centeredSlides={true}
 					grabCursor={true}
+					navigation
 				>
-					<SwiperSlide className="py-5">
+					<SwiperSlide className="py-2 md:py-5">
 						<Link href="/spaces/orion/wow">
 							<a>
 								<img
@@ -378,7 +380,7 @@ export default function home() {
 							</a>
 						</Link>
 					</SwiperSlide>
-					<SwiperSlide className="py-5">
+					<SwiperSlide className="py-2 md:py-5">
 						<Link href="/spaces/orion/sleepycat">
 							<a>
 								<img
@@ -388,7 +390,7 @@ export default function home() {
 							</a>
 						</Link>
 					</SwiperSlide>
-					<SwiperSlide className="py-5">
+					<SwiperSlide className="py-2 md:py-5">
 						<Link href="/spaces/orion/thepantproject">
 							<a>
 								<img
@@ -398,7 +400,7 @@ export default function home() {
 							</a>
 						</Link>
 					</SwiperSlide>
-					<SwiperSlide className="py-5">
+					<SwiperSlide className="py-2 md:py-5">
 						<Link href="/spaces/orion/jbl">
 							<a>
 								<img
@@ -408,7 +410,7 @@ export default function home() {
 							</a>
 						</Link>
 					</SwiperSlide>
-					<SwiperSlide className="py-5">
+					<SwiperSlide className="py-2 md:py-5">
 						<Link href="/spaces/garuda/mensxp">
 							<a>
 								<img
@@ -418,7 +420,7 @@ export default function home() {
 							</a>
 						</Link>
 					</SwiperSlide>
-					<SwiperSlide className="py-5">
+					<SwiperSlide className="py-2 md:py-5">
 						<Link href="/spaces/garuda/vitro">
 							<a>
 								<img
@@ -428,7 +430,7 @@ export default function home() {
 							</a>
 						</Link>
 					</SwiperSlide>
-					<SwiperSlide className="py-5">
+					<SwiperSlide className="py-2 md:py-5">
 						<Link href="/spaces/lulu/frootle">
 							<a>
 								<img
@@ -438,7 +440,7 @@ export default function home() {
 							</a>
 						</Link>
 					</SwiperSlide>
-					<SwiperSlide className="py-5">
+					<SwiperSlide className="py-2 md:py-5">
 						<Link href="/spaces/lulu/frootle">
 							<a>
 								<img
@@ -449,7 +451,7 @@ export default function home() {
 						</Link>
 					</SwiperSlide>
 				</Swiper>
-			</div>
+			</section>
 
 			<section id="counter" className="px-0 md:px-60 lg:px-40 xl:px-60 py-5 md:py-10 text-center">
 				<div data-aos="fade-up" className="grid grid-cols-3 gap-12 justify-center text-purple">
