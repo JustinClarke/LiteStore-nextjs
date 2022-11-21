@@ -17,6 +17,7 @@ const vitroLogo = '../logos/trusted/vitro.webp'
 const jblLogo = '../logos/trusted/jbl.webp'
 const zymratLogo = '../logos/trusted/zymrat.webp'
 const frootleLogo = '../logos/trusted/frootle.webp'
+const skillmaticsLogo = '../logos/trusted/skillmatics.webp'
 
 export default function spaces() {
     return (
@@ -136,6 +137,14 @@ export default function spaces() {
                                         className="rounded-lg hover:scale-110 transition ease-in-out duration-500"
                                         src={zymratLogo}
                                         alt="Zymrat" />
+                                </a>
+                            </Link>
+                            <Link href="/spaces/garuda/skillmatics">
+                                <a>
+                                    <img
+                                        className="rounded-lg hover:scale-110 transition ease-in-out duration-500"
+                                        src={skillmaticsLogo}
+                                        alt="Skillmatics" />
                                 </a>
                             </Link>
                         </div>

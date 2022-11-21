@@ -27,6 +27,7 @@ const jbl = '/spaces/orion/jbl/jbl.webp'
 const mensxp = '/spaces/garuda/mensxp/mensxp.webp'
 const vitro = '/spaces/garuda/vitro/vitro.webp'
 const zymrat = '/spaces/garuda/zymrat/zymrat.webp'
+const skillmatics = '/spaces/garuda/skillmatics/skillmatics.webp'
 
 const frootle = '/spaces/lulu/frootle/frootle.webp'
 
@@ -438,6 +439,16 @@ export default function home() {
 									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
 									src={zymrat}
 									alt="Zymrat" />
+							</a>
+						</Link>
+					</SwiperSlide>
+					<SwiperSlide className="py-2 md:py-5">
+						<Link href="/spaces/lulu/frootle">
+							<a>
+								<img
+									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+									src={skillmatics}
+									alt="Skillmatics" />
 							</a>
 						</Link>
 					</SwiperSlide>
