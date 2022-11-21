@@ -357,6 +357,7 @@ export default function home() {
 			</section> */}
 
 			<section id="brands-alt" className="bg-black py-2 md:py-5">
+				<h1 className="text-white text-4xl text-center uppercase">Launched Stores</h1>
 				<Swiper
 					style={{
 						"--swiper-navigation-color": "#fff",
