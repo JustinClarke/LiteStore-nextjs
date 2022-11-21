@@ -57,11 +57,11 @@ export default function spaces() {
                         </Link>
                     </div>
                     <div data-aos="fade-up" className="flex justify-left">
-                        <div className="grid grid-cols-2 grid-rows-3 gap-3">
+                        <div className="grid grid-cols-2 grid-rows-2 md:grid-rows-3 gap-3">
                             <Link href="/spaces/orion/wow">
                                 <a>
                                     <img
-                                        className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+                                        className="rounded-lg hover:scale-110 transition ease-in-out duration-500"
                                         src={wowLogo}
                                         alt="Wow" />
                                 </a>
@@ -69,7 +69,7 @@ export default function spaces() {
                             <Link href="/spaces/orion/thepantproject">
                                 <a>
                                     <img
-                                        className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+                                        className="rounded-lg hover:scale-110 transition ease-in-out duration-500"
                                         src={tppLogo}
                                         alt="The Pant Project" />
                                 </a>
@@ -77,7 +77,7 @@ export default function spaces() {
                             <Link href="/spaces/orion/sleepycat">
                                 <a>
                                     <img
-                                        className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+                                        className="rounded-lg hover:scale-110 transition ease-in-out duration-500"
                                         src={sleepycatLogo}
                                         alt="SleepyCat" />
                                 </a>
@@ -85,7 +85,7 @@ export default function spaces() {
                             <Link href="/spaces/orion/jbl">
                                 <a>
                                     <img
-                                        className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+                                        className="rounded-lg hover:scale-110 transition ease-in-out duration-500"
                                         src={jblLogo}
                                         alt="JBL" />
                                 </a>
@@ -113,11 +113,11 @@ export default function spaces() {
                         </Link>
                     </div>
                     <div data-aos="fade-up" className="flex justify-left">
-                        <div className="grid grid-cols-2 grid-rows-3 gap-3">
+                        <div className="grid grid-cols-2 grid-rows-2 md:grid-rows-3 gap-3">
                             <Link href="/spaces/garuda/mensxp">
                                 <a>
                                     <img
-                                        className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+                                        className="rounded-lg hover:scale-110 transition ease-in-out duration-500"
                                         src={mensxpLogo}
                                         alt="MensXP" />
                                 </a>
@@ -125,7 +125,7 @@ export default function spaces() {
                             <Link href="/spaces/garuda/vitro">
                                 <a>
                                     <img
-                                        className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+                                        className="rounded-lg hover:scale-110 transition ease-in-out duration-500"
                                         src={vitroLogo}
                                         alt="Vitro Naturals" />
                                 </a>
@@ -133,7 +133,7 @@ export default function spaces() {
                             <Link href="/spaces/garuda/zymrat">
                                 <a>
                                     <img
-                                        className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+                                        className="rounded-lg hover:scale-110 transition ease-in-out duration-500"
                                         src={zymratLogo}
                                         alt="Zymrat" />
                                 </a>
@@ -161,11 +161,11 @@ export default function spaces() {
                         </Link>
                     </div>
                     <div data-aos="fade-up" className="flex justify-left">
-                        <div className="grid grid-cols-2 grid-rows-1 gap-3">
+                        <div className="grid grid-cols-2 grid-rows-1 md:grid-rows-3 gap-3">
                             <Link href="/spaces/lulu/frootle">
                                 <a>
                                     <img
-                                        className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+                                        className="rounded-lg hover:scale-110 transition ease-in-out duration-500"
                                         src={frootleLogo}
                                         alt="Frootle" />
                                 </a>
