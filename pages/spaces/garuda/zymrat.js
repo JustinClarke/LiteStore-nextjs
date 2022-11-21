@@ -30,7 +30,7 @@ export default function mensxp() {
             </Head>
             <Header />
             <div className="px-5 md:px-40 pt-5 md:pt-10 pb-10 bg-light-white">
-                <h1 data-aos="fade-up" className="text-6xl font-bold pb-2">Zymrat <br className="invisible md:hidden" /><span className="text-black font-light"> Flexi-Store,</span><span className="text-black font-semibold"> Lulu Mall</span> </h1>
+                <h1 data-aos="fade-up" className="text-6xl font-bold pb-2">Zymrat <br className="invisible md:hidden" /><span className="text-black font-light"> Flexi-Store,</span><span className="text-black font-semibold"> Garuda Mall</span> </h1>
                 {/* <h1 data-aos="fade-up" className="text-2xl font-light py-3">November '21</h1> */}
                 <div data-aos="fade" className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
                     <div className="flex col-span-2">
