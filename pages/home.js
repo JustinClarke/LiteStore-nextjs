@@ -443,7 +443,7 @@ export default function home() {
 						</Link>
 					</SwiperSlide>
 					<SwiperSlide className="py-2 md:py-5">
-						<Link href="/spaces/lulu/frootle">
+						<Link href="/spaces/garuda/skillmatics">
 							<a>
 								<img
 									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
