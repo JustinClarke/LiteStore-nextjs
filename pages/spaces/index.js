@@ -57,7 +57,7 @@ export default function spaces() {
                             </a>
                         </Link>
                     </div>
-                    <div data-aos="fade-up" className="flex justify-left">
+                    {/* <div data-aos="fade-up" className="flex justify-left">
                         <div className="grid grid-cols-2 grid-rows-2 md:grid-rows-3 gap-3">
                             <Link href="/spaces/orion/wow">
                                 <a>
@@ -91,8 +91,16 @@ export default function spaces() {
                                         alt="JBL" />
                                 </a>
                             </Link>
+                            <Link href="/spaces/garuda/zymrat">
+                                <a>
+                                    <img
+                                        className="rounded-lg hover:scale-110 transition ease-in-out duration-500"
+                                        src={zymratLogo}
+                                        alt="Zymrat" />
+                                </a>
+                            </Link>
                         </div>
-                    </div>
+                    </div> */}
 
                     {/* Garuda Mall */}
                     <div data-aos="fade" data-aos-delay="300" className="flex justify-left">
@@ -113,7 +121,7 @@ export default function spaces() {
                             </a>
                         </Link>
                     </div>
-                    <div data-aos="fade-up" className="flex justify-left">
+                    {/* <div data-aos="fade-up" className="flex justify-left">
                         <div className="grid grid-cols-2 grid-rows-2 md:grid-rows-3 gap-3">
                             <Link href="/spaces/garuda/mensxp">
                                 <a>
@@ -148,7 +156,7 @@ export default function spaces() {
                                 </a>
                             </Link>
                         </div>
-                    </div>
+                    </div> */}
 
                     {/* Lulu Mall */}
                     <div data-aos="fade" data-aos-delay="300" className="flex justify-left">
@@ -169,7 +177,7 @@ export default function spaces() {
                             </a>
                         </Link>
                     </div>
-                    <div data-aos="fade-up" className="flex justify-left">
+                    {/* <div data-aos="fade-up" className="flex justify-left">
                         <div className="grid grid-cols-2 grid-rows-1 md:grid-rows-3 gap-3">
                             <Link href="/spaces/lulu/frootle">
                                 <a>
@@ -180,7 +188,7 @@ export default function spaces() {
                                 </a>
                             </Link>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <Footer />

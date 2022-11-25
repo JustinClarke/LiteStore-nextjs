@@ -20,6 +20,8 @@ const tpp = '/spaces/orion/tpp/tpp.webp'
 const tppInterior = '/spaces/orion/tpp/tpp2.webp'
 const sleepycat = '/spaces/orion/sleepycat/sleepycat.webp'
 const sleepycatInterior = '/spaces/orion/sleepycat/sleepycat3.webp'
+const zymrat = '/spaces/garuda/zymrat/zymrat.webp'
+const zymratInterior = '/spaces/garuda/zymrat/zymratInterior.webp'
 
 const orionRender1 = '/spaces/orion/orionRender1.webp'
 const orionRender2 = '/spaces/orion/orionRender2.webp'
@@ -39,8 +41,8 @@ export default function index() {
                 <div className="flex items-center justify-center h-full w-full ">
                     <div data-aos="fade-up" className="text-center w-full bg-gray-900 bg-opacity-40">
                         <h1 className="text-5xl md:text-6xl pt-3 text-white font-bold uppercase">Orion Mall</h1>
-                        <h2 className="text-lg md:text-xl pt-1 text-white font-medium">Brigade Gateway, Rajajinagar</h2>
-                        <div data-aos="fade-up" className="text-light-white body-font">
+                        <h2 className="text-lg md:text-xl pt-1 pb-4 text-white font-medium">Brigade Gateway, Rajajinagar</h2>
+                        {/* <div data-aos="fade-up" className="text-light-white body-font">
                             <div className="grid grid-cols-3 px-0 md:px-60 text-center justify-center">
                                 <Link href="/spaces/orion/wow">
                                     <a className="p-2 md:p-4 w-full md:w-auto">
@@ -64,7 +66,7 @@ export default function index() {
                                     </a>
                                 </Link>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
@@ -82,19 +84,25 @@ export default function index() {
                                 <img
                                     className="rounded-lg"
                                     src={wow}
-                                    alt="Orion Mall" />
+                                    alt="WOW" />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img
                                     className="rounded-lg"
                                     src={tpp}
-                                    alt="Orion Mall" />
+                                    alt="The Pant Project" />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img
                                     className="rounded-lg"
                                     src={sleepycat}
-                                    alt="Orion Mall" />
+                                    alt="Sleepy Cat" />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img
+                                    className="rounded-lg"
+                                    src={zymrat}
+                                    alt="Zymrat" />
                             </SwiperSlide>
                         </Swiper>
                     </div>
@@ -157,19 +165,25 @@ export default function index() {
                                 <img
                                     className="rounded-lg"
                                     src={wowInterior}
-                                    alt="Orion Mall" />
+                                    alt="WOW" />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img
                                     className="rounded-lg"
                                     src={tppInterior}
-                                    alt="Orion Mall" />
+                                    alt="The Pant Project" />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img
                                     className="rounded-lg"
                                     src={sleepycatInterior}
-                                    alt="Orion Mall" />
+                                    alt="Sleepy Cat" />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img
+                                    className="rounded-lg"
+                                    src={zymratInterior}
+                                    alt="Zymrat" />
                             </SwiperSlide>
                         </Swiper>
                     </div>
