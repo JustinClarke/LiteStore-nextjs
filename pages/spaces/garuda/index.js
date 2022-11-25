@@ -18,6 +18,10 @@ const mensxp = '/spaces/garuda/mensxp/mensxp.webp'
 const mensxpInterior = '/spaces/garuda/mensxp/mensxp1.webp'
 const vitro = '/spaces/garuda/vitro/vitro.webp'
 const vitroInterior = '/spaces/garuda/vitro/vitro1.webp'
+const skillmatics = '/spaces/garuda/skillmatics/skillmatics.webp'
+const skillmaticsInterior = '/spaces/garuda/skillmatics/skillmaticsInterior.webp'
+const zymrat = '/spaces/garuda/zymrat/zymrat.webp'
+const zymratInterior = '/spaces/garuda/zymrat/zymratInterior.webp'
 
 const garudaRender1 = '/spaces/garuda/garudaRender1.webp'
 const garudaRender2 = '/spaces/garuda/garudaRender2.webp'
@@ -37,8 +41,8 @@ export default function index() {
                 <div className="flex items-center justify-center h-full w-full ">
                     <div data-aos="fade-up" className="text-center w-full bg-gray-900 bg-opacity-40">
                         <h1 className="text-5xl md:text-6xl pt-3 text-white font-bold uppercase">Garuda Mall</h1>
-                        <h2 className="text-lg md:text-xl pt-1 text-white font-medium">CENTRAL BUSINESS DISTRICT</h2>
-                        <div data-aos="fade-up" className="text-light-white body-font">
+                        <h2 className="text-lg md:text-xl pt-1 pb-4 text-white font-medium">CENTRAL BUSINESS DISTRICT</h2>
+                        {/* <div data-aos="fade-up" className="text-light-white body-font">
                             <div className="grid grid-cols-2 px-0 md:px-96 text-center justify-center">
                                 <Link href="/spaces/garuda/mensxp">
                                     <a className="p-2 md:p-4 w-full md:w-auto">
@@ -55,7 +59,7 @@ export default function index() {
                                     </a>
                                 </Link>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
@@ -80,6 +84,18 @@ export default function index() {
                                     className="rounded-lg"
                                     src={vitro}
                                     alt="Vitro Naturals" />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img
+                                    className="rounded-lg"
+                                    src={skillmatics}
+                                    alt="Skillmatics" />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img
+                                    className="rounded-lg"
+                                    src={zymrat}
+                                    alt="Zymrat" />
                             </SwiperSlide>
                         </Swiper>
                     </div>
@@ -150,6 +166,18 @@ export default function index() {
                                     className="rounded-lg"
                                     src={vitroInterior}
                                     alt="Vitro Naturals" />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img
+                                    className="rounded-lg"
+                                    src={skillmaticsInterior}
+                                    alt="Vitro Naturals" />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img
+                                    className="rounded-lg"
+                                    src={zymratInterior}
+                                    alt="Zymrat" />
                             </SwiperSlide>
                         </Swiper>
                     </div>

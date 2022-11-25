@@ -16,7 +16,7 @@ import 'swiper/css/effect-fade';
 
 const skillmatics = '/spaces/garuda/skillmatics/skillmatics.webp'
 const skillmaticsInterior = '/spaces/garuda/skillmatics/skillmaticsInterior.webp'
-const skillmaticsInterior1 = '/spaces/skillmatics/zymrat/skillmaticsInterior1.webp'
+const skillmaticsInterior1 = '/spaces/garuda/skillmatics/skillmaticsInterior1.webp'
 
 export default function mensxp() {
     return (
