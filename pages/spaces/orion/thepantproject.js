@@ -53,7 +53,7 @@ export default function ThePantProject() {
                             </SwiperSlide>
                         </Swiper>
                     </div>
-                    <div data-aos="fade-up" className="justify-left text-justify">
+                    <div data-aos="fade-up" className="justify-left">
                         <div>
                             <h1 className="text-4xl font-semibold pb-1">About</h1>
                             <p className="font-light">With a Master on-site to take the perfect measurements and Pantologists to guide the customers on the perfect pair</p>
