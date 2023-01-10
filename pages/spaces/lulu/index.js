@@ -71,7 +71,7 @@ export default function index() {
                         </Swiper>
                     </div>
                     <div className="flex col-span-2 justify-left text-justify">
-                        <div className="grid grid-cols-1 gap-3">
+                        <div className="grid grid-cols-1 gap-3 content-between">
                             <div data-aos="fade-up">
                                 <h1 className="text-4xl font-semibold pb-1">About</h1>
                                 <p className="font-light">Known for creating magnificent retail and entertainment destinations, Lulu Mall in Bangalore offers diverse opportunities for customers to engage within the mall. Lulu Mall delivers shopping experiences to {'>'}20 Lakh shoppers every month, one of the highest in South India. </p>

@@ -243,7 +243,7 @@ export default function home() {
 								</div>
 								<div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
 									<h2 className="text-gray-900 text-xl title-font font-medium mb-2"> Retail Analytics</h2>
-									<p className="leading-relaxed text-base">Through Computer Vision technology, we track customer shopping patterns to give you data metrics.</p>
+									<p className="leading-relaxed text-base">We track shopping patterns to give you insights on the store performance.</p>
 								</div>
 							</div>
 						</div>
@@ -433,7 +433,7 @@ export default function home() {
 						</Link>
 					</SwiperSlide>
 					<SwiperSlide className="py-2 md:py-5">
-						<Link href="/spaces/lulu/frootle">
+						<Link href="/spaces/garuda/zymrat">
 							<a>
 								<img
 									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
@@ -541,7 +541,7 @@ export default function home() {
 									end={1.5}
 									duration={counterDurarion}
 								/> */}
-								1.5
+								2.2
 							</p>
 							<p className="pt-6 md:pt-16 text-[10px] md:text-lg leading-none md:leading-none text-left">Cr+ GMV</p>
 						</div>
