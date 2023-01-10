@@ -23,9 +23,9 @@ export default function mensxp() {
         <div>
             <Head>
                 <title>Skillmatics | LiteStore</title>
-                <meta name="og:title" content="Wow | LiteStore" />
-                <meta name="twitter:title" content="Wow | LiteStore" />
-                <meta property="og:title" content="Wow | LiteStore" />
+                <meta name="og:title" content="Skillmatics | LiteStore" />
+                <meta name="twitter:title" content="Skillmatics | LiteStore" />
+                <meta property="og:title" content="Skillmatics | LiteStore" />
 
             </Head>
             <Header />
