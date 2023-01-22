@@ -14,9 +14,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
-const zymrat = '/spaces/garuda/zymrat/zymrat.webp'
-const zymrat1 = '/spaces/garuda/zymrat/zymrat1.webp'
-const zymratInterior = '/spaces/garuda/zymrat/zymratInterior.webp'
+const zymrat = '/spaces/orion/zymrat/zymrat.webp'
+const zymratInterior = '/spaces/orion/zymrat/zymratInterior.webp'
 
 export default function mensxp() {
     return (
@@ -44,12 +43,6 @@ export default function mensxp() {
                                 <img
                                     className="rounded-lg"
                                     src={zymrat}
-                                    alt="Zymrat" />
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <img
-                                    className="rounded-lg"
-                                    src={zymrat1}
                                     alt="Zymrat" />
                             </SwiperSlide>
                             <SwiperSlide>
