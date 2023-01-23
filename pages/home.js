@@ -23,6 +23,8 @@ const wow = '/spaces/orion/wow/wow1.webp'
 const tpp = '/spaces/orion/tpp/tpp.webp'
 const sleepycat = '/spaces/orion/sleepycat/sleepycat.webp'
 const jbl = '/spaces/orion/jbl/jbl.webp'
+const xyxx = '/spaces/orion/xyxx/xyxx.webp'
+const zymratOrion = '/spaces/orion/zymrat/zymrat.webp'
 
 const mensxp = '/spaces/garuda/mensxp/mensxp.webp'
 const vitro = '/spaces/garuda/vitro/vitro.webp'
@@ -36,6 +38,7 @@ const wowLogo = '/logos/trusted/wow.webp'
 const tppLogo = '/logos/trusted/tpp.webp'
 const sleepycatLogo = '/logos/trusted/sleepycat.webp'
 const mensxpLogo = '/logos/trusted/mensxp.webp'
+const xyxxLogo = '/logos/trusted/xyxx.webp'
 const vitroLogo = '/logos/trusted/vitro.webp'
 const jblLogo = '/logos/trusted/jbl.webp'
 const zymratLogo = '/logos/trusted/zymrat.webp'
@@ -134,7 +137,7 @@ export default function home() {
 			<section id="about" className="px-5 md:pt-8 xl:pt-20">
 				<div data-aos="fade-up" className="px-5 md:px-40 pt-5 pb-5 text-center font-light">
 					<h1 className="text-3xl md:text-4xl font-medium text-gray-600">Going offline <span className="invisible md:hidden" ><br /></span> can't get any easier</h1>
-					<h2 className="pt-2 text-sm md:text-xl font-light">LiteStore<sup>®</sup> is an online platform to find, book & set-up retail experience centres on a short term basis.</h2>
+					<h2 className="pt-2 text-sm md:text-xl font-light">LiteStore<sup className="text-xs">®</sup> is an online platform to find, book & set-up retail experience centres on a short term basis.</h2>
 				</div>
 				<div className="text-gray-600 body-font">
 					<div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
@@ -243,7 +246,7 @@ export default function home() {
 								</div>
 								<div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
 									<h2 className="text-gray-900 text-xl title-font font-medium mb-2"> Retail Analytics</h2>
-									<p className="leading-relaxed text-base">Through Computer Vision technology, we track customer shopping patterns to give you data metrics.</p>
+									<p className="leading-relaxed text-base">We track shopping patterns to give you insights on the store performance.</p>
 								</div>
 							</div>
 						</div>
@@ -413,6 +416,26 @@ export default function home() {
 						</Link>
 					</SwiperSlide>
 					<SwiperSlide className="py-2 md:py-5">
+						<Link href="/spaces/orion/zymrat">
+							<a>
+								<img
+									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+									src={zymratOrion}
+									alt="Zymrat" />
+							</a>
+						</Link>
+					</SwiperSlide>
+					<SwiperSlide className="py-2 md:py-5">
+						<Link href="/spaces/orion/xyxx">
+							<a>
+								<img
+									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
+									src={xyxx}
+									alt="XYXX" />
+							</a>
+						</Link>
+					</SwiperSlide>
+					<SwiperSlide className="py-2 md:py-5">
 						<Link href="/spaces/garuda/mensxp">
 							<a>
 								<img
@@ -433,7 +456,7 @@ export default function home() {
 						</Link>
 					</SwiperSlide>
 					<SwiperSlide className="py-2 md:py-5">
-						<Link href="/spaces/lulu/frootle">
+						<Link href="/spaces/garuda/zymrat">
 							<a>
 								<img
 									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
@@ -541,7 +564,7 @@ export default function home() {
 									end={1.5}
 									duration={counterDurarion}
 								/> */}
-								1.5
+								2.2
 							</p>
 							<p className="pt-6 md:pt-16 text-[10px] md:text-lg leading-none md:leading-none text-left">Cr+ GMV</p>
 						</div>
@@ -585,6 +608,12 @@ export default function home() {
 								className="rounded-lg"
 								src={mensxpLogo}
 								alt="MensXP" />
+						</SwiperSlide>
+						<SwiperSlide>
+							<img
+								className="rounded-lg"
+								src={xyxxLogo}
+								alt="XYXXP" />
 						</SwiperSlide>
 						<SwiperSlide>
 							<img

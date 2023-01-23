@@ -10,7 +10,7 @@ module.exports = {
 		fontFamily: {
 			'serif': ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
 			'sans': ['montserrat', 'system-ui'],
-			'mono': ['ui-monospace', 'SFMono-Regular'],
+			'mono': ['ui-monospace', 'SFMono-Regular', 'Courier New'],
 		},
 		screens: {
 			sm: '480px',

@@ -14,23 +14,21 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
-const skillmatics = '/spaces/garuda/skillmatics/skillmatics.webp'
-const skillmaticsInterior = '/spaces/garuda/skillmatics/skillmaticsInterior.webp'
-const skillmaticsInterior1 = '/spaces/garuda/skillmatics/skillmaticsInterior1.webp'
+const zymrat = '/spaces/orion/zymrat/zymrat.webp'
+const zymratInterior = '/spaces/orion/zymrat/zymratInterior.webp'
 
 export default function mensxp() {
     return (
         <div>
             <Head>
-                <title>Skillmatics | LiteStore</title>
-                <meta name="og:title" content="Skillmatics | LiteStore" />
-                <meta name="twitter:title" content="Skillmatics | LiteStore" />
-                <meta property="og:title" content="Skillmatics | LiteStore" />
-
+                <title>Zymrat | LiteStore</title>
+                <meta name="og:title" content="Zymrat | LiteStore" />
+                <meta name="twitter:title" content="Zymrat | LiteStore" />
+                <meta property="og:title" content="Zymrat | LiteStore" />
             </Head>
             <Header />
             <div className="px-5 md:px-40 pt-5 md:pt-10 pb-10 bg-light-white">
-                <h1 data-aos="fade-up" className="text-6xl text-[#1D91CF] font-bold pb-2">Skillmatics <br className="invisible md:hidden" /><span className="text-black font-light"> Flexi-Store,</span><span className="text-black font-semibold"> Garuda Mall</span> </h1>
+                <h1 data-aos="fade-up" className="text-6xl font-bold pb-2">Zymrat <br className="invisible md:hidden" /><span className="text-black font-light"> Flexi-Store,</span><span className="text-black font-semibold"> Orion Mall</span> </h1>
                 {/* <h1 data-aos="fade-up" className="text-2xl font-light py-3">November '21</h1> */}
                 <div data-aos="fade" className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
                     <div className="flex col-span-2">
@@ -44,20 +42,14 @@ export default function mensxp() {
                             <SwiperSlide>
                                 <img
                                     className="rounded-lg"
-                                    src={skillmatics}
-                                    alt="Skillmatics" />
+                                    src={zymrat}
+                                    alt="Zymrat" />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img
                                     className="rounded-lg"
-                                    src={skillmaticsInterior}
-                                    alt="Skillmatics" />
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <img
-                                    className="rounded-lg"
-                                    src={skillmaticsInterior1}
-                                    alt="Skillmatics" />
+                                    src={zymratInterior}
+                                    alt="Zymrat" />
                             </SwiperSlide>
                         </Swiper>
                     </div>
@@ -66,10 +58,10 @@ export default function mensxp() {
                             <div data-aos="fade-up">
                                 <h1 className="text-4xl font-semibold pb-1">About</h1>
                                 <p className="font-light">
-                                The Skillmatics Flexi-Store at Garuda Mall offers innovative educational games to enhance a child's cognitive and motor skills.
+                                    After a successful stint of store performance in Garuda, Zymrat opened the second Flexi-Store at Orion Mall, Brigade Gateway.
                                 </p>
                                 <p className="font-light pt-2">
-                                Surrounded by brands such as Reliance Trends, Soch and Shoppers Stop - a Flexi-Store for kids forms the ideal tenancy mix in the mall.
+                                    Their newest collection of athleisure clothing was an instant hit amongst the shoppers.
                                 </p>
                                 {/* <div className="grid grid-cols-3 gap-6 pt-5 text-lg font-light">
                                     <div>
@@ -86,7 +78,7 @@ export default function mensxp() {
                                     </div>
                                 </div> */}
                                 <div className="flex pt-8">
-                                    <a className="inline-flex text-white bg-purple border-0 py-3 px-6 focus:outline-none hover:bg-darker-purple active:bg-black rounded text-lg transition ease-in-out delay-10 duration-200 hover:-translate-y-1 hover:scale-110" href="https://skillmaticsworld.com" target="_blank" rel="noreferrer">
+                                    <a className="inline-flex text-white bg-purple border-0 py-3 px-6 focus:outline-none hover:bg-darker-purple active:bg-black rounded text-lg transition ease-in-out delay-10 duration-200 hover:-translate-y-1 hover:scale-110" href="https://zymrat.com" target="_blank" rel="noreferrer">
                                         <span className="pr-3">Online Store</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />

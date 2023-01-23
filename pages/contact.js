@@ -39,17 +39,23 @@ export default function Contact() {
 			<section data-aos="fade" data-aos-delay="50" className="text-gray-600 body-font relative">
 				<div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
 					<div className="md:w-2/3 bg-gray-300 rounded-lg overf	low-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-						<iframe data-aos="fade" data-aos-delay="500" width="100%" height="100%" className="absolute inset-0" style={{ filter: 'grayscale(1) contrast(1.2) opacity(0.4)' }} frameBorder={0} title="map" marginHeight={0} marginWidth={0} scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15553.040683593823!2d77.63189588526959!3d12.955196715429485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1411c78f31e7%3A0xde911cf5a1a0eec3!2sBengaluru%2C%20Karnataka%20560071!5e0!3m2!1sen!2sin!4v1659109973378!5m2!1sen!2sin" />
-						<div data-aos="fade-up" data-aos-delay="100" className="bg-white relative flex flex-wrap py-6 rounded shadow-md transition ease-in-out delay-100 duration-300 hover:-translate-y-1 hover:scale-105">
-							<div className="lg:w-1/2 px-6">
-								<h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
-								<p className="mt-1">#58, Domlur Layout, Bangalore-71</p>
+						<iframe data-aos="fade" data-aos-delay="500" width="100%" height="100%" className="absolute inset-0" style={{ filter: 'grayscale(1) contrast(1.2) opacity(0.4)' }} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.8876943059986!2d77.63954109264365!3d12.979034261679734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae172f4076812b%3A0x4b2e99c6f215ed28!2sLiteStore!5e0!3m2!1sen!2suk!4v1674335630705!5m2!1sen!2suk" />
+						<div data-aos="fade-up" data-aos-delay="100" className="grid grid-cols-2 bg-white relative py-6 rounded shadow-md transition ease-in-out delay-100 duration-300 hover:-translate-y-1 hover:scale-105">
+							{/* <div className="lg:w-1/2 px-6"> */}
+							<div className="px-6">
+								<h2 className="title-font font-semibold text-gray-900 tracking-widest text-base">ADDRESS</h2>
+								<p className="mt-1">
+									#11, 7th Main Road,
+									<br />KHM Block, RT Nagar
+									<br />Bangalore 560032
+								</p>
 							</div>
-							<div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-								<h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
+							{/* <div className="lg:w-1/2 px-6 mt-4 lg:mt-0"> */}
+							<div>
+								<h2 className="title-font font-semibold text-gray-900 tracking-widest text-base">EMAIL</h2>
 								<a className="text-purple leading-relaxed" href="mailto:support@litestore.in">support@litestore.in</a>
-								<h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
-								<p className="font-mono leading-relaxed">+91 948 346 5923</p>
+								<h2 className="title-font font-semibold text-gray-900 tracking-widest text-base mt-1">PHONE</h2>
+								<p className="font-mono leading-relaxed">+91 9483465923</p>
 							</div>
 						</div>
 					</div>

@@ -100,7 +100,7 @@ export default function index() {
                         </Swiper>
                     </div>
                     <div className="flex col-span-2 justify-left">
-                        <div className="grid grid-cols-1 gap-6">
+                        <div className="grid grid-cols-1 gap-6 content-between">
                             <div data-aos="fade-up">
                                 <h1 className="text-4xl font-semibold pb-1">About</h1>
                                 <p className="font-light">Nestled in the heart of the city - Garuda Mall is one of Bangalore's most popular malls. Situated in the Central Business District of Bangalore - Garuda is a destination mall for every Bangalorean and hosts world's most exciting brands.</p>
