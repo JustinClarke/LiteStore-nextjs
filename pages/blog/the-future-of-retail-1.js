@@ -21,7 +21,7 @@ export default function blog() {
 				<h1 className="py-5 font-serif text-gray-700 dark:text-gray-400 text-4xl text-center">The Future of Retail: More Than Just Space - I</h1>
 				<p><span className="font-semibold">Date:</span> 19 May 2021</p>
 				<h2 className="py-5 font-serif text-gray-600 dark:text-gray-400 text-3xl text-center italic">'Physical Retail Isn't dead. Boring Retail Is'</h2>
-				<p className="">
+				<p >
 					Why would anyone enter a retail store in 2021? The digital revolution and the subsequent rise of e-commerce giants has ensured that customers can now shop from the comfort of their homes. The disruption in the digital space has had tectonic effects on how brands view retail strategy, customer acquisition & digital marketing. The economic catastrophe caused by the 2008 recession and the recent Covid-19 Pandemic has led to severe liquidity crunch adversely affecting the sustainability of several retailers.
 				</p>
 				<p className="py-3">

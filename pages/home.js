@@ -144,7 +144,7 @@ export default function home() {
 						<div className="h-full w-6 absolute inset-0 flex items-center justify-center">
 							<div className="h-full w-1 bg-gray-200 dark:bg-gray-600 pointer-events-none"></div>
 						</div>
-						<div data-aos="fade-up" className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-purple dark:bg-gray-300 relative z-10 title-font font-medium text-sm font-sans">1</div>
+						<div data-aos="fade-up" className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-purple dark:bg-gray-300 text-light-white dark:text-black relative z-10 title-font font-medium text-sm font-sans">1</div>
 						<div data-aos="fade-up" className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
 							<div className="flex-shrink-0 w-24 h-24 bg-indigo-100 dark:bg-darker-purple text-purple dark:text-gray-100 rounded-full inline-flex items-center justify-center">
 								<svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -161,7 +161,7 @@ export default function home() {
 						<div className="h-full w-6 absolute inset-0 flex items-center justify-center">
 							<div className="h-full w-1 bg-gray-200 dark:bg-gray-600 pointer-events-none"></div>
 						</div>
-						<div data-aos="fade-up" className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-purple dark:bg-gray-300 relative z-10 title-font font-medium text-sm font-sans">2</div>
+						<div data-aos="fade-up" className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-purple dark:bg-gray-300 text-light-white dark:text-black relative z-10 title-font font-medium text-sm font-sans">2</div>
 						<div data-aos="fade-up" className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
 							<div className="flex-shrink-0 w-24 h-24 bg-indigo-100 dark:bg-darker-purple text-purple dark:text-gray-100 rounded-full inline-flex items-center justify-center">
 								<svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -178,7 +178,7 @@ export default function home() {
 						<div className="h-full w-6 absolute inset-0 flex items-center justify-center">
 							<div className="h-full w-1 bg-gray-200 dark:bg-gray-600 pointer-events-none"></div>
 						</div>
-						<div data-aos="fade-up" className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-purple dark:bg-gray-300 relative z-10 title-font font-medium text-sm font-sans">3</div>
+						<div data-aos="fade-up" className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-purple dark:bg-gray-300 text-light-white dark:text-black relative z-10 title-font font-medium text-sm font-sans">3</div>
 						<div data-aos="fade-up" className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
 							<div className="flex-shrink-0 w-24 h-24 bg-indigo-100 dark:bg-darker-purple text-purple dark:text-gray-100 rounded-full inline-flex items-center justify-center">
 								<svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -195,7 +195,7 @@ export default function home() {
 						<div className="h-full w-6 absolute inset-0 flex items-center justify-center">
 							<div className="h-full w-1 bg-gray-200 dark:bg-gray-600 pointer-events-none"></div>
 						</div>
-						<div data-aos="fade-up" className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-purple dark:bg-gray-300 relative z-10 title-font font-medium text-sm font-sans">4</div>
+						<div data-aos="fade-up" className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-purple dark:bg-gray-300 text-light-white dark:text-black relative z-10 title-font font-medium text-sm font-sans">4</div>
 						<div data-aos="fade-up" className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
 							<div className="flex-shrink-0 w-24 h-24 bg-indigo-100 dark:bg-darker-purple text-purple dark:text-gray-100 rounded-full inline-flex items-center justify-center">
 								<svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

@@ -19,7 +19,7 @@ export default function company() {
                 <meta property="og:title" content="Company | LiteStore" />
             </Head>
             <Header />
-            <section className="">
+            <section >
                 <div data-aos="fade-up" data-aos-delay="100" className="px-8 md:px-80 pt-5 md:pt-10 pb-10 font-light text-justify">
                     <h1 className="text-4xl font-medium">What we do</h1>
                     <p className="pt-5">

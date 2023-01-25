@@ -20,7 +20,7 @@ export default function index() {
             <Header />
             <h1 data-aos="fade-up" data-aos-delay="100" className="px-5 md:px-40 pt-5 md:pt-10 text-6xl font-semibold">Blog</h1>
             <section className="px-5 md:px-40 py-10 body-font">
-                <div className="">
+                <div >
                     <div className="flex flex-wrap gap-6">
                         <div data-aos="fade-up" data-aos-delay="100" className="py-4 px-4 lg:w-1/3 border-2 border-gray-200 border-opacity-60 rounded-lg">
                             <div className="pb-4">

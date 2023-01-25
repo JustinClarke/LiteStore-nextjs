@@ -13,7 +13,7 @@ export default function careers() {
                 <meta property="og:title" content="Careers | LiteStore" />
             </Head>
             <Header />
-            <section className="bg-light-white">
+            <section >
                 <div data-aos="fade-up" data-aos-delay="100" className="px-8 md:px-80 pt-5 md:pt-10 pb-10 font-light text-justify">
                     <h1 className="text-4xl font-medium">Why work with us?</h1>
                     <p className="pt-5">
@@ -34,7 +34,7 @@ export default function careers() {
                     </p>
 
                     <div className="grid pt-10">
-                        <table className="border border-gray-200 text-gray-900 text-lg text-left">
+                        <table className="border border-gray-200 text-gray-900 dark:text-light-white text-lg text-left">
                             <tbody>
                                 <tr>
                                     <td className="px-6 py-4 border-b w-full rounded-t-lg">
