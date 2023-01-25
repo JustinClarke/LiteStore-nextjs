@@ -44,7 +44,7 @@ export default function Contact() {
 							{/* <div className="lg:w-1/2 px-6"> */}
 							<div className="px-6">
 								<h2 className="title-font font-semibold tracking-widest text-base">ADDRESS</h2>
-								<p className="mt-1">
+								<p className="mt-1 text-sm">
 									#11, 7th Main Road,
 									<br />KHM Block, RT Nagar
 									<br />Bangalore 560032
@@ -53,9 +53,9 @@ export default function Contact() {
 							{/* <div className="lg:w-1/2 px-6 mt-4 lg:mt-0"> */}
 							<div>
 								<h2 className="title-font font-semibold tracking-widest text-base">EMAIL</h2>
-								<a className="text-purple dark:text-darker-purple leading-relaxed" href="mailto:support@litestore.in">support@litestore.in</a>
+								<a className="text-purple hover:text-darker-purple text-sm leading-relaxed" href="mailto:support@litestore.in">support@litestore.in</a>
 								<h2 className="title-font font-semibold tracking-widest text-base mt-1">PHONE</h2>
-								<p className="font-mono leading-relaxed">+91 9483465923</p>
+								<p className="font-mono text-sm leading-relaxed">+91 9483465923</p>
 							</div>
 						</div>
 					</div>
@@ -75,7 +75,7 @@ export default function Contact() {
 							<textarea onChange={e => setMessage(e.target.value)} id="message" name="message" rows="5" className="w-full appearance-none block text-gray-700 dark:bg-black dark:border-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-gray-500 hover:border-gray-500 transition ease-in-out delay-10 duration-200" defaultValue={""} />
 						</div>
 						<Link href="/utilities/success">
-							<button data-aos="fade-up" data-aos-delay="100" onClick={handleSubmit} type="submit" className="text-white text-center bg-purple dark:bg-darker-purple border-0 py-2 px-6 focus:outline-none hover:bg-darker-purple rounded text-lg active:bg-black font-medium transition ease-in-out delay-10 duration-200 hover:-translate-y-1 hover:scale-105">
+							<button data-aos="fade-up" data-aos-delay="100" onClick={handleSubmit} type="submit" className="text-white text-center bg-purple dark:bg-darker-purple dark:hover:bg-purple border-0 py-2 px-6 focus:outline-none hover:bg-darker-purple rounded text-lg active:bg-black font-medium transition ease-in-out delay-10 duration-200">
 								Send Message
 							</button>
 						</Link>

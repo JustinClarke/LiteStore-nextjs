@@ -216,7 +216,7 @@ export default function home() {
 					<h1 data-aos="fade-up" className="pb-10 col-span-2 text-3xl md:text-4xl text-left md:text-center font-medium">Your Flexi-Store comes ready with</h1>
 					<div className="grid grid-cols-2 gap-4 md:gap-12 auto-cols-[500px]">
 						<div className="col-span-1">
-							<div data-aos="fade-up" className="pt-40 md:pt-0 flex items-center border-b pb-10 border-gray-200 sm:flex-row flex-col">
+							<div data-aos="fade-up" className="pt-40 md:pt-0 flex items-center border-b pb-10 border-gray-600 sm:flex-row flex-col">
 								<div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 dark:bg-darker-purple text-purple dark:text-gray-100 flex-shrink-0">
 									<svg xmlns="http://www.w3.org/2000/svg" className="h-14 w-14" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
 										<path strokeLinecap="round" strokeLinejoin="round" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
@@ -227,7 +227,7 @@ export default function home() {
 									<p className="leading-relaxed text-base">The interiors, lighting & fitout are already complete so you can leave your toolbox at home</p>
 								</div>
 							</div>
-							<div data-aos="fade-up" className="flex items-center border-b pb-10 pt-10 border-gray-200 sm:flex-row flex-col">
+							<div data-aos="fade-up" className="flex items-center border-b pb-10 pt-10 border-gray-600 sm:flex-row flex-col">
 								<div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
 									<h2 className="text-gray-900 dark:text-gray-100 text-xl title-font font-medium mb-2">Modular Fixtures</h2>
 									<p className="leading-relaxed text-base">Chic and easy to assemble fixtures for a wide range of product categories</p>
@@ -251,7 +251,7 @@ export default function home() {
 							</div>
 						</div>
 						<div className="col-span-1">
-							<div data-aos="fade-up" className="flex items-center border-b pb-10 border-gray-200 sm:flex-row flex-col">
+							<div data-aos="fade-up" className="flex items-center border-b pb-10 border-gray-600 sm:flex-row flex-col">
 								<div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 dark:bg-darker-purple text-purple dark:text-gray-100 flex-shrink-0">
 									<svg xmlns="http://www.w3.org/2000/svg" className="h-14 w-14" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
 										<path strokeLinecap="round" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -262,7 +262,7 @@ export default function home() {
 									<p className="leading-relaxed text-base">We've asked everybody for permission, so you don't have to!</p>
 								</div>
 							</div>
-							<div data-aos="fade-up" className="flex items-center border-b pb-10 pt-10 border-gray-200 sm:flex-row flex-col">
+							<div data-aos="fade-up" className="flex items-center border-b pb-10 pt-10 border-gray-600 sm:flex-row flex-col">
 								<div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
 									<h2 className="text-gray-900 dark:text-gray-100 text-xl title-font font-medium mb-2">Branding</h2>
 									<p className="leading-relaxed text-base">Digital Screens and dedicated surfaces will bring your brand to life in the store</p>
