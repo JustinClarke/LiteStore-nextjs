@@ -12,7 +12,7 @@ export default function privacypolicy() {
                 <meta property="og:title" content="Privacy Policy | LiteStore" />
             </Head>
             <Header />
-            <div className="px-8 md:px-80 pt-5 md:pt-10 pb-10 font-light bg-light-white text-justify">
+            <div className="px-8 md:px-80 pt-5 md:pt-10 pb-10 font-light text-justify">
                 <h1 className="text-4xl pb-5">
                     LITESTORE PRIVACY POLICY
                 </h1>
@@ -77,7 +77,7 @@ export default function privacypolicy() {
                     Your Rights
                 </p>
                 <p className="pb-5">
-                    You have the right to request access to all personal information about you that we have collected, and have the right to ask for any inaccurate or deficient information be corrected or amended. You may exercise this right by writing to us at <a href="mailto: support@litestore.in" className="text-purple font-semibold">support@litestore.in</a>
+                    You have the right to request access to all personal information about you that we have collected, and have the right to ask for any inaccurate or deficient information be corrected or amended. You may exercise this right by writing to us at <a href="mailto: support@litestore.in" className="text-purple dark:text-darker-purple font-semibold">support@litestore.in</a>
                 </p>
                 <p className="pt-5 font-semibold">
                     Security and Confidentiality
@@ -110,9 +110,9 @@ export default function privacypolicy() {
                     If you have any concerns or questions in relation to this Privacy Policy, you may address them to our grievance officer whose name and email address are as follows:
                 </p>
                 <p className="pb-5">
-                    Grievance Officer: <span className="text-purple font-semibold">Punnet Dinesh</span>
+                    Grievance Officer:<span className="text-purple dark:text-darker-purple font-semibold"> Punnet Dinesh</span>
                     <br />
-                    Email: <a href="mailto: support@litestore.in" className="text-purple font-semibold">puneet@litestore.in</a>
+                    Email: <a href="mailto: support@litestore.in" className="text-purple dark:text-darker-purple font-semibold">puneet@litestore.in</a>
                 </p>
             </div>
             <Footer />

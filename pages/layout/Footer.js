@@ -104,14 +104,14 @@ function Footer() {
                 </div>
             </div>
 
-            <div className="md:hidden pt-4 bg-light-white">
+            <div className="md:hidden pt-4 bg-light-white text-gray-900">
                 <p>
                     &copy; Copyright {year} <strong>Popspace Technologies Pvt. Ltd. </strong>
                     <br /> All Rights Reserved
                 </p>
             </div>
 
-            <div className="px-5 md:px-40 flex justify-center items-center lg:justify-between bg-light-white">
+            <div className="px-5 md:px-40 flex justify-center items-center lg:justify-between bg-light-white text-gray-900">
                 <div className="hidden lg:block">
                     <p>
                         &copy; Copyright {year} <strong>Popspace Technologies Pvt. Ltd. </strong>

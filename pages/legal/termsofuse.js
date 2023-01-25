@@ -12,7 +12,7 @@ export default function termsofuse() {
                 <meta property="og:title" content="Terms of use | LiteStore" />
             </Head>
             <Header />
-            <div className="px-8 md:px-80 pt-5 md:pt-10 pb-10 font-light bg-light-white text-justify">
+            <div className="px-8 md:px-80 pt-5 md:pt-10 pb-10 font-light text-justify">
                 <h1 className="text-4xl pb-5 text-left">
                     LITESTORE TERMS OF USE
                 </h1>
@@ -68,9 +68,9 @@ export default function termsofuse() {
                     If you have any concerns or questions in relation to this Privacy Policy, you may address them to our grievance officer whose name and email address are as follows:
                 </p>
                 <p className="pb-5">
-                    Grievance Officer: <span className="text-purple font-semibold">Punnet Dinesh</span>
+                    Grievance Officer:<span className="text-purple dark:text-darker-purple font-semibold"> Punnet Dinesh</span>
                     <br />
-                    Email: <a href="mailto: support@litestore.in" className="text-purple font-semibold">puneet@litestore.in</a>
+                    Email: <a href="mailto: support@litestore.in" className="text-purple dark:text-darker-purple font-semibold">puneet@litestore.in</a>
                 </p>
             </div>
             <Footer />

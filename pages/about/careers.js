@@ -30,7 +30,7 @@ export default function careers() {
                         get in touch! We would love to speak to you.
                     </p>
                     <p className="pt-5">
-                        Tell us what you are passionate about at: <a className="text-purple font-semibold" href="mailto:support@litestore.in">support@litestore.in</a>
+                        Tell us what you are passionate about at: <a className="text-purple dark:text-darker-purple font-semibold" href="mailto:support@litestore.in">support@litestore.in</a>
                     </p>
 
                     <div className="grid pt-10">

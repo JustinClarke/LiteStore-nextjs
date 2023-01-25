@@ -442,8 +442,8 @@ export default function general() {
             <Header />
             <div className="px-5 md:px-40">
                 <div className="grid grid-cols-1 md:grid-cols-3 py-5">
-                    <h1 data-aos="fade-up" className="col-span-1 pt-5 text-6xl font-semibold"><span className="text-purple">General</span> FAQs</h1>
-                    <div data-aos="fade-up" className="col-span-1 md:col-span-2 text-gray-600 body-font">
+                    <h1 data-aos="fade-up" className="col-span-1 pt-5 text-6xl font-semibold"><span className="text-purple dark:text-darker-purple">General</span> FAQs</h1>
+                    <div data-aos="fade-up" className="col-span-1 md:col-span-2 body-font">
                         <div className="container py-5">
                             <div className="flex flex-wrap -m-4 text-center justify-end">
                                 <Link href="/faqs/landowners">
@@ -474,7 +474,7 @@ export default function general() {
 
                 <div data-aos="fade-up" className="pb-10">
                     {data[0].general.map(({ question, answer }, key) => (
-                        <Accordion key={key} className="transition ease-in-out delay-10 duration-500 hover:-translate-y-1 hover:scale-102 hover:text-purple">
+                        <Accordion key={key} className="transition ease-in-out delay-10 duration-500 hover:-translate-y-1 hover:scale-102 hover:text-purple dark:text-light-white dark:bg-black">
                             <AccordionSummary
                                 expandIcon={<ExpandMoreIcon />}
                                 aria-controls="panel1a-content"

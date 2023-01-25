@@ -27,6 +27,7 @@ module.exports = {
 			'light-white': '#f7f7f7',
 			'light-gray': '#b6b6b6',
 			'mensxp-orange': '#ff5e03',
+			'skillmatics-blue': '#1D91CF',
 			'vitro-green': '#2c4b35',
 			'wow-gold': '#bc9850',
 			'sleepycat-orange': '#ff6832',
@@ -40,4 +41,5 @@ module.exports = {
 		extend: {},
 	},
 	plugins: [],
+	darkMode: 'media',
 }

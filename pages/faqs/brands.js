@@ -442,8 +442,8 @@ export default function brands() {
             <Header />
             <div className="px-5 md:px-40">
                 <div className="grid grid-cols-1 md:grid-cols-3 py-5">
-                    <h1 data-aos="fade-up" className="col-span-1 pt-5 text-6xl font-semibold"><span className="text-purple">Brands</span> FAQs</h1>
-                    <div data-aos="fade-up" className="col-span-1 md:col-span-2 text-gray-600 body-font">
+                    <h1 data-aos="fade-up" className="col-span-1 pt-5 text-6xl font-semibold"><span className="text-purple dark:text-darker-purple">Brands</span> FAQs</h1>
+                    <div data-aos="fade-up" className="col-span-1 md:col-span-2 body-font">
                         <div className="container py-5">
                             <div className="flex flex-wrap -m-4 text-center justify-end">
                                 <Link href="/faqs/general">
@@ -475,7 +475,7 @@ export default function brands() {
                 <h2 data-aos="fade-up" className="pb-2 text-3xl text-darker-purple font-semibold">How it works?</h2>
                 <div data-aos="fade-up" className="pb-10">
                     {data[2].howitworks.map(({ question, answer }, key) => (
-                        <Accordion key={key} className="transition ease-in-out delay-10 duration-500 hover:-translate-y-1 hover:scale-102 hover:text-purple">
+                        <Accordion key={key} className="transition ease-in-out delay-10 duration-500 hover:-translate-y-1 hover:scale-102 hover:text-purple dark:text-light-white dark:bg-black">
                             <AccordionSummary
                                 expandIcon={<ExpandMoreIcon />}
                                 aria-controls="panel1a-content"
@@ -495,7 +495,7 @@ export default function brands() {
                 <h2 data-aos="fade-up" className="pb-2 text-3xl text-darker-purple font-semibold">Booking a Space</h2>
                 <div data-aos="fade-up" className="pb-10">
                     {data[2].booking.map(({ question, answer }, key) => (
-                        <Accordion key={key} className="transition ease-in-out delay-10 duration-500 hover:-translate-y-1 hover:scale-102 hover:text-purple">
+                        <Accordion key={key} className="transition ease-in-out delay-10 duration-500 hover:-translate-y-1 hover:scale-102 hover:text-purple dark:text-light-white dark:bg-black">
                             <AccordionSummary
                                 expandIcon={<ExpandMoreIcon />}
                                 aria-controls="panel1a-content"
@@ -515,7 +515,7 @@ export default function brands() {
                 <h2 data-aos="fade-up" className="pb-2 text-3xl text-darker-purple font-semibold">Legal Questions</h2>
                 <div data-aos="fade-up" className="pb-10">
                     {data[2].legal.map(({ question, answer }, key) => (
-                        <Accordion key={key} className="transition ease-in-out delay-10 duration-500 hover:-translate-y-1 hover:scale-102 hover:text-purple">
+                        <Accordion key={key} className="transition ease-in-out delay-10 duration-500 hover:-translate-y-1 hover:scale-102 hover:text-purple dark:text-light-white dark:bg-black">
                             <AccordionSummary
                                 expandIcon={<ExpandMoreIcon />}
                                 aria-controls="panel1a-content"
@@ -535,7 +535,7 @@ export default function brands() {
                 <h2 data-aos="fade-up" className="pb-2 text-3xl text-darker-purple font-semibold">Payments</h2>
                 <div data-aos="fade-up" className="pb-10">
                     {data[2].payments.map(({ question, answer }, key) => (
-                        <Accordion key={key} className="transition ease-in-out delay-10 duration-500 hover:-translate-y-1 hover:scale-102 hover:text-purple">
+                        <Accordion key={key} className="transition ease-in-out delay-10 duration-500 hover:-translate-y-1 hover:scale-102 hover:text-purple dark:text-light-white dark:bg-black">
                             <AccordionSummary
                                 expandIcon={<ExpandMoreIcon />}
                                 aria-controls="panel1a-content"

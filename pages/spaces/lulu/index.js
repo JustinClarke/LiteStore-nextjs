@@ -41,7 +41,7 @@ export default function index() {
                 </div>
             </div>
 
-            <div className="px-5 md:px-40 pt-5 md:pt-10 pb-10 bg-light-white">
+            <div className="px-5 md:px-40 pt-5 md:pt-10 pb-10">
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
                     <div data-aos="fade-up" className="flex">
                         <Swiper
