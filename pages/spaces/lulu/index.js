@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import Link from 'next/link'
 
 import Header from '../../layout/Header'
@@ -51,19 +52,19 @@ export default function index() {
                             autoplay={true}
                         >
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={frootle}
                                     alt="Lulu Mall" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={frootleInterior}
                                     alt="Lulu Mall" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={frootleInterior1}
                                     alt="Lulu Mall" />
@@ -104,13 +105,13 @@ export default function index() {
                             autoplay={true}
                         >
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={orionRender1}
                                     alt="Orion Mall" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={orionRender2}
                                     alt="Orion Mall" />
@@ -130,19 +131,19 @@ export default function index() {
                             autoplay={true}
                         >
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={wowInterior}
                                     alt="Orion Mall" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={tppInterior}
                                     alt="Orion Mall" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={sleepycatInterior}
                                     alt="Orion Mall" />
@@ -161,7 +162,7 @@ export default function index() {
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1943.9258784893284!2d77.56244711610184!3d12.981331882713183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17cbb8276a8b%3A0xacfdd8a4a4ced9fd!2sLulu%20Hypermarket!5e0!3m2!1sen!2sin!4v1659446115278!5m2!1sen!2sin"
                             className="w-full h-[300px] rounded-lg drop-shadow-xl"
                             loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"
+                            referrerPolicy="no-referrer-when-downgrade"
                         >
                         </iframe>
                     </div>

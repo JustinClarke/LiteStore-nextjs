@@ -19,7 +19,7 @@ export default function company() {
                 <meta property="og:title" content="Company | LiteStore" />
             </Head>
             <Header />
-            <section className="bg-light-white">
+            <section className="bg-light-white min-h-[60vh]">
                 <div data-aos="fade-up" data-aos-delay="100" className="px-8 md:px-80 pt-5 md:pt-10 pb-10 font-light text-justify">
                     <h1 className="text-4xl font-medium">What we do</h1>
                     <p className="pt-5">
@@ -31,16 +31,16 @@ export default function company() {
                     <p className="pt-5">
                         With LiteStore®, you can now meet your favorite brands and the people who love them, in person.
                     </p>
-                    <h1 className="text-4xl font-semibold pt-10 text-center">Who We Are</h1>
                 </div>
 
-                <div className="px-0 md:px-60 pb-10">
+                {/* <div className="px-0 md:px-60 pb-10">
+                    <h1 className="text-4xl font-semibold pt-10 text-center">Who We Are</h1>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div data-aos="fade-up" data-aos-delay="300" className="p-2 md:p-0 flex justify-center">
                             <div className="rounded-lg shadow-lg bg-white max-w-lg">
                                 <a href="#">
-                                    <img src={puneet} className="rounded-t-lg" alt="Puneet Dinesh" />
+                                    <Image src={puneet} className="rounded-t-lg" alt="Puneet Dinesh" />
                                 </a>
                                 <div className="p-6">
                                     <h5 className="text-purple text-xl text-center font-semibold">Puneet Dinesh</h5>
@@ -51,7 +51,7 @@ export default function company() {
                         <div data-aos="fade-up" data-aos-delay="300" className="p-2 md:p-0 flex justify-center">
                             <div className="rounded-lg shadow-lg bg-white max-w-lg">
                                 <a href="#">
-                                    <img src={tarun} className="rounded-t-lg" alt="Tarun Sundaram" />
+                                    <Image src={tarun} className="rounded-t-lg" alt="Tarun Sundaram" />
                                 </a>
                                 <div className="p-6">
                                     <h5 className="text-purple text-xl text-center font-semibold">Tarun Sundaram</h5>
@@ -65,7 +65,7 @@ export default function company() {
                         <div data-aos="fade-up" data-aos-delay="300" className="flex justify-center">
                             <div className="rounded-lg shadow-lg bg-white max-w-sm">
                                 <a href="#">
-                                    <img src={karen} className="rounded-t-lg" alt="Karen Justus" />
+                                    <Image src={karen} className="rounded-t-lg" alt="Karen Justus" />
                                 </a>
                                 <div className="p-6">
                                     <h5 className="text-purple text-xl text-center font-semibold">Karen Justus</h5>
@@ -76,7 +76,7 @@ export default function company() {
                         <div data-aos="fade-up" data-aos-delay="300" className="flex justify-center">
                             <div className="rounded-lg shadow-lg bg-white max-w-sm">
                                 <a href="#">
-                                    <img src={gaurav} className="rounded-t-lg" alt="Gaurav" />
+                                    <Image src={gaurav} className="rounded-t-lg" alt="Gaurav" />
                                 </a>
                                 <div className="p-6">
                                     <h5 className="text-purple text-xl text-center font-semibold">Gaurav Kapoor</h5>
@@ -87,7 +87,7 @@ export default function company() {
                         <div data-aos="fade-up" data-aos-delay="300" className="flex justify-center">
                             <div className="rounded-lg shadow-lg bg-white max-w-sm">
                                 <a href="#">
-                                    <img src={justin} className="rounded-t-lg" alt="Justin Clarke" />
+                                    <Image src={justin} className="rounded-t-lg" alt="Justin Clarke" />
                                 </a>
                                 <div className="p-6">
                                     <h5 className="text-purple text-xl text-center font-semibold">Justin Clarke</h5>
@@ -96,7 +96,7 @@ export default function company() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </section>
             <Footer />
         </div>
