@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import Link from 'next/link'
 
 import Header from '../../layout/Header'
@@ -42,19 +43,19 @@ export default function mensxp() {
                         // pagination={{ clickable: true }}
                         >
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={skillmatics}
                                     alt="Skillmatics" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={skillmaticsInterior}
                                     alt="Skillmatics" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={skillmaticsInterior1}
                                     alt="Skillmatics" />
@@ -66,10 +67,10 @@ export default function mensxp() {
                             <div data-aos="fade-up">
                                 <h1 className="text-4xl font-semibold pb-1">About</h1>
                                 <p className="font-light">
-                                The Skillmatics Flexi-Store at Garuda Mall offers innovative educational games to enhance a child's cognitive and motor skills.
+                                    The Skillmatics Flexi-Store at Garuda Mall offers innovative educational games to enhance a child's cognitive and motor skills.
                                 </p>
                                 <p className="font-light pt-2">
-                                Surrounded by brands such as Reliance Trends, Soch and Shoppers Stop - a Flexi-Store for kids forms the ideal tenancy mix in the mall.
+                                    Surrounded by brands such as Reliance Trends, Soch and Shoppers Stop - a Flexi-Store for kids forms the ideal tenancy mix in the mall.
                                 </p>
                                 {/* <div className="grid grid-cols-3 gap-6 pt-5 text-lg font-light">
                                     <div>

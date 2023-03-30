@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import Link from 'next/link'
 
 import Header from '../../layout/Header'
@@ -41,19 +42,19 @@ export default function mensxp() {
                             autoplay={true}
                         >
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={jbl}
                                     alt="Wow" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={jbl1}
                                     alt="Wow" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={jblInterior}
                                     alt="Wow" />

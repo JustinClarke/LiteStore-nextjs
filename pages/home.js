@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 
 import Header from './layout/Header'
 import Footer from './layout/Footer'
@@ -296,7 +297,7 @@ export default function home() {
 						<h1 className="pb-2 col-span-2 text-2xl md:text-4xl font-light text-center text-light-white">LiteStore<sup>®</sup>, Orion Mall</h1>
 						<Link href="/spaces/orion/wow">
 							<a>
-								<img
+								<Image
 									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
 									src={wow}
 									alt="Wow" />
@@ -304,7 +305,7 @@ export default function home() {
 						</Link>
 						<Link href="/spaces/orion/sleepycat">
 							<a>
-								<img
+								<Image
 									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
 									src={sleepycat}
 									alt="SleepyCat" />
@@ -312,7 +313,7 @@ export default function home() {
 						</Link>
 						<Link href="/spaces/orion/thepantproject">
 							<a>
-								<img
+								<Image
 									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
 									src={tpp}
 									alt="The Pant Project" />
@@ -320,7 +321,7 @@ export default function home() {
 						</Link>
 						<Link href="/spaces/orion/jbl">
 							<a>
-								<img
+								<Image
 									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
 									src={jbl}
 									alt="JBL" />
@@ -331,7 +332,7 @@ export default function home() {
 						<h1 className="pb-2 col-span-2 text-2xl md:text-4xl font-light text-center text-light-white">LiteStore<sup>®</sup>, Garuda Mall</h1>
 						<Link href="/spaces/garuda/mensxp">
 							<a>
-								<img
+								<Image
 									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
 									src={mensxp}
 									alt="MensXp" />
@@ -339,7 +340,7 @@ export default function home() {
 						</Link>
 						<Link href="/spaces/garuda/vitro">
 							<a>
-								<img
+								<Image
 									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
 									src={vitro}
 									alt="Vito Naturals" />
@@ -350,7 +351,7 @@ export default function home() {
 						</div>
 						<Link href="/spaces/lulu/frootle">
 							<a>
-								<img
+								<Image
 									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
 									src={frootle}
 									alt="Frootle" />
@@ -378,7 +379,7 @@ export default function home() {
 					<SwiperSlide className="py-2 md:py-5">
 						<Link href="/spaces/orion/wow">
 							<a>
-								<img
+								<Image
 									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
 									src={wow}
 									alt="Wow" />
@@ -388,7 +389,7 @@ export default function home() {
 					<SwiperSlide className="py-2 md:py-5">
 						<Link href="/spaces/orion/sleepycat">
 							<a>
-								<img
+								<Image
 									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
 									src={sleepycat}
 									alt="SleepyCat" />
@@ -398,7 +399,7 @@ export default function home() {
 					<SwiperSlide className="py-2 md:py-5">
 						<Link href="/spaces/orion/thepantproject">
 							<a>
-								<img
+								<Image
 									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
 									src={tpp}
 									alt="The Pant Project" />
@@ -408,7 +409,7 @@ export default function home() {
 					<SwiperSlide className="py-2 md:py-5">
 						<Link href="/spaces/orion/jbl">
 							<a>
-								<img
+								<Image
 									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
 									src={jbl}
 									alt="JBL" />
@@ -418,7 +419,7 @@ export default function home() {
 					<SwiperSlide className="py-2 md:py-5">
 						<Link href="/spaces/orion/zymrat">
 							<a>
-								<img
+								<Image
 									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
 									src={zymratOrion}
 									alt="Zymrat" />
@@ -428,7 +429,7 @@ export default function home() {
 					<SwiperSlide className="py-2 md:py-5">
 						<Link href="/spaces/orion/xyxx">
 							<a>
-								<img
+								<Image
 									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
 									src={xyxx}
 									alt="XYXX" />
@@ -438,7 +439,7 @@ export default function home() {
 					<SwiperSlide className="py-2 md:py-5">
 						<Link href="/spaces/garuda/mensxp">
 							<a>
-								<img
+								<Image
 									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
 									src={mensxp}
 									alt="MensXp" />
@@ -448,7 +449,7 @@ export default function home() {
 					<SwiperSlide className="py-2 md:py-5">
 						<Link href="/spaces/garuda/vitro">
 							<a>
-								<img
+								<Image
 									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
 									src={vitro}
 									alt="Vito Naturals" />
@@ -458,7 +459,7 @@ export default function home() {
 					<SwiperSlide className="py-2 md:py-5">
 						<Link href="/spaces/garuda/zymrat">
 							<a>
-								<img
+								<Image
 									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
 									src={zymrat}
 									alt="Zymrat" />
@@ -468,7 +469,7 @@ export default function home() {
 					<SwiperSlide className="py-2 md:py-5">
 						<Link href="/spaces/garuda/skillmatics">
 							<a>
-								<img
+								<Image
 									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
 									src={skillmatics}
 									alt="Skillmatics" />
@@ -478,7 +479,7 @@ export default function home() {
 					<SwiperSlide className="py-2 md:py-5">
 						<Link href="/spaces/lulu/frootle">
 							<a>
-								<img
+								<Image
 									className="rounded-lg hover:scale-105 transition ease-in-out duration-500"
 									src={frootle}
 									alt="Frootle" />
@@ -586,61 +587,61 @@ export default function home() {
 						grabCursor={true}
 					>
 						<SwiperSlide>
-							<img
+							<Image
 								className="rounded-lg"
 								src={wowLogo}
 								alt="Wow" />
 						</SwiperSlide>
 						<SwiperSlide>
-							<img
+							<Image
 								className="rounded-lg"
 								src={tppLogo}
 								alt="The Pant Project" />
 						</SwiperSlide>
 						<SwiperSlide>
-							<img
+							<Image
 								className="rounded-lg"
 								src={sleepycatLogo}
 								alt="SleepyCat" />
 						</SwiperSlide>
 						<SwiperSlide>
-							<img
+							<Image
 								className="rounded-lg"
 								src={mensxpLogo}
 								alt="MensXP" />
 						</SwiperSlide>
 						<SwiperSlide>
-							<img
+							<Image
 								className="rounded-lg"
 								src={xyxxLogo}
 								alt="XYXXP" />
 						</SwiperSlide>
 						<SwiperSlide>
-							<img
+							<Image
 								className="rounded-lg"
 								src={vitroLogo}
 								alt="Vitro" />
 						</SwiperSlide>
 						<SwiperSlide>
-							<img
+							<Image
 								className="rounded-lg"
 								src={jblLogo}
 								alt="JBL" />
 						</SwiperSlide>
 						<SwiperSlide>
-							<img
+							<Image
 								className="rounded-lg"
 								src={zymratLogo}
 								alt="Zymrat" />
 						</SwiperSlide>
 						<SwiperSlide>
-							<img
+							<Image
 								className="rounded-lg"
 								src={frootleLogo}
 								alt="Frootle" />
 						</SwiperSlide>
 						<SwiperSlide>
-							<img
+							<Image
 								className="rounded-lg"
 								src={skillmaticsLogo}
 								alt="Frootle" />
@@ -650,23 +651,23 @@ export default function home() {
 
 				<h1 data-aos="fade-up" className="pb-5 md:pb-10 col-span-5 text-center text-medium text-xl md:text-3xl uppercase">Real Estate Partners</h1>
 				<div data-aos="fade-up" className="px-10 md:px-[30%] grid grid-cols-5 gap-6">
-					<img
+					<Image
 						className="rounded-lg"
 						src={brigade}
 						alt="Brigade" />
-					<img
+					<Image
 						className="rounded-lg"
 						src={brookfield}
 						alt="Brookfield" />
-					<img
+					<Image
 						className="rounded-lg"
 						src={brigadeReap}
 						alt="Brigade Reap" />
-					<img
+					<Image
 						className="rounded-lg"
 						src={garuda}
 						alt="Garuda Mall" />
-					<img
+					<Image
 						className="rounded-lg"
 						src={lulu}
 						alt="Lulu Mall" />
@@ -677,27 +678,27 @@ export default function home() {
 				{/* Desktop View */}
 				<div data-aos="fade-up" className="invisible md:visible">
 					<div className="px-10 md:px-60 grid grid-cols-6 gap-10">
-						<img
+						<Image
 							className="rounded-lg"
 							src={apn}
 							alt="APN News" />
-						<img
+						<Image
 							className="rounded-lg"
 							src={fml}
 							alt="FM Live" />
-						<img
+						<Image
 							className="rounded-lg"
 							src={mb}
 							alt="Media Brief" />
-						<img
+						<Image
 							className="rounded-lg"
 							src={pl}
 							alt="Pro Live" />
-						<img
+						<Image
 							className="rounded-lg"
 							src={twi}
 							alt="This Week India" />
-						<img
+						<Image
 							className="rounded-lg"
 							src={ir}
 							alt="India Retailing" />
@@ -716,37 +717,37 @@ export default function home() {
 						grabCursor={true}
 					>
 						<SwiperSlide>
-							<img
+							<Image
 								className="rounded-lg"
 								src={apn}
 								alt="APN News" />
 						</SwiperSlide>
 						<SwiperSlide>
-							<img
+							<Image
 								className="rounded-lg"
 								src={fml}
 								alt="FM Live" />
 						</SwiperSlide>
 						<SwiperSlide>
-							<img
+							<Image
 								className="rounded-lg"
 								src={mb}
 								alt="Media Brief" />
 						</SwiperSlide>
 						<SwiperSlide>
-							<img
+							<Image
 								className="rounded-lg"
 								src={pl}
 								alt="Pro Live" />
 						</SwiperSlide>
 						<SwiperSlide>
-							<img
+							<Image
 								className="rounded-lg"
 								src={twi}
 								alt="This Week India" />
 						</SwiperSlide>
 						<SwiperSlide>
-							<img
+							<Image
 								className="rounded-lg"
 								src={ir}
 								alt="India Retailing" />

@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 
 import Header from '../../layout/Header'
 import Footer from '../../layout/Footer'
@@ -74,25 +75,25 @@ export default function index() {
                             autoplay={true}
                         >
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={mensxp}
                                     alt="MensXp" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={vitro}
                                     alt="Vitro Naturals" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={skillmatics}
                                     alt="Skillmatics" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={zymrat}
                                     alt="Zymrat" />
@@ -130,13 +131,13 @@ export default function index() {
                             autoplay={true}
                         >
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={garudaRender1}
                                     alt="Orion Mall" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={garudaRender2}
                                     alt="Orion Mall" />
@@ -156,25 +157,25 @@ export default function index() {
                             autoplay={true}
                         >
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={mensxpInterior}
                                     alt="MensXp" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={vitroInterior}
                                     alt="Vitro Naturals" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={skillmaticsInterior}
                                     alt="Vitro Naturals" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={zymratInterior}
                                     alt="Zymrat" />
@@ -193,7 +194,7 @@ export default function index() {
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0248354163205!2d77.60777421482199!3d12.970262590856787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1681ad793b83%3A0x71c21b8f646dac81!2sGaruda%20Mall!5e0!3m2!1sen!2sin!4v1652949696538!5m2!1sen!2sin"
                             className="w-full h-[300px] rounded-lg drop-shadow-xl"
                             loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"
+                            referrerPolicy="no-referrer-when-downgrade"
                         >
                         </iframe>
                     </div>

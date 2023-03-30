@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 
 import Header from '../../layout/Header'
 import Footer from '../../layout/Footer'
@@ -40,13 +41,13 @@ export default function MensXP() {
                             autoplay={true}
                         >
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={mensxp}
                                     alt="MensXp" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={mensxpInterior}
                                     alt="MensXp" />

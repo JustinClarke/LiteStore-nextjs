@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import Link from 'next/link'
 
 import Header from '../../layout/Header'
@@ -41,19 +42,19 @@ export default function Sleepycat() {
                             autoplay={true}
                         >
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={sleepycat}
                                     alt="SleepyCat" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={sleepycatInterior}
                                     alt="SleepyCat" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={sleepycatInterior1}
                                     alt="SleepyCat" />

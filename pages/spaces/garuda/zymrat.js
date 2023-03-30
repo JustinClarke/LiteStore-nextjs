@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
+
 
 import Header from '../../layout/Header'
 import Footer from '../../layout/Footer'
@@ -42,19 +44,19 @@ export default function mensxp() {
                         // pagination={{ clickable: true }}
                         >
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={zymrat}
                                     alt="Zymrat" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={zymrat1}
                                     alt="Zymrat" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img
+                                <Image
                                     className="rounded-lg"
                                     src={zymratInterior}
                                     alt="Zymrat" />
