@@ -40,7 +40,7 @@ export default function company() {
                         <div data-aos="fade-up" data-aos-delay="300" className="p-2 md:p-0 flex justify-center">
                             <div className="rounded-lg shadow-lg bg-white max-w-lg">
                                 <a href="#">
-                                    <Image src={puneet} className="rounded-t-lg" alt="Puneet Dinesh" />
+                                    <img src={puneet} className="rounded-t-lg" alt="Puneet Dinesh" />
                                 </a>
                                 <div className="p-6">
                                     <h5 className="text-purple text-xl text-center font-semibold">Puneet Dinesh</h5>
@@ -51,7 +51,7 @@ export default function company() {
                         <div data-aos="fade-up" data-aos-delay="300" className="p-2 md:p-0 flex justify-center">
                             <div className="rounded-lg shadow-lg bg-white max-w-lg">
                                 <a href="#">
-                                    <Image src={tarun} className="rounded-t-lg" alt="Tarun Sundaram" />
+                                    <img src={tarun} className="rounded-t-lg" alt="Tarun Sundaram" />
                                 </a>
                                 <div className="p-6">
                                     <h5 className="text-purple text-xl text-center font-semibold">Tarun Sundaram</h5>
@@ -65,7 +65,7 @@ export default function company() {
                         <div data-aos="fade-up" data-aos-delay="300" className="flex justify-center">
                             <div className="rounded-lg shadow-lg bg-white max-w-sm">
                                 <a href="#">
-                                    <Image src={karen} className="rounded-t-lg" alt="Karen Justus" />
+                                    <img src={karen} className="rounded-t-lg" alt="Karen Justus" />
                                 </a>
                                 <div className="p-6">
                                     <h5 className="text-purple text-xl text-center font-semibold">Karen Justus</h5>
@@ -76,7 +76,7 @@ export default function company() {
                         <div data-aos="fade-up" data-aos-delay="300" className="flex justify-center">
                             <div className="rounded-lg shadow-lg bg-white max-w-sm">
                                 <a href="#">
-                                    <Image src={gaurav} className="rounded-t-lg" alt="Gaurav" />
+                                    <img src={gaurav} className="rounded-t-lg" alt="Gaurav" />
                                 </a>
                                 <div className="p-6">
                                     <h5 className="text-purple text-xl text-center font-semibold">Gaurav Kapoor</h5>
@@ -87,7 +87,7 @@ export default function company() {
                         <div data-aos="fade-up" data-aos-delay="300" className="flex justify-center">
                             <div className="rounded-lg shadow-lg bg-white max-w-sm">
                                 <a href="#">
-                                    <Image src={justin} className="rounded-t-lg" alt="Justin Clarke" />
+                                    <img src={justin} className="rounded-t-lg" alt="Justin Clarke" />
                                 </a>
                                 <div className="p-6">
                                     <h5 className="text-purple text-xl text-center font-semibold">Justin Clarke</h5>

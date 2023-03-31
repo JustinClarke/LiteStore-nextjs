@@ -42,19 +42,19 @@ export default function Sleepycat() {
                             autoplay={true}
                         >
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={sleepycat}
                                     alt="SleepyCat" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={sleepycatInterior}
                                     alt="SleepyCat" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={sleepycatInterior1}
                                     alt="SleepyCat" />

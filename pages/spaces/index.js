@@ -45,7 +45,7 @@ export default function spaces() {
                         <Link href="/spaces/orion">
                             <a>
                                 <div className="rounded-lg shadow-lg bg-white hover:text-white hover:bg-black max-w-sm hover:scale-105 transition ease-in-out duration-500">
-                                    <Image
+                                    <img
                                         src={orion}
                                         className="rounded-t-lg "
                                         alt="Orion Mall" />
@@ -63,7 +63,7 @@ export default function spaces() {
                         <div className="grid grid-cols-2 grid-rows-2 md:grid-rows-3 gap-3">
                             <Link href="/spaces/orion/wow">
                                 <a>
-                                    <Image
+                                    <img
                                         className="rounded-lg hover:scale-110 transition ease-in-out duration-500"
                                         src={wowLogo}
                                         alt="Wow" />
@@ -71,7 +71,7 @@ export default function spaces() {
                             </Link>
                             <Link href="/spaces/orion/thepantproject">
                                 <a>
-                                    <Image
+                                    <img
                                         className="rounded-lg hover:scale-110 transition ease-in-out duration-500"
                                         src={tppLogo}
                                         alt="The Pant Project" />
@@ -79,7 +79,7 @@ export default function spaces() {
                             </Link>
                             <Link href="/spaces/orion/sleepycat">
                                 <a>
-                                    <Image
+                                    <img
                                         className="rounded-lg hover:scale-110 transition ease-in-out duration-500"
                                         src={sleepycatLogo}
                                         alt="SleepyCat" />
@@ -87,7 +87,7 @@ export default function spaces() {
                             </Link>
                             <Link href="/spaces/orion/jbl">
                                 <a>
-                                    <Image
+                                    <img
                                         className="rounded-lg hover:scale-110 transition ease-in-out duration-500"
                                         src={jblLogo}
                                         alt="JBL" />
@@ -95,7 +95,7 @@ export default function spaces() {
                             </Link>
                             <Link href="/spaces/garuda/zymrat">
                                 <a>
-                                    <Image
+                                    <img
                                         className="rounded-lg hover:scale-110 transition ease-in-out duration-500"
                                         src={zymratLogo}
                                         alt="Zymrat" />
@@ -109,7 +109,7 @@ export default function spaces() {
                         <Link href="/spaces/garuda">
                             <a>
                                 <div className="rounded-lg shadow-lg bg-white hover:text-white hover:bg-black max-w-sm hover:scale-105 transition ease-in-out duration-500">
-                                    <Image
+                                    <img
                                         src={garuda}
                                         className="rounded-t-lg "
                                         alt="Garuda Mall" />
@@ -127,7 +127,7 @@ export default function spaces() {
                         <div className="grid grid-cols-2 grid-rows-2 md:grid-rows-3 gap-3">
                             <Link href="/spaces/garuda/mensxp">
                                 <a>
-                                    <Image
+                                    <img
                                         className="rounded-lg hover:scale-110 transition ease-in-out duration-500"
                                         src={mensxpLogo}
                                         alt="MensXP" />
@@ -135,7 +135,7 @@ export default function spaces() {
                             </Link>
                             <Link href="/spaces/garuda/vitro">
                                 <a>
-                                    <Image
+                                    <img
                                         className="rounded-lg hover:scale-110 transition ease-in-out duration-500"
                                         src={vitroLogo}
                                         alt="Vitro Naturals" />
@@ -143,7 +143,7 @@ export default function spaces() {
                             </Link>
                             <Link href="/spaces/garuda/zymrat">
                                 <a>
-                                    <Image
+                                    <img
                                         className="rounded-lg hover:scale-110 transition ease-in-out duration-500"
                                         src={zymratLogo}
                                         alt="Zymrat" />
@@ -151,7 +151,7 @@ export default function spaces() {
                             </Link>
                             <Link href="/spaces/garuda/skillmatics">
                                 <a>
-                                    <Image
+                                    <img
                                         className="rounded-lg hover:scale-110 transition ease-in-out duration-500"
                                         src={skillmaticsLogo}
                                         alt="Skillmatics" />
@@ -165,7 +165,7 @@ export default function spaces() {
                         <Link href="/spaces/lulu">
                             <a>
                                 <div className="rounded-lg shadow-lg bg-white hover:text-white hover:bg-black max-w-sm hover:scale-105 transition ease-in-out duration-500">
-                                    <Image
+                                    <img
                                         src={lulu}
                                         className="rounded-t-lg "
                                         alt="Lulu Mall" />
@@ -183,7 +183,7 @@ export default function spaces() {
                         <div className="grid grid-cols-2 grid-rows-1 md:grid-rows-3 gap-3">
                             <Link href="/spaces/lulu/frootle">
                                 <a>
-                                    <Image
+                                    <img
                                         className="rounded-lg hover:scale-110 transition ease-in-out duration-500"
                                         src={frootleLogo}
                                         alt="Frootle" />

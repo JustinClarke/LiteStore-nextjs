@@ -42,19 +42,19 @@ export default function mensxp() {
                             autoplay={true}
                         >
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={jbl}
                                     alt="Wow" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={jbl1}
                                     alt="Wow" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={jblInterior}
                                     alt="Wow" />
