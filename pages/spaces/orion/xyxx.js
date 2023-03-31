@@ -46,43 +46,43 @@ export default function mensxp() {
                         // pagination={{ clickable: true }}
                         >
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={xyxx}
                                     alt="XY | XX" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={xyxx1}
                                     alt="XY | XX" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={xyxx2}
                                     alt="XY | XX" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={xyxx3}
                                     alt="XY | XX" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={xyxx4}
                                     alt="XY | XX" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={xyxx5}
                                     alt="XY | XX" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={xyxx6}
                                     alt="XY | XX" />

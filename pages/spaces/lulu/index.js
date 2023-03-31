@@ -52,19 +52,19 @@ export default function index() {
                             autoplay={true}
                         >
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={frootle}
                                     alt="Lulu Mall" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={frootleInterior}
                                     alt="Lulu Mall" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={frootleInterior1}
                                     alt="Lulu Mall" />
@@ -105,13 +105,13 @@ export default function index() {
                             autoplay={true}
                         >
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={orionRender1}
                                     alt="Orion Mall" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={orionRender2}
                                     alt="Orion Mall" />
@@ -131,19 +131,19 @@ export default function index() {
                             autoplay={true}
                         >
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={wowInterior}
                                     alt="Orion Mall" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={tppInterior}
                                     alt="Orion Mall" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={sleepycatInterior}
                                     alt="Orion Mall" />

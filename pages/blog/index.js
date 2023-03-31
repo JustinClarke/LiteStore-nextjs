@@ -25,7 +25,7 @@ export default function index() {
                     <div className="flex flex-wrap gap-6">
                         <div data-aos="fade-up" data-aos-delay="100" className="py-4 px-4 lg:w-1/3 border-2 border-gray-200 border-opacity-60 rounded-lg">
                             <div className="pb-4">
-                                <Image className="rounded-lg" src={blog1} alt="blog" />
+                                <img className="rounded-lg" src={blog1} alt="blog" />
                             </div>
                             <div className="h-full flex items-start">
                                 <div className="w-12 flex-shrink-0 flex flex-col text-center leading-none">
@@ -51,7 +51,7 @@ export default function index() {
                         </div>
                         <div data-aos="fade-up" data-aos-delay="200" className="py-4 px-4 lg:w-1/3 border-2 border-gray-200 border-opacity-60 rounded-lg">
                             <div className="pb-4">
-                                <Image className="rounded-lg" src={blog2} alt="blog" />
+                                <img className="rounded-lg" src={blog2} alt="blog" />
                             </div>
                             <div className="h-full flex items-start">
                                 <div className="w-12 flex-shrink-0 flex flex-col text-center leading-none">

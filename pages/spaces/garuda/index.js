@@ -75,25 +75,25 @@ export default function index() {
                             autoplay={true}
                         >
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={mensxp}
                                     alt="MensXp" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={vitro}
                                     alt="Vitro Naturals" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={skillmatics}
                                     alt="Skillmatics" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={zymrat}
                                     alt="Zymrat" />
@@ -131,13 +131,13 @@ export default function index() {
                             autoplay={true}
                         >
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={garudaRender1}
                                     alt="Orion Mall" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={garudaRender2}
                                     alt="Orion Mall" />
@@ -157,25 +157,25 @@ export default function index() {
                             autoplay={true}
                         >
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={mensxpInterior}
                                     alt="MensXp" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={vitroInterior}
                                     alt="Vitro Naturals" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={skillmaticsInterior}
                                     alt="Vitro Naturals" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={zymratInterior}
                                     alt="Zymrat" />

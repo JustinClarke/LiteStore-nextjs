@@ -26,12 +26,12 @@ function errorPage() {
                             </div>
                         </div>
                         <div>
-                            <Image src="https://i.ibb.co/G9DC8S0/404-2.png" alt='404' />
+                            <img src="https://i.ibb.co/G9DC8S0/404-2.png" alt='404' />
                         </div>
                     </div>
                 </div>
                 <div>
-                    <Image src="https://i.ibb.co/ck1SGFJ/Group.png" alt='' />
+                    <img src="https://i.ibb.co/ck1SGFJ/Group.png" alt='' />
                 </div>
             </div>
 

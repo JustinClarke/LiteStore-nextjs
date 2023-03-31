@@ -82,25 +82,25 @@ export default function index() {
                             autoplay={true}
                         >
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={wow}
                                     alt="WOW" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={tpp}
                                     alt="The Pant Project" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={sleepycat}
                                     alt="Sleepy Cat" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={zymrat}
                                     alt="Zymrat" />
@@ -137,13 +137,13 @@ export default function index() {
                             autoplay={true}
                         >
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={orionRender1}
                                     alt="Orion Mall" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={orionRender2}
                                     alt="Orion Mall" />
@@ -163,25 +163,25 @@ export default function index() {
                             autoplay={true}
                         >
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={wowInterior}
                                     alt="WOW" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={tppInterior}
                                     alt="The Pant Project" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={sleepycatInterior}
                                     alt="Sleepy Cat" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={zymratInterior}
                                     alt="Zymrat" />

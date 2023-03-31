@@ -41,13 +41,13 @@ export default function ThePantProject() {
                             autoplay={true}
                         >
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={tpp}
                                     alt="Wow" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image
+                                <img
                                     className="rounded-lg"
                                     src={tppInterior}
                                     alt="Wow" />
