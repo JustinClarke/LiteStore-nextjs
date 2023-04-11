@@ -673,10 +673,10 @@ export default function home() {
 						alt="Lulu Mall" />
 				</div>
 
-				<h1 className="pt-5 md:pt-10 md:pb-3 col-span-6 md:col-span-6 text-center text-medium text-xl md:text-3xl uppercase">Media</h1>
+				{/* <h1 className="pt-5 md:pt-10 md:pb-3 col-span-6 md:col-span-6 text-center text-medium text-xl md:text-3xl uppercase">Media</h1> */}
 
 				{/* Desktop View */}
-				<div data-aos="fade-up" className="invisible md:visible">
+				{/* <div data-aos="fade-up" className="invisible md:visible">
 					<div className="px-10 md:px-60 grid grid-cols-6 gap-10">
 						<img
 							className="rounded-lg"
@@ -703,7 +703,7 @@ export default function home() {
 							src={ir}
 							alt="India Retailing" />
 					</div>
-				</div>
+				</div> */}
 
 				{/* Mobile View */}
 				<div data-aos="fade-up" className="flex md:hidden">
