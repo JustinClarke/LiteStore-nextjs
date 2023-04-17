@@ -49,7 +49,7 @@ const skillmaticsLogo = '/logos/trusted/skillmatics.webp'
 // real estate partner logos
 const brigadeReap = '/logos/real-estate-partners/brigade-reap.webp'
 const brigade = '/logos/real-estate-partners/brigade.webp'
-const brookfield = '/logos/real-estate-partners/brookfield.webp'
+const forum = '/logos/real-estate-partners/forum.webp'
 const garuda = '/logos/real-estate-partners/garuda.webp'
 const lulu = '/logos/real-estate-partners/lulu.webp'
 
@@ -657,8 +657,8 @@ export default function home() {
 						alt="Brigade" />
 					<img
 						className="rounded-lg"
-						src={brookfield}
-						alt="Brookfield" />
+						src={forum}
+						alt="forum" />
 					<img
 						className="rounded-lg"
 						src={brigadeReap}
