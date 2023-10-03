@@ -101,6 +101,11 @@ function Footer() {
                                 <a className="hover:text-light-white transition ease-in-out delay-10 duration-200">Terms of use</a>
                             </Link>
                         </p>
+                        <p className="mb-4">
+                            <Link href="/legal/investor-relations">
+                                <a className="hover:text-light-white transition ease-in-out delay-10 duration-200">Investor Relations</a>
+                            </Link>
+                        </p>
                     </div>
                 </div>
             </div>
