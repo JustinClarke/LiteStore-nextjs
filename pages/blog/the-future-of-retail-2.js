@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Image from 'next/image'
 
 import Header from '../layout/Header'
 import Footer from '../layout/Footer'
@@ -42,7 +41,7 @@ export default function blog() {
 					Admittedly, from a sales point of view, it makes more financial sense to pack the store with inventory. But that would be missing the point. Creating a lasting impression of your brand in a customer's mind is not merely about making a sale then and there.It is about creating an experience which builds a positive association with the brand. Doing this offline, in a physical store, is not only unique but creates a deeper, more personal bond with the customer.
 				</p>
 				<div className="py-3 w-full md:w-1/2 mx-auto">
-					<img className="rounded-lg" src={blog1} alt="blog" layout='responsive' />
+					<img className="rounded-lg" src={blog1} alt="blog" />
 					<div className="pt-2 font-semibold text-purple hover:text-black">
 						<a href="http://www.pen-online.jp"><span className="text-black">Picture Credits:</span> Pen Online</a>
 					</div>
@@ -62,7 +61,7 @@ export default function blog() {
 					> 125 percent</a>.
 				</p>
 				<div className="py-3 w-full md:w-1/2 mx-auto">
-					<img className="rounded-lg" src={blog2} alt="blog" layout='responsive' />
+					<img className="rounded-lg" src={blog2} alt="blog" />
 					<div className="pt-2 font-semibold text-purple hover:text-black">
 						<a href="https://www.artsy.net"><span className="text-black">Picture Credits:</span> Artsy</a>
 					</div>

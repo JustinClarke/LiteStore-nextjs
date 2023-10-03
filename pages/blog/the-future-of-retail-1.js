@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
-import Image from 'next/image'
 
 import Header from '../layout/Header'
 import Footer from '../layout/Footer'
@@ -72,7 +70,7 @@ export default function blog() {
 					> 4,831 media placements</a>.
 				</p>
 				<div className="py-3 w-full md:w-1/2 mx-auto">
-					<img className="rounded-lg" src={blog1} alt="blog" layout='responsive' />
+					<img className="rounded-lg" src={blog1} alt="blog" />
 					<div className="pt-2 font-semibold text-purple hover:text-black">
 						<a href="https://www.hungryforever.com"><span className="text-black">Picture Credits:</span> Hungry Forever</a>
 					</div>
@@ -97,7 +95,7 @@ export default function blog() {
 					> 125 percent</a>.
 				</p>
 				<div className="py-3 w-full md:w-1/2 mx-auto">
-					<img className="rounded-lg" src={blog2} alt="blog" layout='responsive' />
+					<img className="rounded-lg" src={blog2} alt="blog" />
 					<div className="pt-2 font-semibold text-purple hover:text-black">
 						<a href="https://www.stylus.com"><span className="text-black">Picture Credits:</span> Stylus</a>
 					</div>
