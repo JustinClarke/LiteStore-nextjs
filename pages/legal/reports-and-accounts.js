@@ -18,14 +18,14 @@ const InvestorRelations = () => {
 
     return (<div>
         <Head>
-            <title>Privacy Policy | LiteStore</title>
-            <meta name="og:title" content="Privacy Policy | LiteStore" />
-            <meta property="og:title" content="Privacy Policy | LiteStore" />
+            <title>Reports and Accounts | LiteStore</title>
+            <meta name="og:title" content="Reports and Accounts | LiteStore" />
+            <meta property="og:title" content="Reports and Accounts | LiteStore" />
         </Head>
         <Header />
         <section className='container px-8 md:px-80 pt-5 md:pt-10 pb-10 font-light  text-justify'>
             <h1 className="text-3xl pb-5">
-                Investor Relations
+                Reports and Accounts
             </h1>
 
 

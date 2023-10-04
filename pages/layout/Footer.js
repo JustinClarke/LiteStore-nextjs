@@ -102,8 +102,8 @@ function Footer() {
                             </Link>
                         </p>
                         <p className="mb-4">
-                            <Link href="/legal/investor-relations">
-                                <a className="hover:text-light-white transition ease-in-out delay-10 duration-200">Investor Relations</a>
+                            <Link href="/legal/reports-and-accounts">
+                                <a className="hover:text-light-white transition ease-in-out delay-10 duration-200">Reports and Accounts</a>
                             </Link>
                         </p>
                     </div>
