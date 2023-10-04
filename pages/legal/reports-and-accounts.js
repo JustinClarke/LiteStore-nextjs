@@ -9,9 +9,12 @@ import Head from 'next/head'
 const InvestorRelations = () => {
     const reports = [
         {
-            name: 'AGM 2023',
-            docx: '/files/agm-2023.docx',
-            pdf: '/files/agm-2023.pdf'
+            name: 'AGM Notice',
+            url: '/files/notice_of_agm.pdf'
+        },
+        {
+            name: 'MGT 7A Form',
+            url: '/files/form_mgt_7A.pdf'
 
         }
     ]
@@ -33,8 +36,7 @@ const InvestorRelations = () => {
                 <TableHeader>
                     <TableRow>
                         <TableHead>Report</TableHead>
-                        <TableHead>DOCX Version</TableHead>
-                        <TableHead>PDF Version</TableHead>
+                        <TableHead></TableHead>
                     </TableRow>
                 </TableHeader>
                 <TableBody>
@@ -42,11 +44,9 @@ const InvestorRelations = () => {
                         reports.map((report, index) => <TableRow key={index}>
                             <TableCell className="font-medium">{report?.name}</TableCell>
                             <TableCell>
-                                <Link href={report?.docx}>Download
+                                <Link href={report?.url}>Download
                                 </Link>
                             </TableCell>
-                            <TableCell><Link href={report?.docx}>Download
-                            </Link></TableCell>
                         </TableRow>)
                     }
                 </TableBody>
